@@ -1,0 +1,39 @@
+! https://www.youtube.com
+! Font Customization
+www.youtube.com##*:style(font-family: "Luminari" !important)
+www.youtube.com##*:style(font-weight: lighter !important)
+! Zapping
+www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(4)
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
+! Youtube Shorts
+! Main page
+youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+m.youtube.com##.rich-section-content
+! Trending page
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
+! side shorts
+youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
+! shorts icons (desktop and mobile)
+youtube.com##.pivot-shorts.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="Shorts"]
+! Premium Logo
+youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
+youtube.com##yt-icon.ytd-logo:style(width: 100% !important; margin-left: -10px !important;)
+youtube.com###logo-icon::after:style(content: "Premium"; font-size: 18px; margin-left: -68px; letter-spacing: -1px;)
+youtube.com###country-code.ytd-topbar-logo-renderer:style(margin-left: 7px !important;)
+!youtube.com###country-code
+
+! https://search.brave.com
+search.brave.com##.svelte-1aumzss.download-cta
+
+! https://comick.io
+! Font Customization
+comick.io##*:style(font-family: "Luminari" !important)
+comick.io##*:style(font-weight: lighter !important)
+! Zapping
+comick.io##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
+comick.io##.text-xs.dark\:border-gray-700.rounded
+comick.io##.md\:text-base.text-sm.md\:col-span-2 > .my-2.flex

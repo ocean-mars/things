@@ -1,0 +1,265 @@
+/* Background image new tab page */
+
+@-moz-document url(about:newtab), url(about:home) { 
+    .outer-wrapper {
+      background-image: url(catppuccin.png) !important; /* Image in chrome folder */
+      background-size: cover !important;
+      background-attachment: fixed !important;
+      color: rgb(255, 255, 255) !important; /* Text color */
+    }
+    body {
+      --newtab-background-color-secondary: transparent !important;
+      --newtab-element-hover-color: var(--uc-selected) !important;
+      --newtab-element-secondary-hover-color: var(--uc-selected) !important;
+      --newtab-element-secondary-active-color: var(--uc-active) !important;
+      --newtab-border-color: color-mix(in srgb, var(--newtab-background-color) 88%, var(--newtab-wordmark-color)) !important;
+      --newtab-primary-element-text-color: var(--newtab-text-primary-color) !important;
+      --newtab-search-icon: url("chrome://global/skin/icons/search-glass.svg") !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      background-size: cover !important;
+      background-attachment: fixed !important;
+      
+      .discovery-stream.ds-layout .ds-column-grid {
+      display: flex;
+      justify-content: center;
+      }
+      }
+      
+      .section-title-container { visibility: hidden !important; }
+      
+      .section-title span {
+      opacity: 80% !important;
+      font-size: 20px !important; font-weight: bold !important;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5) !important;
+      }
+      
+      .top-site-outer .tile {
+      border-radius: 18px !important;
+      background: transparent !important;
+      filter: saturate(140%) !important;
+      backdrop-filter: blur(33px);
+      }
+      
+      .top-site-outer .default-icon {
+      width: 101% !important; height: 101% !important;
+      background-size: 100% !important;
+      /*background: transparent !important;*/
+      }
+      /*---------------------------BIGGER ICONS HERE v-------------------------------------*/
+      .top-site-outer .tile .icon-wrapper {
+      /*width: 100% !important;height: 100% !important;*/
+      border-radius: 18px !important;
+      }
+      
+      .top-site-outer .tile .icon-wrapper::before {
+      translate: 0px 10px;
+      font-size: 100px !important;
+      opacity: 0.75 !important;
+      }
+      
+      .search-wrapper .logo-and-wordmark .wordmark {
+      width: 66vw !important;
+      opacity: 85% !important;
+      color: rgb(255, 255, 255) !important;
+      }
+      
+      .search-inner-wrapper {
+      display: flex !important;
+      margin-top: 16px !important;
+      outline: none !important;
+      filter: saturate(140%) !important;
+      background-color: rgba(50, 50, 50, 0.1) !important;
+      border-radius: 18px !important;
+      padding: 0;
+      position: relative;
+      box-shadow: 0 10px 15px rgb(0 0 0 / 20%) !important;
+      backdrop-filter: blur(33px);
+      background-blend-mode: overlay;
+      height: auto !important;
+      }
+      
+      @supports -moz-bool-pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar"){
+      .search-inner-wrapper:not(:focus){
+      background: var(--newtab-pinnedsites-background) !important;
+      backdrop-filter: blur(33px) !important;
+      filter: saturate(140%) !important;
+      }}
+          
+      .search-inner-wrapper:not(:focus) input, .search-wrapper:not(:active) input:focus{
+      background-color: var(--newtab-pinnedsites-background) !important;
+      backdrop-filter: blur(33px) !important;
+      filter: saturate(140%) !important;
+      border-radius: 34px !important;
+      }
+      
+      .search-handoff-button{
+      border-color: transparent !important;
+      border-radius: 34px !important;
+      box-shadow: none !important;
+      }
+          
+      .search-wrapper .search-inner-wrapper:active input, .search-wrapper input:focus {
+      outline: 1px solid var(--button-active-bgcolor) !important;
+      outline-offset: -1px !important;
+      border: transparent !important;
+      margin-left: 1px !important;
+      z-index: 1 !important;
+      }
+      
+      .search-wrapper .search-handoff-button, .search-wrapper input {
+      padding-inline-start: 0px !important;
+      padding-inline-end: 0px !important;
+      }
+      
+      .search-wrapper .logo-and-wordmark .wordmark { margin-inline-start: 0 !important; }
+      
+      .search-wrapper .search-button:focus, .search-wrapper .search-button:hover {
+      fill: white !important;
+      }
+      
+      .search-wrapper .search-inner-wrapper:active input,
+      .search-wrapper input:focus {
+      box-shadow: none !important;
+      }
+      
+      /*--search bar oneliners for aesthetic ;)--*/
+      .search-handoff-button .fake-textbox { text-align: center !important;}
+      .search-wrapper .search-handoff-button { filter: grayscale(100%); }
+      
+      browser[primary="true"][tabDialogShowing="true"],
+      #main-window[window-modal-open="true"] > body > #browser{
+      filter: blur(10px)
+      }
+      
+      @media (height > 700px) {
+      body:not(.inline-onboarding) .fixed-search .search-wrapper {
+      background-color: rgba(50, 50, 50, 0.1)  !important;
+      box-shadow: 0 10px 15px rgb(0 0 0 / 20%) !important;
+      backdrop-filter: blur(33px);
+      border-color: transparent !important;
+      }}
+      /*--other panel, popup--*/
+      
+      .section-top-bar { display: block !important; }
+      .personalize-button { padding: 10px !important; }
+      .logo{ display: none !important; }
+      
+      .icon.icon-settings {opacity: 85% !important;}
+      
+      .context-menu {
+      background-color: var(--uc-background-ii)  !important;
+      border-radius: 18px !important;
+      padding: 0.4rem;
+      position: relative;
+      box-shadow: 0 10px 15px rgb(0 0 0 / 20%) !important;
+      backdrop-filter: blur(33px);
+      background-blend-mode: overlay;
+      display: flex;
+      line-height: 25px;
+      }
+      
+      .context-menu > ul > li > a, .context-menu > ul > li > button {
+      line-height: unset !important;
+      font-weight: normal !important;
+      color: var(--uc-text) !important;
+      }
+          
+      .context-menu > ul > li.separator {
+      display:flex !important;
+      border-bottom: none !important;
+      margin: 0px 0 !important;
+      font-size: flex !important;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+      }
+      
+      button, input {
+      color: inherit !important;
+      font-size: unset !important;
+      }
+      
+      @media (min-width: 1122px) and (max-width: 1506px) {
+      .top-sites-list :nth-child(8n) .context-menu {
+      font-size: unset !important;
+      text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5) !important;
+      box-shadow: 0 10px 15px rgb(0 0 0 / 20%) !important;
+      }}
+      
+      /*--customize menu--*/
+      
+      .customize-menu.customize-animate-enter-done,
+      .customize-menu.customize-animate-enter-active,
+      .customize-menu.customize-animate-exit-active,
+      .customize-menu.customize-animate-exit-done
+      { box-shadow: 0 0px 15px rgb(0 0 0 / 35%) !important; }
+      
+      .context-menu > ul > li > button:is(:focus, :hover) {
+      border-radius: 10px;
+      background: var(--uc-background-ii) !important;
+      }
+      
+      .customize-menu {
+      background-color: var(--uc-background-ii)  !important;
+      border-radius: 12px !important;
+      padding: 0.4rem;
+      position: relative;
+      backdrop-filter: blur(33px);
+      background-blend-mode: overlay;
+      margin: 10px 10px 10px 0px !important;
+      height: auto !important;
+      font-weight: normal !important;
+      box-shadow: unset !important;
+      }
+      
+      .top-site-outer .context-menu-button { transform: scale(1.3); }
+      
+      .home-section .divider { border-top: unset !important; }
+      
+      .home-section .section .selector {
+      border: none !important;
+      box-shadow: 3px 10px 15px rgb(0 0 0 / 20%) !important;
+      background: url("icons/down.svg") right no-repeat !important;
+      background-origin: content-box !important;
+      }
+      
+      .home-section .external-link { text-decoration: none !important; }
+      
+      /*.toggle-button { transform: scale(1.4) !important; }*/
+      
+      .toggle-button {
+      /*  --toggle-background-color-pressed: #2186fb !important;*/
+        --toggle-dot-background-color: #fefefe !important;
+        --toggle-dot-background-color-on-pressed: #fefefe !important;
+      /*  --toggle-background-color-pressed-hover: #449afc !important;
+        --toggle-background-color-pressed-active: #7fbbff !important;*/
+        --toggle-border-color: #fefefe !important;
+        --toggle-border-radius: var(--border-radius-circle);
+        --toggle-border-width: var(--border-width);
+        --toggle-height: var(--size-item-small);
+        --toggle-width: calc(var(--size-item-large)*0.9) !important;
+        --toggle-dot-margin: -1px !important;
+        --toggle-dot-height: calc(var(--toggle-height)) !important;
+        --toggle-dot-width: var(--toggle-dot-height) !important;
+        --toggle-dot-transform-x: calc(var(--toggle-width) - 1 * var(--toggle-dot-margin) - var(--toggle-dot-width)) !important;
+        }
+          
+      .customize-menu .close-button {
+      box-shadow: 3px 10px 15px rgb(0 0 0 / 20%) !important;
+      font-weight: unset !important;
+      border-radius: 10px !important;
+      background-color: var(--uc-background-iii) !important;
+      }
+      
+      .home-section .section .sponsored-checkbox:checked
+      { background-color: #2186fb !important; }
+      
+      .home-section .section .selector {
+      background-color: var(--uc-background-iii) !important;
+      border-radius: 10px !important;
+      }
+      
+      .customize-menu .close-button:hover
+      { background-color: var(--uc-selected) !important; }
+      
+    }
+  

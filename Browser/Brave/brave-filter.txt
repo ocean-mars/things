@@ -1,0 +1,37 @@
+www.youtube.com##*:style(font-family: "Luminari" !important)
+www.youtube.com##*:style(font-weight: lighter !important)
+youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
+youtube.com##yt-icon.ytd-logo:style(width: 100% !important; margin-left: -10px !important;)
+youtube.com###logo-icon::after:style(content: "Premium"; font-size: 18px; margin-left: -68px; letter-spacing: -1px;)
+youtube.com###country-code.ytd-topbar-logo-renderer:style(margin-left: 7px !important;)
+!youtube.com###country-code
+!Voice
+accounts.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__fill
+www.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__fill
+accounts.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__stroke
+www.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response > .yt-spec-touch-feedback-shape__stroke
+accounts.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response
+www.youtube.com##.yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--overlay-touch-response
+accounts.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon-shape.yt-spec-icon-shape > div
+www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon-shape.yt-spec-icon-shape > div
+accounts.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon-shape.yt-spec-icon-shape
+www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon > yt-icon > .yt-icon-shape.yt-spec-icon-shape
+accounts.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon > yt-icon
+www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon > yt-icon
+accounts.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon
+www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default > .yt-spec-button-shape-next__icon
+accounts.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default
+www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default
+!Voice
+comick.io##*:style(font-family: "Luminari" !important)
+comick.io##*:style(font-weight: lighter !important)
+comick.io##.pl-3.pb-1.lg\:pl-4.lg\:pb-3.pr-0.float-right.w-4\/12.xl\:w-3\/12.space-y-5.overflow-hidden
+comick.io##.rounded.dark\:border-gray-700.text-xs
+comick.io##.grid.grid-cols-2.md\:grid-cols-3.max-xl\:px-1 > div.md\:col-span-2.text-sm.md\:text-base:nth-of-type(2) > .flex.my-2
+as.priv.au##*:style(font-family: "Helvetica" !important)
+as.priv.au##.link_on_top_about
+as.priv.au##.search_filters
+as.priv.au###result_count
+as.priv.au##button.category.category_button:nth-of-type(4)
+gojo.live##*:style(font-family: "Luminari" !important)
+gojo.live##*:style(font-weight: lighter !important)
