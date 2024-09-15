@@ -3,7 +3,7 @@
     @media (-moz-bool-pref: "zen.view.compact") {
       @media (-moz-bool-pref: "zen.view.compact.hide-toolbar") {
         #zen-appcontent-navbar-container {
-          transform: translateY(calc(-100% + 35px)) !important;
+          transform: translateY(calc(-100% + 20px)) !important;
         }
   
         #zen-appcontent-navbar-container:hover,
