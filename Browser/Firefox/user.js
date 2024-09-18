@@ -1205,8 +1205,8 @@ user_pref("browser.aboutwelcome.enabled", false); // disable Intro screens
 
 user_pref("browser.tabs.tabmanager.enabled", false);
 user_pref("gfx.use_text_smoothing_setting", true);
-// PREF: new profile switcher
-user_pref("browser.profiles.enabled", true);
+// PREF: Firefox Labs
+user_pref("browser.preferences.experimental", true);
 user_pref("browser.urlbar.trimHttps", true);
 
 // Weather
