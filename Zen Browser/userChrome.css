@@ -3,6 +3,7 @@
 #alltabs-button{display:none !important;}
 #star-button-box{display:none !important;}
 #tracking-protection-icon-box{display:none !important;}
+#tracking-protection-icon-container{display:none !important;}
 #unified-extensions-button{width: 1.85px; padding-inline: 0 !important}
 #unified-extensions-button > .toolbarbutton-icon {width: 0 !important;}
 #urlbar-container + #stop-reload-button{margin-left: calc( 1px - var(--urlbar-margin-inline) - 2 * (var(--toolbarbutton-outer-padding) + var(--toolbarbutton-inner-padding)) - 16px ); position: relative; z-index: 3; color:  var(--urlbar-box-hover-text-color) !important; --toolbarbutton-hover-background: var(--urlbar-box-hover-bgcolor);}
