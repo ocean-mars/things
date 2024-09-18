@@ -6,6 +6,12 @@
 #tracking-protection-icon-container{display:none !important;}
 #unified-extensions-button{width: 1.85px; padding-inline: 0 !important}
 #unified-extensions-button > .toolbarbutton-icon {width: 0 !important;}
-#urlbar-container + #stop-reload-button{margin-left: calc( 1px - var(--urlbar-margin-inline) - 2 * (var(--toolbarbutton-outer-padding) + var(--toolbarbutton-inner-padding)) - 16px ); position: relative; z-index: 3; color:  var(--urlbar-box-hover-text-color) !important; --toolbarbutton-hover-background: var(--urlbar-box-hover-bgcolor);}
-#urlbar-container + #stop-reload-button > .toolbarbutton-1 > .toolbarbutton-icon{padding-block: var(--urlbar-icon-padding) !important; height: unset !important;}
-#urlbar{padding-right: calc(2 * (var(--toolbarbutton-outer-padding) + var(--toolbarbutton-inner-padding)) + 12px);}
+#urlbar{
+    padding-inline-end: calc(17px + 2 * var(--urlbar-icon-padding));
+  }
+#urlbar-container+.chromeclass-toolbar-additional{
+    margin-inline-start: calc(0px - 19px - 2 * var(--urlbar-icon-padding) - var(--urlbar-margin-inline)) !important;
+    position: relative;
+    --toolbarbutton-inner-padding: var(--urlbar-icon-padding);
+    --toolbarbutton-hover-background: var(--urlbar-box-hover-bgcolor);
+  }
