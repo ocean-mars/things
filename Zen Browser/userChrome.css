@@ -1,10 +1,13 @@
 @import url(custom-ut/remove-border-padding.css);
 @import url(custom-ut/increase-compact-hover.css);
+
+/*  Hide 1. Tab-button, 2. Bookmark-star-button, 3. Shield-button+container, 4. History-button in Tab-bar */
 #alltabs-button{display:none !important;}
 #star-button-box{display:none !important;}
 #tracking-protection-icon-box{display:none !important;}
 #tracking-protection-icon-container{display:none !important;}
 #zen-history-button{display:none !important;}
+/*  Put Reload or Extension Button inside URL-bar */
 #unified-extensions-button{width: 1.85px; padding-inline: 0 !important}
 #unified-extensions-button > .toolbarbutton-icon {width: 0 !important;}
 #urlbar{
@@ -16,11 +19,12 @@
     --toolbarbutton-inner-padding: var(--urlbar-icon-padding);
     --toolbarbutton-hover-background: var(--urlbar-box-hover-bgcolor);
   }
+/*  Smaller Nav-bar & Tab-bar */
 #zen-appcontent-navbar-container {
     align-self: center !important;
     width: 75% !important;
   }
 #navigator-toolbox {
-    padding-top: 10vh !important;
-    height: 90vh !important;
+    padding-top: 6.5vh !important;
+    height: 93.5vh !important;
 }
