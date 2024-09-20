@@ -2,27 +2,9 @@ no-csp-reports: * true
 no-large-media: behind-the-scene false
 no-remote-fonts: * true
 no-scripting: as.priv.au true
+* * 3p block
 * * 3p-frame block
 * * 3p-script block
-* brave.com * block
-* d33wi0vzgkom5v.cloudfront.net * block
-* discordapp.net * block
-* disquscdn.com * block
-* famousinreal.life * block
-* fonts.googleapis.com * block
-* google.com * block
-* gravatar.com * block
-* ibb.co * block
-* imgflip.com * block
-* jnn-pa.googleapis.com * block
-* meme-arsenal.com * block
-* picmix.com * block
-* pinimg.com * block
-* pinterest.map.fastly.net * block
-* postimg.cc * block
-* shops.myshopify.com * block
-* tenor.com * block
-* tenor.googleapis.com * block
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -30,3 +12,8 @@ behind-the-scene * 3p-frame noop
 behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
+comick.io comick.pictures * noop
+www.youtube.com ggpht.com * noop
+www.youtube.com googleusercontent.com * noop
+www.youtube.com googlevideo.com * noop
+www.youtube.com ytimg.com * noop
