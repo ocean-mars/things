@@ -28,3 +28,31 @@
     padding-top: 6.5vh !important;
     height: 93.5vh !important;
 }
+/* Floating Toolbar */
+@-moz-document url-prefix("chrome:") {
+  #zen-appcontent-navbar-container {
+padding: calc(var(--zen-element-separation) * 2) !important;
+border: none !important;
+background: none !important;
+box-sizing: border-box;
+  }
+#nav-bar,
+#PersonalToolbar {
+background: var(--zen-colors-tertiary) !important;
+border-radius: var(--zen-border-radius);
+border: 1px solid var(--zen-colors-border) !important;
+  }
+#PersonalToolbar {
+margin-top: var(--zen-element-separation);
+  }
+#PersonalToolbar,
+.bookmark-item {
+padding: var(--zen-element-separation);
+  }
+}
+/* Centers the url text */
+@media (-moz-bool-pref: "uc.urltext.center") {
+  #urlbar:not([focused]) .urlbar-input{
+    text-align: center !important; 
+  }
+}
