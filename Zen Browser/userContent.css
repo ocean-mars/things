@@ -1,5 +1,4 @@
 /*new tab page */
-
 @-moz-document url(about:newtab), url(about:home) { 
 
   a[href="https://mullvad.net/check/"] .tile .letter-fallback {
@@ -25,7 +24,7 @@ a[href="https://comick.io/"] .tile .letter-fallback {
     --uc-active: rgba(50, 50, 50, 0.8);
     --uc-selected: rgba(50, 50, 50, 0.3);
     --uc-text: #fbfbfe;
-    --uc-background: rgba(14, 14, 14, 0.6);
+    --uc-background: rgba(9,14,23, 0.6);
     --uc-background-ii: rgba(20, 25, 40, 0.6);
     --uc-background-iii: rgba(190,190,255,0.1);
     --newtab-element-active-color: var(--uc-active) !important;
@@ -530,9 +529,38 @@ a[href="https://comick.io/"] .tile .letter-fallback {
     
     @-moz-document url(about:firefoxview) {
     
-    body {background-color: rgba(28, 27, 34, 0.7) !important;}
+    body {background-color: rgba(9,14,23, 0.7) !important;}
     
     .sticky-container.bottom-fade {
-      background: rgba(28, 27, 34, 0.7) !important;
+      background: rgba(9,14,23, 0.7) !important;
     }
     } /* <-- close out document */
+    
+
+/*  Youtube Theme */
+@-moz-document domain("www.youtube.com") {
+ytd-app, .ytd-popup-container.style-scope, .ytd-app.style-scope, #masthead > .ytd-masthead.style-scope, #contentContainer, #guide-renderer, #content-wrapper, #search {background-color: #090E17 !important;}
+/*--search bar popup--*/
+html[dark] .sbsb_a {
+  background: var(--yt-spec-raised-background);
+  background-color: rgba(9,14,23,0.7) !important;
+  backdrop-filter: blur(33px);
+  border-radius: 10px !important;
+}
+/*--notification popups--*/
+.style-scope.ytd-popup-container {
+  background-color: rgba(9,14,23,0.7) !important;
+  backdrop-filter: blur(33px);
+  border-radius: 10px !important;
+}
+.ytd-multi-page-menu-renderer {
+  background-color: rgba(9,14,23,0.7) !important;
+  backdrop-filter: blur(33px);
+}
+  /*--video player, context menu--*/
+  .ytp-popup.ytp-contextmenu { border-radius: 10px !important; }
+    /*SEEKBAR COLOR*/
+  /*
+  .ytp-swatch-background-color { background-color: #00ADEF !important; }
+  */
+}
