@@ -1,0 +1,6 @@
+/*  Hide 1. Tab-button, 2. Bookmark-star-button, 3. Shield-button+container, 4. History-button in Tab-bar */
+#alltabs-button{display:none !important;}
+#star-button-box{display:none !important;}
+#tracking-protection-icon-box{display:none !important;}
+#tracking-protection-icon-container{display:none !important;}
+#zen-history-button{display:none !important;}
