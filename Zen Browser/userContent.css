@@ -5,7 +5,7 @@
     width: 64px !important;
     height: 64px !important;
     background-color: transparent !important;
-    background-image: url(custom-ut/ml.png) !important;
+    background-image: url(pics/mullvad.png) !important;
     background-size: 64px !important;
     &::before { display: none !important; }
   }
@@ -13,7 +13,7 @@ a[href="https://comick.io/"] .tile .letter-fallback {
   width: 58px !important;
   height: 58px !important;
   background-color: transparent !important;
-  background-image: url(custom-ut/cm.png) !important;
+  background-image: url(pics/comick.png) !important;
   background-size: 58px !important;
   &::before { display: none !important; }
 }
@@ -44,7 +44,7 @@ a[href="https://comick.io/"] .tile .letter-fallback {
     background-attachment: fixed !important;
     }
     .outer-wrapper {
-      background-image: url(catppuccin.png) !important; /* Image in chrome folder */
+      background-image: url(pics/wallpaper-1.png) !important; /* Image in chrome folder */
       background-size: cover !important;
       background-attachment: fixed !important;
       color: rgb(255, 255, 255) !important; /* Text color */
