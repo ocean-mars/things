@@ -21,11 +21,11 @@ a[href="https://comick.io/"] .tile .letter-fallback {
   @media (prefers-color-scheme: dark){
 
     :root {
-    --uc-active: rgba(50, 50, 50, 0.8);
-    --uc-selected: rgba(50, 50, 50, 0.3);
+    --uc-active: rgba(8,14,22, 0.8);
+    --uc-selected: rgba(8,14,22, 0.3);
     --uc-text: #fbfbfe;
     --uc-background: rgba(9,14,23, 0.6);
-    --uc-background-ii: rgba(20, 25, 40, 0.6);
+    --uc-background-ii: rgba(8,14,22, 0.6);
     --uc-background-iii: rgba(190,190,255,0.1);
     --newtab-element-active-color: var(--uc-active) !important;
     }
@@ -97,7 +97,7 @@ a[href="https://comick.io/"] .tile .letter-fallback {
     margin-top: 16px !important;
     outline: none !important;
     filter: saturate(140%) !important;
-    background-color: rgba(50, 50, 50, 0.1) !important;
+    background-color: rgba(8,14,22, 0.1) !important;
     border-radius: 18px !important;
     padding: 0;
     position: relative;
@@ -162,7 +162,7 @@ a[href="https://comick.io/"] .tile .letter-fallback {
     
     @media (height > 700px) {
     body:not(.inline-onboarding) .fixed-search .search-wrapper {
-    background-color: rgba(50, 50, 50, 0.1)  !important;
+    background-color: rgba(8,14,22, 0.1)  !important;
     box-shadow: 0 10px 15px rgb(0 0 0 / 20%) !important;
     backdrop-filter: blur(33px);
     border-color: transparent !important;
@@ -543,11 +543,15 @@ a[href="https://comick.io/"] .tile .letter-fallback {
     font-family: Luminari !important;
     font-weight: lighter !important;
   }
-ytd-app, .ytd-popup-container.style-scope, .ytd-app.style-scope, #masthead > .ytd-masthead.style-scope, #contentContainer, #guide-renderer, #content-wrapper, #search, .ytd-playlist-panel-renderer.style-scope, .ytd-tabbed-page-header.style-scope {background-color: #090E17 !important;}
+ytd-app, .ytd-popup-container.style-scope, .ytd-app.style-scope, #masthead > .ytd-masthead.style-scope, 
+#contentContainer, #guide-renderer, #content-wrapper, #search, .ytd-playlist-panel-renderer.style-scope, 
+.ytd-tabbed-page-header.style-scope {
+  background-color: #080e16 !important;
+}
 /*--search bar popup--*/
 html[dark] .sbsb_a {
   background: var(--yt-spec-raised-background);
-  background-color: rgba(9,14,23,0.7) !important;
+  background-color: rgba(8,14,22,0.7) !important;
   backdrop-filter: blur(33px);
   border-radius: 10px !important;
 }
@@ -557,12 +561,12 @@ ytd-browse.ytd-page-manager.style-scope {
 }
 /*--notification popups--*/
 .style-scope.ytd-popup-container {
-  background-color: rgba(9,14,23,0.7) !important;
+  background-color: rgba(8,14,22,0.7) !important;
   backdrop-filter: blur(33px);
   border-radius: 10px !important;
 }
 .ytd-multi-page-menu-renderer {
-  background-color: rgba(9,14,23,0.7) !important;
+  background-color: rgba(8,14,22,0.7) !important;
   backdrop-filter: blur(33px);
 }
   /*--video player, context menu--*/
@@ -579,13 +583,13 @@ ytd-browse.ytd-page-manager.style-scope {
   padding: 4px 8px !important;
   margin: 12px 8px !important;
   backdrop-filter: blur(33px) !important;
-  background-color: rgba(9,14,23,0.7) !important;
+  background-color: rgba(8,14,22,0.7) !important;
  }
  /*right click info panel backdrop filter*/
  .ytp-popup, .html5-video-info-panel {
   backdrop-filter: blur(33px) !important;
   border-radius: 33px !important;
-  background-color: rgba(9,14,23,0.7) !important;
+  background-color: rgba(8,14,22,0.7) !important;
  }
 }
 /*  ComicK Theme */
@@ -596,27 +600,32 @@ ytd-browse.ytd-page-manager.style-scope {
   }
   body, .max-xl\:px-1.md\:grid-cols-3.grid-cols-2.grid, 
   .mt-1.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-64 > div {
-    background-color: #090E17 !important;
+    background-color: #080e16 !important;
   }
   .dark\:bg-gray-800\/95.bg-white\/95.drop-shadow-sm.max-sm\:overflow-x-auto.dark\:border-gray-700.border-gray-100.lg\:border-b.py-2.lg\:px-8.sm\:px-6.px-3.space-x-2.justify-between.items-center.flex,
   .visible.z-10.dark\:border-gray-700.border.dark\:bg-gray-800.bg-white.absolute.right-0.mt-2.md\:w-72.w-screen.text-lg.rounded,
   .space-x-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-x-auto.max-w-max.items-center.flex {
-    background-color: #090E17 !important; 
+    background-color: #080e16 !important; 
     border: 1px solid #25262B !important;
   }
   .dark\:text-gray-400.text-gray-600.flex-none.h-6.w-6,
   .scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.items-center.overflow-y-auto.xl\:max-h-48.md\:max-h-48.max-h-32.flex-wrap.flex.mb-3.mt-3,
   .dark\:bg-gray-800.bg-white.group.justify-between.items-center.flex.cursor-pointer.break-all.left-0.sticky,
   .dark\:bg-gray-800.bg-white.cursor-pointer.text-left.md\:w-5\/12.w-7\/12.left-0.md\:text-base.text-xs.sticky {
-    background-color: #090E17 !important; 
+    background-color: #080e16 !important; 
+    background-image: none !important;
     border: 0px !important;
   }
   .lg\:block.hidden.relative > .dark\:hover\:bg-gray-600.cursor-pointer.dark\:bg-gray-700.bg-gray-100.justify-center.items-center.flex.flex-none.w-8.h-8.rounded-full {
-    background-color: #090E17 !important; 
-    border: 2px solid #090E17 !important;
+    background-color: #080e16 !important; 
+    border: 2px solid #080e16 !important;
   }
   .aa-DetachedSearchButton, .dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\], .md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3 {
     background-color: #242732 !important;
+  }
+  div.dark\:bg-gray-800.bg-white.md\:p-3.py-4.p-1 {
+    background-color: #080e16 !important;
+    border: 1px #19273E !important;
   }
   rounded.dark\:border-gray-700.dark\:bg-gray-700.border-gray-300.border.h-12.px-2.py-3.mt-0.flex-1,
   .dark\:fill-gray-300.fill-gray-500.h-6.w-6 {
@@ -626,7 +635,8 @@ ytd-browse.ytd-page-manager.style-scope {
   .prose-table\:w-auto.max-w-none.dark\:prose-invert.prose-hr\:my-3.prose.md\:my-5.my-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-96.xl\:h-auto.comic-desc,
   .overflow-hidden.relative.min-h-screen > .relative, .cursor-pointer.justify-center.items-center.flex.text-center.h-14, #comment-section,
   .select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex, flex-none.relative.info-reader-container, .pb-12 {
-    background-color: #090E17 !important;
+    background-color: #080e16 !important;
+    background-image: none !important;
   }
   .rounded.items-center.flex.py-3.px-2.btn-primary.btn.h-12.md\:w-96.flex-1,
   .border-none.px-0.text-xs.text-center.w-full.btn, .p-2.ml-1.btn,
@@ -645,12 +655,10 @@ ytd-browse.ytd-page-manager.style-scope {
     border-top-width: 1px !important;
   }
   .max-h-screen.pl-2.mx-0.flex-col.flex {
-    background-color: #090E17 !important; 
+    background-color: #080e16 !important; 
     border: 1px solid #25262B !important;
   }
-  .target\:dark\:bg-orange-900\/50.target\:bg-orange-100\/50.dark\:bg-gray-750.bg-gray-50.rounded-xl.p-2.ml-2 {
-    background-color: #19273E !important;
-  }
+  .target\:dark\:bg-orange-900\/50.target\:bg-orange-100\/50.dark\:bg-gray-750.bg-gray-50.rounded-xl.p-2.ml-2,
   .flex-1.dark\:border-gray-600.border-gray-300.rounded-none.border-l.border-r {
     background-color: #19273E !important;
   }
