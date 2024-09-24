@@ -442,6 +442,7 @@ ytd-browse.ytd-page-manager.style-scope {
   }
   body, div.dark\:bg-gray-800.bg-white.md\:p-3.py-4.p-1, .md\:text-base.text-sm.md\:col-span-2 > .flex-wrap.flex, .md\:block.hidden.break-words.justify-between > h1, .h-9.lg\:space-x-4.lg\:justify-start.justify-between.md\:mt-2.mt-1.flex,
   .h-9.md\:mt-2.mt-1.lg\:space-x-2.lg\:justify-start.justify-between.flex, .dark\:bg-gray-800\/95.bg-white\/95.drop-shadow-sm.max-sm\:overflow-x-auto.dark\:border-gray-700.border-gray-100.lg\:border-b.py-2.lg\:px-8.sm\:px-6.px-3.space-x-2.justify-between.items-center.flex,
+  .break-words.my-3.text-center.w-full.xl\:text-2xl.md\:text-xl.text-lg.font-medium,
   .dark\:bg-gray-800.bg-white.p-4.flex.justify-between.w-full {
       background-color: #080e16 !important;
   }
