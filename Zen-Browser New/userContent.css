@@ -415,16 +415,22 @@ ytd-browse.ytd-page-manager.style-scope {
   background-color: rgba(8,14,22,0.7) !important;
  }
 }
+/* ComicK Theme */
 @-moz-document domain("comick.io") {
   * {
       font-family: Luminari !important;
       font-weight: lighter !important;
     }
-  body, div.dark\:bg-gray-800.bg-white.md\:p-3.py-4.p-1, .md\:text-base.text-sm.md\:col-span-2 > .flex-wrap.flex, .md\:block.hidden.break-words.justify-between > h1,
-   .dark\:bg-gray-800\/95.bg-white\/95.drop-shadow-sm.max-sm\:overflow-x-auto.dark\:border-gray-700.border-gray-100.lg\:border-b.py-2.lg\:px-8.sm\:px-6.px-3.space-x-2.justify-between.items-center.flex {
+  .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {
+    font-family: Luminari !important;
+    font-weight: bolder !important;
+  }
+  body, div.dark\:bg-gray-800.bg-white.md\:p-3.py-4.p-1, .md\:text-base.text-sm.md\:col-span-2 > .flex-wrap.flex, .md\:block.hidden.break-words.justify-between > h1, .h-9.lg\:space-x-4.lg\:justify-start.justify-between.md\:mt-2.mt-1.flex,
+  .h-9.md\:mt-2.mt-1.lg\:space-x-2.lg\:justify-start.justify-between.flex, .dark\:bg-gray-800\/95.bg-white\/95.drop-shadow-sm.max-sm\:overflow-x-auto.dark\:border-gray-700.border-gray-100.lg\:border-b.py-2.lg\:px-8.sm\:px-6.px-3.space-x-2.justify-between.items-center.flex,
+  .dark\:bg-gray-800.bg-white.p-4.flex.justify-between.w-full {
       background-color: #080e16 !important;
   }
-  ul, .btn.rounded-full.p-2, 
+  ul, .btn.rounded-full.p-2, .dark\:bg-gray-700.dark\:ring-gray-600.dark\:text-gray-300.hover\:bg-gray-50.ring-gray-300.ring-inset.ring-1.shadow-sm.text-gray-900.font-semibold.text-sm.py-1\.5.px-3.bg-white.rounded-full.gap-x-1\.5.items-center.inline-flex,
   .divide-slate-500.divide-solid.divide-y.dark\:shadow-gray-900.shadow-gray-500.focus\:outline-none.ring-opacity-5.ring-black.ring-1.shadow-lg.dark\:text-gray-200.dark\:bg-gray-700.bg-white.rounded-md.origin-top-right.w-44.px-2.py-2.z-10.absolute {
       background-color: #19273e !important;
       border: 0px !important;
@@ -456,7 +462,8 @@ ytd-browse.ytd-page-manager.style-scope {
       border: 0px !important;
       border-radius: 9px !important;
   }
-  .w-7\/12.rounded.dark\:border-gray-500.border-gray-400.border.dark\:bg-gray-700.bg-gray-100.items-center.flex {
+  .w-7\/12.rounded.dark\:border-gray-500.border-gray-400.border.dark\:bg-gray-700.bg-gray-100.items-center.flex,
+  .focus\:ring-blue-500.dark\:hover\:bg-gray-600.hover\:bg-gray-50.dark\:text-gray-200.text-gray-700.dark\:bg-gray-700.bg-white.dark\:border-gray-600.border-gray-300.border.leading-4.text-sm.py-2.px-3.rounded-md.focus\:ring-2.focus\:outline-none.shadow-sm.font-medium.rounded.items-center.inline-flex {
       background-color: #19273e !important;
       border: 0px !important;
       border-radius: 9px !important;
@@ -478,9 +485,10 @@ ytd-browse.ytd-page-manager.style-scope {
       background-color: #101b2c !important;
       text-decoration-color: rgb(170, 210, 244) !important;
   }
-  .aa-DetachedSearchButton, .md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3, .dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\],
+  .aa-DetachedSearchButton, .md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3, .dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\], li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50 > .w-full.px-5.py-2.items-center.flex,
   .lg\:\!w-96.\!focus\:ring-blue-500.\!focus\:border-blue-500.dark\:md\:hover\:bg-slate-700\/40.dark\:md\:ring-white\/5.dark\:md\:ring-inset.dark\:md\:bg-slate-800.md\:ring-slate-200.md\:ring-1.bg-white.md\:pr-3\.5.pl-9.md\:py-1\.5.py-1.md\:rounded-sm.md\:flex-none.md\:\!w-80.md\:h-auto.sm\:justify-start.justify-center.items-center.flex.group,
-  .select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex, .border-0.disabled\:opacity-50.scrollbar-none.p-2, .break-words, .break-words > ul > li, .target\:dark\:bg-orange-900\/50.target\:bg-orange-100\/50.dark\:bg-gray-750.bg-gray-50.rounded-xl.p-2.ml-2 {
+  .select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex, .border-0.disabled\:opacity-50.scrollbar-none.p-2, .break-words, .break-words > ul > li, .target\:dark\:bg-orange-900\/50.target\:bg-orange-100\/50.dark\:bg-gray-750.bg-gray-50.rounded-xl.p-2.ml-2,
+  .cursor-pointer.items-center.px-5.py-2 > ul {
       background-color: #101b2c !important;
   }
   .w-40, .flex-wrap.flex, .focus\:ring-0.text-gray-900.leading-5.pr-10.pl-3.py-2.border-none.w-full,
@@ -495,6 +503,8 @@ ytd-browse.ytd-page-manager.style-scope {
       background-color: #19273e !important;
   }
   .prose-table\:w-auto.max-w-none.dark\:prose-invert.prose-hr\:my-3.prose.md\:my-5.my-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-96.xl\:h-auto.comic-desc,
+  .prose-table\:w-auto.max-w-none.dark\:prose-invert.prose-hr\:my-3.prose.md\:my-5.my-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-96.xl\:h-auto.comic-desc > ul,
+  .prose-table\:w-auto.max-w-none.dark\:prose-invert.prose-hr\:my-3.prose.md\:my-5.my-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-96.xl\:h-auto.comic-desc > ul > li,
   .space-x-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-x-auto.max-w-max.items-center.flex,
   .scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.items-center.overflow-y-auto.xl\:max-h-48.md\:max-h-48.max-h-32.flex-wrap.flex.mb-3.mt-3.dark\:scrollbox-dark.scrollbox {
       background-color: #080e16 !important;
@@ -513,7 +523,8 @@ ytd-browse.ytd-page-manager.style-scope {
       background-color: #080e16 !important;
       border: 0px !important;
     }
-  .myscrollbar.overflow-y-auto.overflow-x-hidden.w-full.pr-2.pb-16.pt-1.mt-3, .tree, .mb-1, ul > .flex, #comments-container > li {
+  .myscrollbar.overflow-y-auto.overflow-x-hidden.w-full.pr-2.pb-16.pt-1.mt-3, .tree, .mb-1, ul > .flex, #comments-container > li,
+  .mt-1.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-64 {
       background-color: #080e16 !important;
       background-image: none !important;
     }
