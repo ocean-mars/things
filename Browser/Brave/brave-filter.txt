@@ -23,11 +23,6 @@ www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-s
 accounts.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default
 www.youtube.com##.yt-spec-button-shape-next.yt-spec-button-shape-next--text.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-only-default
 !Voice
-comick.io##*:style(font-family: "Luminari" !important)
-comick.io##*:style(font-weight: lighter !important)
-comick.io##.pl-3.pb-1.lg\:pl-4.lg\:pb-3.pr-0.float-right.w-4\/12.xl\:w-3\/12.space-y-5.overflow-hidden
-comick.io##.rounded.dark\:border-gray-700.text-xs
-comick.io##.grid.grid-cols-2.md\:grid-cols-3.max-xl\:px-1 > div.md\:col-span-2.text-sm.md\:text-base:nth-of-type(2) > .flex.my-2
 as.priv.au##*:style(font-family: "Helvetica" !important)
 as.priv.au##.link_on_top_about
 as.priv.au##.search_filters
@@ -35,3 +30,31 @@ as.priv.au###result_count
 as.priv.au##button.category.category_button:nth-of-type(4)
 gojo.live##*:style(font-family: "Luminari" !important)
 gojo.live##*:style(font-weight: lighter !important)
+www.photopea.com##.flexrow.app > div:nth-of-type(2)
+www.photopea.com##.flexrow.app > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1)
+! Comick
+comick.io##*:style(font-family: "Luminari" !important)
+comick.io##*:style(font-weight: lighter !important)
+comick.io##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
+comick.io##.text-xs.dark\:border-gray-700.rounded
+comick.io##.md\:text-base.text-sm.md\:col-span-2 > .my-2.flex
+comick.io##div.h-8.w-8:nth-of-type(2)
+comick.io##.h-8.w-8.justify-center.flex.items-center > .dark\:hover\:bg-gray-600.cursor-pointer.dark\:bg-gray-700.bg-gray-100.justify-center.items-center.flex.flex-none.w-8.h-8.rounded-full
+comick.io##.md\:space-x-3.space-x-2.justify-between.items-center.flex > .h-8.w-8.justify-center.flex.items-center
+comick.io##.gap-4.justify-center.items-center.flex.mt-4.ml-4
+comick.io##.text-xl.items-center.flex
+comick.io##.space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5
+comick.io##.space-x-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-x-auto.max-w-max.items-center.flex
+snowmtl.ru##*:style(font-family: "Luminari" !important)
+snowmtl.ru##*:style(font-weight: lighter !important)
+snowmtl.ru###decrease-size,#increase-size,#searchForm,#tagSelect,#genreSelect:style(background-color: #101b2c !important)
+snowmtl.ru##body,#comic-container,#comic-images-container:style(background-color: #080e16 !important)
+snowmtl.ru##.bg-purple-700.py-4.desktop-menu,a.bg-purple-600.hover\:bg-purple-700.text-white.font-bold.py-2.px-4.rounded,#chapter-select,section.mb-12.bg-gray-800.rounded-lg.shadow-md:style(background-color: #101b2c !important)
+snowmtl.ru##.bg-purple-700.text-white.px-6.py-2.rounded-r-md,.bg-gray-800.text-gray-300.px-4.py-2.rounded-l-md.focus\:outline-none.w-full,section.bg-gray-800.rounded-lg.shadow-md.p-6,.bg-gray-800.rounded-lg.shadow-md.sticky.top-8:style(background-color: #101b2c !important)
+snowmtl.ru##li.bg-gray-700.rounded-md.shadow-md.p-4.flex.justify-between.items-center:style(background-color: #101b2c !important)
+snowmtl.ru##.text-purple-400.hover\:underline.text-xl:style(color: #c1c2c5 !important)
+snowmtl.ru##.flex.justify-between.items-center.bg-purple-700.p-4.rounded-t-lg,.text-2xl.font-bold.mb-4.bg-purple-700.p-4.rounded-t-lg:style(background-color: #19273e !important)
+snowmtl.ru##span.text-sm.text-purple-400.border.border-purple-700.px-2.py-1.rounded,span.text-sm.text-green-400.border.border-green-700.px-2.py-1.rounded:style(background-color:#2c2e33 !important;color:#8fa8d1 !important; border-color: #19273e !important)
+snowmtl.ru##.text-4xl.font-bold.mb-4.text-purple-700,.text-2xl.font-bold.mb-4.text-purple-700,.text-purple-400.hover\:underline:style(color:#8fa8d1 !important)
+snowmtl.ru###bookmarkBtn,.bg-purple-600.text-white.font-bold.w-10.h-10.flex.items-center.justify-center.rounded-md.mr-4.flex-shrink-0,div.bg-gray-700.rounded-lg.shadow-md.w-40,div.bg-gray-700.rounded-md.shadow-md.flex,.bg-purple-600.hover\:bg-purple-500.text-white.text-sm.font-bold.py-2.px-4.rounded:style(background-color:#19273e !important; border-color: #19273e !important)
+snowmtl.ru##.flex-shrink-0.py-6.bg-gray-800
