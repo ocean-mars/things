@@ -1202,4 +1202,5 @@ user_pref("browser.privatebrowsing.vpnpromourl", "");
 
 // Firefox Labs
 user_pref("browser.preferences.experimental", true);
-//
+
+// END
