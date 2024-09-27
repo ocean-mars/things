@@ -1,5 +1,5 @@
-/* Compact Tab Bar */
-@media (-moz-bool-pref: "zen.view.compact") {#navigator-toolbox {height: 86vh !important; padding-left: 10px !important; padding-right: 10px !important;}}
+/* Compact Tab Bar *//*
+@media (-moz-bool-pref: "zen.view.compact") {#navigator-toolbox {height: 86vh !important;}}
 /* Hide Buttons */
 #alltabs-button{display:none !important;}   /* Tab Button */
 #star-button-box {display: none !important;}   /* Bookmarks Star Button */
@@ -7,8 +7,10 @@
 #urlbar-zoom-button {display: none !important;}   /* URL Zoom Button */
 #reader-mode-button {display: none !important;}   /* Reader Mode Button */
 #picture-in-picture-button {display: none !important;}   /* PIP Button */
-#PanelUI-menu-button {display: none !important;} /* Three dot settings button */
-/*#unified-extensions-button {display: none !important;}*/
+#PanelUI-menu-button {display: none !important;}*/ /* Three dot settings button */
+#unified-extensions-button {display: none !important;} /* Extension Button */
+#pageAction-urlbar-_testpilot-containers, #userContext-icons{display: none !important;}
+.tab-context-line{display: none !important;} /* Default Container tab theme */
 /*#zen-history-button{display:none !important;}*/   /* Tab-bar History Button */
 /* Increase Compat Hover */
 @media (-moz-bool-pref: "zen.view.compact") {
@@ -27,10 +29,10 @@ padding-top: 0 !important;padding-right: 0 !important; padding-bottom: 0 !import
 --toolbarbutton-inner-padding: var(--urlbar-icon-padding); --toolbarbutton-hover-background: var(--urlbar-box-hover-bgcolor);}
 /* Centers the url text */
 #urlbar:not([focused]) .urlbar-input {text-align: center !important;}
-/* Theme 1 */
-@media (prefers-color-scheme: dark) {:root {--zen-colors-tertiary: #080e16 !important; --zen-colors-border: #133048 !important; --zen-primary-color: #8fa8d1 !important;
---zen-dialog-background: #101b2c !important; --toolbarbutton-icon-fill: color-mix(in srgb, var(--zen-primary-color) 70%, white 30%) !important;
---toolbar-field-color: color-mix(in srgb, var(--zen-primary-color) 40%, white 60%) !important;}}
+/* Container Tab Theme */
+#tabbrowser-tabs { & .tabbrowser-tab { &[selected] .tab-background {border: 2px solid var(--identity-icon-color) !important; opacity: 0.8 !important;}}}
+/* Catpucin Theme */
+@-moz-document url-prefix("chrome:") {:root {--zen-colors-primary: #24273a !important; --zen-colors-secondary: #1e2030 !important; --zen-colors-tertiary: #181926 !important; --zen-colors-border: #363a4f !important;}}
 /* Disable Rounded Corners */
 :root .browserSidebarContainer {margin: unset!important;box-shadow: unset!important;clip-path: unset!important;border-radius: unset!important;overflow: unset!important;}
 /*  Flotaing Navigation Bar */
@@ -39,3 +41,18 @@ padding-top: 0 !important;padding-right: 0 !important; padding-bottom: 0 !import
 #PersonalToolbar {margin-top: var(--zen-element-separation);} #PersonalToolbar, .bookmark-item {padding: var(--zen-element-separation);}
 #nav-bar, #PersonalToolbar { width: 75vw !important; margin-left: calc( 12.5vw - var(--zen-element-separation) * 2) !important;}
 #main-window {--zen-element-separation: 10px !important;} #PersonalToolbar, .bookmark-item { padding: calc( var(--zen-element-separation) / 2 );}
+/* Floating Tab bar */
+@media (-moz-bool-pref: "zen.view.compact") {:root:not([customizing]) {--separation: calc(var(--zen-element-separation) + 1px);--margin: 3px;--horiz-padding: 10px;--vert-padding: 5px;
+@media (-moz-bool-pref: "zen.view.compact.hide-tabbar") {& #navigator-toolbox{position: absolute !important;left: 0 !important;padding-right: var(--horiz-padding) !important;
+padding-left: calc(var(--margin) + calc(var(--separation) + var(--horiz-padding))) !important;padding-top: calc(var(--vert-padding) + var(--margin)) !important;
+padding-bottom: calc(var(--vert-padding) + var(--margin)) !important;top: 10.6vh !important;bottom: var(--separation) !important;height: 80vh !important;border: none !important;
+box-shadow: none !important;background: none !important;min-width: calc(calc(calc(var(--horiz-padding) * 2) + var(--zen-toolbox-max-width)) + var(--margin)) !important;transform: translate3d(-90%, 0, 0) !important;}
+& #navigator-toolbox[zen-expanded]{min-width: 204px !important;}& #navigator-toolbox::before{content: "" !important;position: absolute !important;top: var(--margin) !important;bottom: var(--margin) !important;
+left: calc(var(--separation) + var(--margin)) !important;right: 0 !important;background: var(--zen-themed-toolbar-bg) !important;border-radius: var(--zen-border-radius) !important;box-shadow: 15px -10px 20px -20px black !important;
+border: none;} & #navigator-toolbox:hover, & #navigator-toolbox[zen-has-hover], & #navigator-toolbox:focus-within, & #navigator-toolbox[zen-user-show], & #navigator-toolbox[flash-popup], 
+& #navigator-toolbox[has-popup-menu], & #navigator-toolbox[movingtab], & #mainPopupSet:has(> #appMenu-popup:hover) ~ toolbox, & #navigator-toolbox:has(.tabbrowser-tab:active), 
+& #navigator-toolbox:has([open="true"]:not(tab):not(#zen-sidepanel-button)){transform: translate3d(0, 0, 0) !important;}}}}
+/* Theme 1 *//*
+@media (prefers-color-scheme: dark) {:root {--zen-colors-tertiary: #080e16 !important; --zen-colors-border: #133048 !important; --zen-primary-color: #8fa8d1 !important;
+--zen-dialog-background: #101b2c !important; --toolbarbutton-icon-fill: color-mix(in srgb, var(--zen-primary-color) 70%, white 30%) !important;
+--toolbar-field-color: color-mix(in srgb, var(--zen-primary-color) 40%, white 60%) !important;}} */
