@@ -2,7 +2,6 @@
 // user.js | Firefox desktop
 // https://git.nixnet.services/Narsil/desktop_user.js
 // **********************************************************************************
-// Customized for my use
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // START: internal custom pref to test for syntax error
 // >>>>>>>>>>>>>>>>>>>>>
