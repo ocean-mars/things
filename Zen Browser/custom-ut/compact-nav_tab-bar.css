@@ -1,9 +1,0 @@
-/*  Smaller Nav-bar & Tab-bar */
-#zen-appcontent-navbar-container {
-    align-self: center !important;
-    width: 75% !important;
-  }
-#navigator-toolbox {
-    padding-top: 6.5vh !important;
-    height: 93.5vh !important;
-}
