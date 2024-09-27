@@ -38,7 +38,7 @@ user_pref("network.trr.custom_uri", "https://dns.mullvad.net/dns-query");
 // user_pref("extensions.update.enabled", false);
 
 // Disable auto-INSTALLING extension and theme updates                                      //CUSTOM-C
-user_pref("extensions.update.autoUpdateDefault", true);
+// user_pref("extensions.update.autoUpdateDefault", true);
 
 // user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);                                      //CUSTOM-C
 
