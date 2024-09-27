@@ -568,9 +568,11 @@ ytd-browse.ytd-page-manager.style-scope {
   .active\:brightness-75.object-cover.lg\:h-44.md\:h-36.h-36.lg\:w-36.md\:w-28.w-28.select-none {
       border-radius: 8px !important;
   }
-  #main {
-    display: contents !important;
-    justify-content: center !important;
-    align-content: center !important;
+  .overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3, .text-xs.dark\:border-gray-700.rounded,
+  div.h-8.w-8:nth-of-type(2), .my-2.flex, .gap-4.justify-center.items-center.flex.mt-4.ml-4, #zoom-btn,
+  .active\:animate-ping.active\:brightness-200.hover\:brightness-200.hover\:text-blue-500.cursor-pointer.h-12.w-12,
+  .dark\:fill-gray-300.fill-gray-500.h-6.w-6, .space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5,
+  .md\:h-10.md\:w-10.h-10.w-10 > span {
+    display: none !important;
   }
 }
