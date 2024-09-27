@@ -13,6 +13,7 @@ behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
 comick.io comick.pictures * noop
+www.facebook.com fbcdn.net * noop
 www.youtube.com ggpht.com * noop
 www.youtube.com googleusercontent.com * noop
 www.youtube.com googlevideo.com * noop
