@@ -12,21 +12,11 @@ youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
 youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
+youtube.com##.yt-simple-endpoint[title="YouTube Premium"]
 ! Premium Logo
 youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
 ! Hide "1080p Premium" in the video quality menu
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
-! https://comick.io
-comick.io##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
-comick.io##.text-xs.dark\:border-gray-700.rounded
-comick.io##div.h-8.w-8:nth-of-type(2)
-comick.io##.my-2.flex
-comick.io##.gap-4.justify-center.items-center.flex.mt-4.ml-4
-comick.io###zoom-btn
-comick.io##.active\:animate-ping.active\:brightness-200.hover\:brightness-200.hover\:text-blue-500.cursor-pointer.h-12.w-12
-comick.io##.dark\:fill-gray-300.fill-gray-500.h-6.w-6
-comick.io##.space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5
-comick.io##.md\:h-10.md\:w-10.h-10.w-10 > span
 !Searx
 as.priv.au##*:style(font-family: "Helvetica" !important)
 as.priv.au##.search_filters
