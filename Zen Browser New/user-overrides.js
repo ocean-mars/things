@@ -23,7 +23,7 @@ user_pref("network.trr.custom_uri", "https://dns.mullvad.net/dns-query");
 // user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
 
 // Disable saving passwords                                      //CUSTOM-C
-user_pref("signon.rememberSignons", false);
+// user_pref("signon.rememberSignons", false);
 
 // Disable favicons in history and bookmarks                                      //CUSTOM-C
 // user_pref("browser.chrome.site_icons", false);
