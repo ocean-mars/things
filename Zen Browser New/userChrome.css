@@ -1,5 +1,5 @@
-/* Compact Tab Bar *//*
-@media (-moz-bool-pref: "zen.view.compact") {#navigator-toolbox {height: 86vh !important;}}
+/* Compact Tab Bar */ /*
+@media (-moz-bool-pref: "zen.view.compact") {#navigator-toolbox {height: 86vh !important;}} */
 /* Hide Buttons */
 #alltabs-button{display:none !important;}   /* Tab Button */
 #star-button-box {display: none !important;}   /* Bookmarks Star Button */
