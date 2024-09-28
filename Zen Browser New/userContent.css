@@ -576,3 +576,9 @@ ytd-browse.ytd-page-manager.style-scope {
     display: none !important;
   }
 }
+  /*
+  #main {
+    display: contents !important;
+    justify-content: center !important;
+    align-content: center !important;
+  }
