@@ -361,7 +361,7 @@ a[href="https://comick.io/"] .tile .letter-fallback {
     .sticky-container.bottom-fade {
       background: rgba(9,14,23, 0.7) !important;}}
 /*  Youtube Theme */
-@-moz-document domain("www.youtube.com") {
+ @-moz-document domain("www.youtube.com") {
   * {
     font-family: Luminari !important;
     font-weight: lighter !important;
@@ -420,7 +420,7 @@ ytd-browse.ytd-page-manager.style-scope {
  }
 }
 /* ComicK Theme */
-@-moz-document domain("comick.io") {
+ @-moz-document domain("comick.io") {
   * {
       font-family: Luminari !important;
       font-weight: lighter !important;
@@ -495,9 +495,6 @@ ytd-browse.ytd-page-manager.style-scope {
   hr.mt-3 {
       border: 0.25px solid #133048 !important;
   }
-  .truncate.py-2.link.md\:text-base.text-sm.overflow-hidden.font-semibold.dark\:text-blue-400.text-blue-700.pl-2.flex-1 {
-      color: rgb(52, 160, 255) !important;
-    }
   li {
       background-color: #101b2c !important;
       text-decoration-color: rgb(170, 210, 244) !important;
@@ -550,6 +547,7 @@ ytd-browse.ytd-page-manager.style-scope {
       content: "Likes" !important;
       font-size: large !important;
     }
+  .dark\:hover\:bg-gray-600.dark\:bg-gray-700.hover\:bg-gray-200.bg-gray-100.text-xl.select-none.border-gray-600.leading-5.border-r.px-4.xl\:h-40.md\:h-32.h-28.justify-center.flex.w-8\/12.grow-0.relative,
   .text-xl.select-none.border-gray-600.dark\:hover\:bg-gray-600.dark\:bg-gray-700.hover\:bg-gray-200.bg-gray-100.leading-5.border-r.px-4.xl\:h-40.md\:h-32.h-28.justify-center.flex.w-9\/12.grow-0.relative,
   .text-lg.select-none.border-r.border-gray-600.dark\:hover\:bg-gray-600.dark\:bg-gray-700.hover\:bg-gray-200.bg-gray-100.leading-5.px-4.xl\:h-40.md\:h-32.h-28.justify-center.flex.w-4\/12.grow-0.relative {
       background-color: #101b2c !important;
@@ -563,6 +561,9 @@ ytd-browse.ytd-page-manager.style-scope {
       border: 1px solid #19273e !important;
       border-radius: 8px !important;
   }
+  .w-full.px-5.py-2.flex:hover, li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50 > .w-full.px-5.py-2.items-center.flex:hover {
+    background-color: #19273e !important;
+  }
   .object-top.active\:brightness-75.lg\:mb-4.md\:mb-3.mb-2.w-full.rounded.select-none,
   .relative.overflow-y-hidden.rounded,
   .active\:brightness-75.object-cover.lg\:h-44.md\:h-36.h-36.lg\:w-36.md\:w-28.w-28.select-none {
@@ -572,6 +573,7 @@ ytd-browse.ytd-page-manager.style-scope {
   div.h-8.w-8:nth-of-type(2), .my-2.flex, .gap-4.justify-center.items-center.flex.mt-4.ml-4, #zoom-btn,
   .active\:animate-ping.active\:brightness-200.hover\:brightness-200.hover\:text-blue-500.cursor-pointer.h-12.w-12,
   .dark\:fill-gray-300.fill-gray-500.h-6.w-6, .space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5,
+  li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50:nth-of-type(4),
   .md\:h-10.md\:w-10.h-10.w-10 > span {
     display: none !important;
   }
