@@ -46,3 +46,6 @@ user_pref("network.trr.custom_uri", "https://dns.mullvad.net/dns-query");
 
 // Disable Windows Microsoft Family Safety cert [FF50+] [WINDOWS]                                      //CUSTOM-C
 // user_pref("security.family_safety.mode", 0);
+
+// Disable IPv6 if using a VPN                                      //CUSTOM-C
+user_pref("network.dns.disableIPv6", true);
