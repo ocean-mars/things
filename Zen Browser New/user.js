@@ -842,8 +842,8 @@ user_pref("media.gmp-widevinecdm.enabled", false);
 user_pref("media.eme.enabled", false);
 user_pref("browser.eme.ui.enabled", false);
 // -------------------------------------
-// Disable IPv6 if using a VPN
-// user_pref("network.dns.disableIPv6", true);
+// Disable IPv6 if using a VPN                                      //CUSTOM-C
+user_pref("network.dns.disableIPv6", true);
 // -------------------------------------
 // Control when to send a cross-origin referer
 // * 0=always (default), 1=only if base domains match, 2=only if hosts match
