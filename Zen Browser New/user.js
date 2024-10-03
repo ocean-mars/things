@@ -687,7 +687,7 @@ user_pref("privacy.sanitize.timeSpan", 0);
 //
 // Enable RFP
 user_pref("privacy.resistFingerprinting", true); // [FF41+]
-// user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]
+user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]                                      //CUSTOM-C
 // -------------------------------------
 // Set RFP new window size max rounded values [FF55+]
 user_pref("privacy.window.maxInnerWidth", 1400);
