@@ -198,9 +198,8 @@
   :root {
       --bg-1: #080e16;
       --bg-2: #1b293be2;
-      --bg-3: #1e2b3bee;
+      --bg-3: #1b2a3aee;
       --bg-4: #1d2938;
-      --bg-5: #293a4fee;
       --border-1: #354057e2;
       --border-2: #1e2b3bee;
       --border-3: #373A40;
@@ -216,8 +215,8 @@
       border-radius: 10px !important;}
   .h-8.w-8.justify-center.flex.items-center > .dark\:hover\:bg-gray-600.cursor-pointer.dark\:bg-gray-700.bg-gray-100.justify-center.items-center.flex.flex-none.w-8.h-8.rounded-full,
   .lg\:block.hidden.relative > .dark\:hover\:bg-gray-600.cursor-pointer.dark\:bg-gray-700.bg-gray-100.justify-center.items-center.flex.flex-none.w-8.h-8.rounded-full {
-      background-color: var(--bg-5) !important;
-      border: 2px solid var(--bg-5) !important;}
+      background-color: var(--bg-3) !important;
+      border: 2px solid var(--bg-3) !important;}
   .aa-DetachedSearchButton {background-color: var(--bg-3) !important;}
   /*** |||||||||| Home Page |||||||||| ***/
   .text-red-500.dark\:bg-gray-700.bg-gray-100.rounded.dark\:hover\:bg-gray-600.hover\:bg-gray-200.font-semibold.px-2.py-1.ml-1.items-center.text-lg.flex,
