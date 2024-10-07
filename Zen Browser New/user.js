@@ -733,7 +733,7 @@ user_pref("webgl.disabled", true);
 // user_pref("browser.cache.memory.capacity", 0);
 // -------------------------------------
 // Disable saving passwords                                      //CUSTOM-C
- user_pref("signon.rememberSignons", false);
+// user_pref("signon.rememberSignons", false);
 // -------------------------------------
 // Disable permissions manager from writing to disk [FF41+] [RESTART]
 // user_pref("permissions.memory_only", true); // [HIDDEN PREF]
