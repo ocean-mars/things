@@ -12,7 +12,9 @@
 #pageAction-urlbar-_testpilot-containers, #userContext-icons{display: none !important;}
 .tab-icon-overlay {display: none !important;} /* Tab Audio button */
 .tab-context-line{display: none !important;} /* Default Container tab theme */
-/*#zen-history-button{display:none !important;}*/   /* Tab-bar History Button */
+/* URL-Bar */
+/* #urlbar {border: none !important;} */ /* Removes the border of the url bar when toggled */
+/* #urlbar {border-radius: 20px !important;} #notification-popup-box {border-radius: 20px !important;} */ /* URL-bar Radius */
 /* Increase Compact Hover */
 @media (-moz-bool-pref: "zen.view.compact") {
 @media (-moz-bool-pref: "zen.view.compact.hide-toolbar") {#zen-appcontent-navbar-container {transform: translateY(calc(-100% + 20px)) !important;}
@@ -28,7 +30,7 @@ padding-top: 0 !important;padding-right: 0 !important; padding-bottom: 0 !import
 #urlbar-container+.chromeclass-toolbar-additional{margin-inline-start: calc(0px - 19px - 2 * var(--urlbar-icon-padding) - var(--urlbar-margin-inline)) !important; position: relative;
 --toolbarbutton-inner-padding: var(--urlbar-icon-padding); --toolbarbutton-hover-background: var(--urlbar-box-hover-bgcolor);}
 /* Centers the url text */
-#urlbar:not([focused]) .urlbar-input {text-align: center !important;}
+#urlbar:not([focused]) .urlbar-input {text-align: center !important; margin-right: 19px !important;}
 /* Container Tab Theme */
 #tabbrowser-tabs { & .tabbrowser-tab { &[selected] .tab-background {border: 2px solid var(--identity-icon-color) !important; opacity: 0.8 !important;}}}
 /* Catpucin Theme */
