@@ -1,5 +1,18 @@
 /*new tab page */
 @-moz-document url(about:newtab), url(about:home) {
+  * {font-family: "Luminari" !important; font-weight: lighter !important; font-size: 12.5px !important; letter-spacing: 0.2px !important;}
+  a[href="https://www.youtube.com/"] .tile  .top-site-icon {
+    width: 48px !important;
+    height: 48px !important;
+    background-image: url(assets/yt.png) !important;
+    background-size: 48px !important;}
+  a[href="https://comick.io/home2"] .tile .letter-fallback {
+    width: 58px !important;
+    height: 58px !important;
+    background-color: transparent !important;
+    background-image: url(assets/comick.png) !important;
+    background-size: 58px !important;
+    &::before { display: none !important; }}
   a[href="https://mullvad.net/check/"] .tile .letter-fallback {
     width: 64px !important;
     height: 64px !important;
@@ -7,13 +20,6 @@
     background-image: url(assets/mullvad.png) !important;
     background-size: 64px !important;
     &::before { display: none !important; }}
-  a[href="https://comick.io/"] .tile .letter-fallback {
-  width: 58px !important;
-  height: 58px !important;
-  background-color: transparent !important;
-  background-image: url(assets/comick.png) !important;
-  background-size: 58px !important;
-  &::before { display: none !important; }}
   @media (prefers-color-scheme: dark){
     :root {
     --uc-active: rgba(8,14,22, 0.8);
@@ -37,7 +43,7 @@
       background-image: url(assets/wallpaper-1.png) !important; /* Image in chrome folder */
       background-size: cover !important;
       background-attachment: fixed !important;
-      color: rgb(255, 255, 255) !important; /* ZEN Logo Text color */}
+      color: rgba(255, 255, 255, 0.864) !important; /* ZEN Logo Text color */}
     .discovery-stream.ds-layout .ds-column-grid {display: flex; justify-content: center;}
     /* Custom End */
     .section-title-container { visibility: hidden !important;}
@@ -59,7 +65,7 @@
     .search-wrapper .search-button:focus, .search-wrapper .search-button:hover {fill: white !important;}
     .search-wrapper .search-inner-wrapper:active input,
     .search-wrapper input:focus {box-shadow: none !important;}
-    .search-handoff-button .fake-textbox { text-align: center !important;}
+    .search-handoff-button .fake-textbox { text-align: center !important; font-size: 13px !important;}
     .search-wrapper .search-handoff-button { filter: grayscale(100%); }
     browser[primary="true"][tabDialogShowing="true"],
     #main-window[window-modal-open="true"] > body > #browser{filter: blur(10px)}
@@ -116,7 +122,7 @@
     .card-outer .card {filter: saturate(140%) !important; border-radius: 18px !important; background-color: rgba(20, 25, 40, 0.6)  !important; position: relative; box-shadow: 0 10px 15px rgb(0 0 0 / 20%) !important; backdrop-filter: blur(33px); height: auto !important;}    
     .card-outer > a { color: auto !important; }    
     .outer-wrapper a { color: auto !important; }    
-    :root[lwt-newtab-brighttext] { --newtab-wordmark-color: #ffffffcb !important; }    
+    :root[lwt-newtab-brighttext] { --newtab-wordmark-color: #ffffffcb !important;}    
     .compact-cards .card-outer .card-context {background-color: var(--newtab-background-color-secondary); border-radius: 18px; clip-path: inset(-1px -1px 4px); height: 32px; width: 32px; padding: 8px; top: 108px !important; inset-inline-end: 3px !important; inset-inline-start: auto;}    
     .compact-cards .card-outer .card-preview-image-outer {border-radius: 16px 16px 0 0 !important;}        
     .ds-highlights .section .section-list .card-outer .card-host-name {text-shadow: 1px -1px 2px color-mix(in srgb, var(--contrast-color) 60%, transparent) !important; color: var(--newtab-text-primary-color) !important;}
@@ -157,8 +163,8 @@
     body {background-color: rgba(9,14,23, 0.7) !important;}
     .sticky-container.bottom-fade {background: rgba(9,14,23, 0.7) !important;}}
 /*  Youtube Theme */
-@-moz-document domain("www.youtube.com") {
-  * {font-family: Luminari !important; font-weight: lighter !important;}
+@-moz-document domain("music.youtube.com") {* {font-family: Luminari !important; font-weight: lighter !important;}}
+@-moz-document domain("www.youtube.com") {* {font-family: Luminari !important; font-weight: lighter !important;}
   :root {--ytb-bg-1: #080e16; --ytb-bg-2: #080e16ae; --ytb-border-1: #25262B;}
   /* Logo */
   yt-icon.ytd-logo {width: 100% !important; margin-left: -10px !important;}
@@ -185,17 +191,9 @@
 /* ComicK Theme */
 @-moz-document domain("comick.io") {
   * {font-family: Luminari !important; font-weight: lighter !important;}
-  .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {
-      content: url(assets/comick-6.png);
-      height: 24px !important;
-      width: auto !important;
-      margin-left: -8px !important;}
-  .opacity-40.hover\:opacity-100.cursor-pointer.flex.text-center.items-center.md\:h-12.md\:w-12.h-10.w-10.rounded-full {
-    content: url(assets/comick-c-2.png);
-    height: 40px !important;
-    width: auto !important;
-    margin-left: 12px !important;}
-  :root {
+  .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {content: url(assets/comick-6.png); height: 24px !important; width: auto !important; margin-left: -8px !important;}
+  .opacity-40.hover\:opacity-100.cursor-pointer.flex.text-center.items-center.md\:h-12.md\:w-12.h-10.w-10.rounded-full {content: url(assets/comick-c-2.png); height: 40px !important; width: auto !important; margin-left: 12px !important;}
+    :root {
       --bg-1: #080e16;
       --bg-2: #1b293be2;
       --bg-3: #1b2a3aee;
@@ -203,105 +201,43 @@
       --border-1: #354057e2;
       --border-2: #1e2b3bee;
       --border-3: #373A40;
+      --radius-1: 8px;
+      --radius-2: 48px;
       --bgg-1: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #080e16);}
-  /*** |||||||||| General |||||||||| ***/
-  body {background-color: var(--bg-1) !important;}
-  .dark\:bg-gray-800\/95.bg-white\/95.drop-shadow-sm.max-sm\:overflow-x-auto.dark\:border-gray-700.border-gray-100.lg\:border-b.py-2.lg\:px-8.sm\:px-6.px-3.space-x-2.justify-between.items-center.flex {
-      background-color: var(--bg-1) !important;
-      border-color: var(--border-2) !important;}
-  .visible.z-10.dark\:border-gray-700.border.dark\:bg-gray-800.bg-white.absolute.right-0.mt-2.md\:w-72.w-screen.text-lg.rounded{
-      background-color: var(--bg-3) !important;
-      border: 0px !important;
-      border-radius: 10px !important;}
-  .h-8.w-8.justify-center.flex.items-center > .dark\:hover\:bg-gray-600.cursor-pointer.dark\:bg-gray-700.bg-gray-100.justify-center.items-center.flex.flex-none.w-8.h-8.rounded-full,
-  .lg\:block.hidden.relative > .dark\:hover\:bg-gray-600.cursor-pointer.dark\:bg-gray-700.bg-gray-100.justify-center.items-center.flex.flex-none.w-8.h-8.rounded-full {
-      background-color: var(--bg-3) !important;
-      border: 2px solid var(--bg-3) !important;}
+      body {background-color: var(--bg-1) !important;}
+  /*** Home Page ***/
+  .dark\:bg-gray-800\/95, .dark\:bg-gray-800 {background-color: var(--bg-1) !important;}
+  .dark\:border-gray-700 {border-color: var(--border-1) !important;}
+  #main {width: 100% !important;}
   .aa-DetachedSearchButton {background-color: var(--bg-3) !important;}
-  /*** |||||||||| Home Page |||||||||| ***/
-  .text-red-500.dark\:bg-gray-700.bg-gray-100.rounded.dark\:hover\:bg-gray-600.hover\:bg-gray-200.font-semibold.px-2.py-1.ml-1.items-center.text-lg.flex,
-  .text-green-500.dark\:bg-gray-700.bg-gray-100.rounded.dark\:hover\:bg-gray-600.hover\:bg-gray-200.font-semibold.px-2.py-1.ml-3.items-center.text-lg.flex,
-  .dark\:bg-gray-700.bg-gray-100.font-semibold.md\:py-2.md\:px-3.py-1.px-3.md\:text-sm.text-xs.rounded.cursor-pointer {
-      background-color: var(--bg-3) !important;}
-  .overflow-hidden.xl\:h-56.xl\:w-44.lg\:h-48.lg\:w-36.md\:h-36.md\:w-28.h-32.w-24.relative,
-  .active\:brightness-75.w-full.object-top.object-cover.select-none {border-radius: 8px !important;}
-  .border-none.px-0.text-xs.text-center.w-full.btn {background-color: var(--bg-3) !important; border-radius: 8px !important;}
-  .dark\:bg-gray-700.dark\:ring-gray-600.dark\:text-gray-300.hover\:bg-gray-50.ring-gray-300.ring-inset.ring-1.shadow-sm.text-gray-900.font-semibold.text-sm.py-1\.5.px-3.bg-white.rounded-full.gap-x-1\.5.items-center.inline-flex {
-    background-color: var(--bg-3) !important; border-color: var(--border-2) !important;}
-  .justify-center.flex.relative {border-color: var(--border-2) !important;}
-  /*** |||||||||| Preview Page |||||||||| ***/
-  .dark\:border-gray-600.my-2 {border-color: var(--border-1) !important;}
-  /* Buttons */
-  .dark\:hover\:bg-gray-600.hover\:bg-gray-200.rounded.ml-2.text-center.dark\:text-gray-400.text-gray-700.font-semibold.dark\:bg-gray-700.bg-gray-100.py-1.px-2.items-center.shrink-0.w-20.flex,
-  .rounded.items-center.flex.py-3.px-2.btn-primary.btn.h-12.md\:w-96.flex-1, button.flex-1.py-3.px-2.btn.h-12.md\:w-96,
-  .rounded.dark\:border-gray-700.dark\:bg-gray-700.border-gray-300.border.h-12.px-2.py-3.mt-0.flex-1,
+  .btn, .dark\:bg-gray-700 {background-color: var(--bg-3) !important; border: none !important;}
+  .rounded {border-radius: var(--radius-1) !important;}
+  .dark\:hover\:bg-gray-700:hover {border-radius: var(--radius-1) !important;}
+  /*** Preview Page ***/
+  .dark\:scrollbox-dark {background-color: var(--bg-1) !important; background-image: none !important;}
+  .dark\:bg-gray-750 {background-color: var(--bg-3)!important;}
+  tr.group {border-left: 0px !important; border-right: 0px !important; border-bottom: 0px !important; border-block-end: 0px !important; border-block-color: var(--border-2) !important;}
   .dark\:border-gray-600.rounded.border-gray-300.border.py-1.pr-6.pl-2.cursor-pointer,
   .dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\],
-  .md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3 {background-color: var(--bg-3) !important; border: 0px !important; border-radius: 8px !important;}
-  /* Tags/Other Background */
-  .prose-table\:w-auto.max-w-none.dark\:prose-invert.prose-hr\:my-3.prose.md\:my-5.my-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-96.xl\:h-auto.comic-desc,
-  .prose-table\:w-auto.max-w-none.dark\:prose-invert.prose-hr\:my-3.prose.md\:my-5.my-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-96.xl\:h-auto.comic-desc > ul,
-  .prose-table\:w-auto.max-w-none.dark\:prose-invert.prose-hr\:my-3.prose.md\:my-5.my-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-96.xl\:h-auto.comic-desc > ul > li,
-  .space-x-3.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-x-auto.max-w-max.items-center.flex,
-  .scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.items-center.overflow-y-auto.xl\:max-h-48.md\:max-h-48.max-h-32.flex-wrap.flex.mb-3.mt-3.dark\:scrollbox-dark.scrollbox {
-      background-color: var(--bg-1) !important; background-image: none !important;}
-  /* Chapter List Background & Border */
-  tr.group {
-      background-color: var(--bg-1) !important;
-      border-left: 0px !important;
-      border-right: 0px !important;
-      border-bottom: 0px !important;
-      border-block-end: 0px !important;
-      border-block-color: var(--border-2) !important;}
-  td, th {background-color: var(--bg-1) !important;}
-  /* Tags Color */
-  li.text-sm {background-color: var(--bg-3) !important;}
-  /* Add Recommendations Button */
-  .focus\:ring-blue-500.dark\:hover\:bg-gray-600.hover\:bg-gray-50.dark\:text-gray-200.text-gray-700.dark\:bg-gray-700.bg-white.dark\:border-gray-600.border-gray-300.border.text-xs.py-1.px-2.focus\:ring-2.focus\:outline-none.shadow-sm.font-medium.rounded.items-center.inline-flex {
-      background-color: var(--bg-3) !important; border: 1px solid var(--bg-3) !important; border-radius: 8px !important;}
-  /*** |||||||||| Reading Page |||||||||| ***/
-  /* Comment Section */
+  .md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3 {background-color: var(--bg-3) !important; border: none !important;}
+  .xl\:max-w-screen-xl>.grid.md\:grid-cols-3+div+div>div+div>div img {border-radius: var(--radius-1) !important;}
+  a.justify-center.items-center.flex.py-2.px-4.rounded-md.border.mt-2.ml-3 {border-color: var(--border-1) !important;}
+  .bg-blue-500 {background-color: var(--bg-2) !important;}
+  /*** Reading Page ***/
   #comment-section {background-color: var(--bg-1) !important; background-image: none !important;}
+  .border-gray-300 {background-color: var(--bg-2) !important;}
+  .dark\:border-gray-600 {border-color: var(--border-1) !important;}
   .p-2.ml-2, .select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex {background-color: var(--bg-2) !important; background-image: var(--bgg-1) !important;}
-  .p-2 {background-color: var(--bg-3) !important; border-radius: 8px !important;}
-  /* Chapter/Language Selctor */
-  .w-7\/12.rounded.dark\:border-gray-500.border-gray-400.border.dark\:bg-gray-700.bg-gray-100.items-center.flex, .overflow-hidden.flex-none.w-5\/12.dark\:bg-gray-700.dark\:border-gray-500.border-gray-400.border.rounded, 
-  .w-full.rounded.pr-8.pl-2.border.dark\:border-gray-500.border-gray-400.dark\:bg-gray-700 {
-      background-color: var(--bg-3) !important;
-      border: 0px !important;
-      border-radius: 8px !important;}
-  .flex-1.dark\:border-gray-600.border-gray-300.rounded-none.border-l.border-r {
-      background-color: var(--bg-4) !important;
-      border-top: none !important;
-      border-bottom: none !important;
-      border-left: 1px solid var(--border-3) !important;
-      border-right: 1px solid var(--border-3) !important;}
+  .p-2 {background-color: var(--bg-3) !important; border-radius: var(--radius-1) !important;}
+  #bottom-reader-settings button {border-radius: var(--radius-2) !important;}
   /* Likes Mod */
-  .text-xl.items-center.flex > .mx-2.w-3:after {
-      margin-left: 4px !important;
-      content: "Likes" !important;
-      font-size: large !important;}
+  .text-xl.items-center.flex > .mx-2.w-3:after {margin-left: 4px !important; content: "Likes" !important; font-size: large !important;}
   .text-xl.items-center.flex {margin-left: -6px !important;}
-  /* Option Button */
-  .btn.rounded-full.p-2 {border-radius: 40px !important;}
-  .text-lg.select-none.border-r.border-gray-600.dark\:hover\:bg-gray-600.dark\:bg-gray-700.hover\:bg-gray-200.bg-gray-100.leading-5.px-4.xl\:h-40.md\:h-32.h-28.justify-center.flex.w-4\/12.grow-0.relative,
-  .dark\:hover\:bg-gray-600.dark\:bg-gray-700.hover\:bg-gray-200.bg-gray-100.text-xl.select-none.border-gray-600.leading-5.border-r.px-4.xl\:h-40.md\:h-32.h-28.justify-center.flex.w-8\/12.grow-0.relative,
-  .text-xl.select-none.border-gray-600.dark\:hover\:bg-gray-600.dark\:bg-gray-700.hover\:bg-gray-200.bg-gray-100.leading-5.border-r.px-4.xl\:h-40.md\:h-32.h-28.justify-center.flex.w-9\/12.grow-0.relative{
-    background-color: var(--bg-3) !important; border-color: var(--border-3) !important;}
-  .mt-1.scrollbar-thumb-rounded.dark\:scrollbar-track-gray-700.dark\:scrollbar-thumb-gray-600.scrollbar-track-gray-100.scrollbar-thumb-gray-300.scrollbar-thin.dark\:scrollbox-dark.scrollbox.overflow-y-auto.max-h-64 > div,
-  .relative.z-10.dark\:bg-gray-800.bg-white.dark\:md\:border-gray-700.md\:border-gray-200.md\:border-l.md\:pl-5.md\:float-right.xl\:w-96.lg\:w-80.md\:w-64 {background-color: var(--bg-1) !important;}
-  /*** |||||||||| Search Page |||||||||| ***/
-  div.dark\:bg-gray-800.bg-white.md\:p-3.py-4.p-1 {
-      background-color: var(--bg-1) !important;
-      border-color: var(--border-3) !important;}
-  .dark\:hover\:bg-gray-600.hover\:bg-gray-50.dark\:bg-gray-700.bg-white.focus\:z-10.dark\:border-gray-600.border-b.border-t.border-l.font-semibold.text-sm.py-2.px-3.rounded-l-md.items-center.inline-flex.relative,
-  .dark\:hover\:bg-gray-600.hover\:bg-gray-50.dark\:bg-gray-700.bg-white.focus\:z-10.dark\:border-gray-600.border-l.border-b.border-r.border-t.font-semibold.text-sm.py-2.px-3.items-center.inline-flex.relative,
-  .dark\:hover\:bg-gray-600.hover\:bg-gray-50.dark\:bg-gray-700.bg-white.focus\:z-10.dark\:border-gray-600.border.py-2.px-2.rounded-r-md.items-center.inline-flex.relative {
-      background-color: var(--bg-3) !important;
-      border-color: var(--border-3) !important;}
-  /*** |||||||||| Zappings |||||||||| ***/
+  /*** Search Page ***/
+  .w-40, .focus\:ring-0, .max-w-\[6rem\].md\:py-2.py-1.md\:mt-2.mt-1 {background-color: var(--bg-2) !important;}
+  /*** Zappings ***/
   .overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3, .text-xs.dark\:border-gray-700.rounded, #zoom-btn,
   .active\:animate-ping.active\:brightness-200.hover\:brightness-200.hover\:text-blue-500.cursor-pointer.h-12.w-12, .z-10.p-1.flex.items-center.bg-opacity-60.bg-gray-500.right-1.top-1.absolute.rounded-full,
-  .dark\:fill-gray-300.fill-gray-500.h-6.w-6, .space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5,
+  .dark\:fill-gray-300.fill-gray-500.h-6.w-6, .space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5, .text-sm.items-center.flex.relative,
   li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50:nth-of-type(4), div.h-8.w-8:nth-of-type(2),
   .gap-4.justify-center.items-center.flex.mt-4.ml-4, .md\:h-10.md\:w-10.h-10.w-10 > span {display: none !important;}}
