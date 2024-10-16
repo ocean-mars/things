@@ -1,19 +1,8 @@
 @-moz-document domain("comick.io") {
+  /* General */
   * {
     font-family: Luminari !important;
     font-weight: lighter !important;
-  }
-  .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {
-    content: url(assets/comick-6.png);
-    height: 24px !important;
-    width: auto !important;
-    margin-left: -8px !important;
-  }
-  .opacity-40.hover\:opacity-100.cursor-pointer.flex.text-center.items-center.md\:h-12.md\:w-12.h-10.w-10.rounded-full {
-    content: url(assets/comick-c-2.png);
-    height: 40px !important;
-    width: auto !important;
-    margin-left: 12px !important;
   }
   :root {
     --bg-1: #080e16;
@@ -27,10 +16,20 @@
     --radius-2: 48px;
     --bgg-1: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #080e16);
   }
-  body {
-    background-color: var(--bg-1) !important;
+/*** Logo ***/
+  .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {
+    content: url(assets/comick-6.png);
+    height: 24px !important;
+    width: auto !important;
+    margin-left: -8px !important;
   }
-  /*** Home Page ***/
+  .opacity-40.hover\:opacity-100.cursor-pointer.flex.text-center.items-center.md\:h-12.md\:w-12.h-10.w-10.rounded-full {
+    content: url(assets/comick-c-2.png);
+    height: 40px !important;
+    width: auto !important;
+    margin-left: 12px !important;
+  }
+/*** Home Page ***/
   .dark\:bg-gray-800\/95,
   .dark\:bg-gray-800 {
     background-color: var(--bg-1) !important;
@@ -55,7 +54,7 @@
   .dark\:hover\:bg-gray-700:hover {
     border-radius: var(--radius-1) !important;
   }
-  /*** Preview Page ***/
+/*** Preview Page ***/
   .dark\:scrollbox-dark {
     background-color: var(--bg-1) !important;
     background-image: none !important;
@@ -82,15 +81,12 @@
   a.justify-center.items-center.flex.py-2.px-4.rounded-md.border.mt-2.ml-3 {
     border-color: var(--border-1) !important;
   }
-  .bg-blue-500 {
-    background-color: var(--bg-2) !important;
-  }
-  /*** Reading Page ***/
+/*** Reading Page ***/
   #comment-section {
     background-color: var(--bg-1) !important;
     background-image: none !important;
   }
-  .border-gray-300 {
+  .border-r {
     background-color: var(--bg-2) !important;
   }
   .dark\:border-gray-600 {
@@ -105,10 +101,13 @@
     background-color: var(--bg-3) !important;
     border-radius: var(--radius-1) !important;
   }
+  .dark\:hover\:bg-gray-600:hover {
+    border-radius: var(--radius-1) !important;
+  }
   #bottom-reader-settings button {
     border-radius: var(--radius-2) !important;
   }
-  /* Likes Mod */
+/* Likes Mod */
   .text-xl.items-center.flex > .mx-2.w-3:after {
     margin-left: 4px !important;
     content: "Likes" !important;
@@ -117,13 +116,13 @@
   .text-xl.items-center.flex {
     margin-left: -6px !important;
   }
-  /*** Search Page ***/
+/*** Search Page ***/
   .w-40,
   .focus\:ring-0,
   .max-w-\[6rem\].md\:py-2.py-1.md\:mt-2.mt-1 {
     background-color: var(--bg-2) !important;
   }
-  /*** Zappings ***/
+/*** Cosmetic Filtering ***/
   .overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3,
   .text-xs.dark\:border-gray-700.rounded,
   #zoom-btn,
