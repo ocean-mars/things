@@ -1,10 +1,9 @@
 /* Font *//*
 * {
-  font-family: "Luminari" !important;
-  font-weight: lighter !important;
+  font-family: "Space Grotesk" !important;
   font-size: 12.5px !important;
   letter-spacing: 0.2px !important;
-}
+} */
 /* Hide Buttons */
 #alltabs-button {
   display:none !important;
@@ -17,7 +16,7 @@
 }   /* Shield Button */
 #urlbar-zoom-button {
   display: none !important;
-}   /* URL Zoom Button */
+}   /* URL Zoom Button *//*
 #reader-mode-button {
   display: none !important;
 }   /* Reader Mode Button */
@@ -41,9 +40,7 @@
   display: none !important;
 }
 /* Hide the Workspace Indicator */
-#zen-current-workspace-indicator {
-  display: none !important; 
-}
+
 /*
 #PanelUI-menu-button {
   display: none !important;
@@ -55,7 +52,7 @@
 #forward-button {
   list-style-image: url("chrome://browser/skin/forward.svg") !important;
 }
-/* Catpucin Theme */
+/* Catpucin Theme *//*
 @media (prefers-color-scheme: dark) {
   :root {
     --zen-colors-primary: #24273a !important;
@@ -69,7 +66,11 @@
     }
   }
 }
+#urlbar-background {
+  background-color: #272b3d !important;
+}
   /* Container Tab Theme */
+/*
 #tabbrowser-tabs {
   & .tabbrowser-tab {
     &[selected] .tab-background {
@@ -109,7 +110,6 @@
 }
   /* Tab bar */
 #navigator-toolbox {
-  min-width: 214px !important;
   height: 90vh !important;
   top: 5.25vh !important;
 }
@@ -145,5 +145,35 @@
   .extensionPage) {
     margin-inline-end: 8px !important;
   }
+}
+/* text on general tab bar */
+.tab-text:not([pinned]) {
+  margin-top: 1px !important;
+  margin-left: 4px !important;
+  opacity: 95%;
+}
+/* Selected-Tabs Theme */
+.tabbrowser-tab:is([selected],
+[visuallyselected],
+[multiselected])
+  .tab-background {
+  background-color: color-mix(
+    in srgb,
+    var(--identity-tab-color, var(--tab-group-color-gray-invert)) 15%,
+    transparent
+  ) !important;
+  border: 2.5px solid
+    color-mix(
+      in srgb,
+      var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
+      transparent
+    ) !important;
+  opacity: 0.8 !important;
+  border-left: 32px solid
+    color-mix(
+      in srgb,
+      var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
+      transparent
+    ) !important;
 }
   /* End */
