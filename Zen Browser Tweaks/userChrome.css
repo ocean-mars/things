@@ -1,9 +1,10 @@
-/* Font *//*
+/* Font */
 * {
   font-family: "Space Grotesk" !important;
+  /*font-weight: lighter !important;*/
   font-size: 12.5px !important;
   letter-spacing: 0.2px !important;
-} */
+}
 /* Hide Buttons */
 #alltabs-button {
   display:none !important;
@@ -36,10 +37,9 @@
 .tab-context-line {
   display: none !important;
 } /* Default Container tab theme */
-#zen-current-workspace-indicator {
+.zen-current-workspace-indicator {
   display: none !important;
-}
-/* Hide the Workspace Indicator */
+} /* Hide the Workspace Indicator */
 
 /*
 #PanelUI-menu-button {
@@ -110,8 +110,8 @@
 }
   /* Tab bar */
 #navigator-toolbox {
-  height: 90vh !important;
-  top: 5.25vh !important;
+  height: 80vh !important;
+  top: 10vh !important;
 }
 #navigator-toolbox {
   --zen-toolbox-max-width: 74px !important;
