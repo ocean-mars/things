@@ -127,25 +127,6 @@
 .titlebar-buttonbox-container {
   display:none !important;
 }
-
-/* revert centered URL bar */
-#urlbar[open] {
-  top: 0 !important;
-  max-width: inherit !important;
-  min-width: inherit !important;
-  left: inherit !important;
-  --urlbar-container-height: 36px !important;
-  & #identity-box {
-    margin-inline-end: 0 !important;
-  }
-}
-@media not ((-moz-bool-pref: "browser.urlbar.searchModeSwitcher.featureGate") or (-moz-bool-pref: "browser.urlbar.scotchBonnet.enableOverride")) {
-  #urlbar[open] #identity-box[pageproxystate="valid"]:is(.notSecureText,
-  .chromeUI,
-  .extensionPage) {
-    margin-inline-end: 8px !important;
-  }
-}
 /* text on general tab bar */
 .tab-text:not([pinned]) {
   margin-top: 1px !important;
