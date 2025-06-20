@@ -1,0 +1,125 @@
+/* ComicK Theme */
+@-moz-document domain("comick.io") {
+  /* General */
+  * {
+    font-family: Luminari !important;
+    font-weight: lighter !important;
+  }
+  :root {
+    --bg-1: #080e16;
+    --bg-2: #1b293be2;
+    --bg-3: #1b2a3aee;
+    --bg-4: #1d2938;
+    --border-1: #354057e2;
+    --border-2: #1e2b3bee;
+    --border-3: #373A40;
+    --radius-1: 8px;
+    --radius-2: 48px;
+    --bgg-1: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #080e16);
+  }
+/*** Logo ***/
+  .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {
+    content: url(assets/comick-6.png);
+    height: 24px !important;
+    width: auto !important;
+    margin-left: -8px !important;
+  }
+  .opacity-40.hover\:opacity-100.cursor-pointer.flex.text-center.items-center.md\:h-12.md\:w-12.h-10.w-10.rounded-full {
+    content: url(assets/comick-c-2.png);
+    height: 40px !important;
+    width: auto !important;
+    margin-left: 12px !important;
+  }
+/*** Home Page ***/
+  .dark\:bg-gray-800\/95,
+  .dark\:bg-gray-800 {
+    background-color: var(--bg-1) !important;
+  }
+  .dark\:border-gray-700 {
+    border-color: var(--border-1) !important;
+  }
+  #main {
+    width: 100% !important;
+  }
+  .aa-DetachedSearchButton {
+    background-color: var(--bg-3) !important;
+  }
+  .btn,
+  .dark\:bg-gray-700 {
+    background-color: var(--bg-3) !important;
+    border: none !important;
+  }
+  .rounded {
+    border-radius: var(--radius-1) !important;
+  }
+  .dark\:hover\:bg-gray-700:hover {
+    border-radius: var(--radius-1) !important;
+  }
+/*** Preview Page ***/
+  .dark\:scrollbox-dark {
+    background-color: var(--bg-1) !important;
+    background-image: none !important;
+  }
+  .dark\:bg-gray-750 {
+    background-color: var(--bg-3)!important;
+  }
+  tr.group {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    border-block-end: 0px !important;
+    border-block-color: var(--border-2) !important;
+  }
+  .dark\:border-gray-600.rounded.border-gray-300.border.py-1.pr-6.pl-2.cursor-pointer,
+  .dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\],
+  .md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3 {
+    background-color: var(--bg-3) !important;
+    border: none !important;
+  }
+  .xl\:max-w-screen-xl>.grid.md\:grid-cols-3+div+div>div+div>div img {
+    border-radius: var(--radius-1) !important;
+  }
+  a.justify-center.items-center.flex.py-2.px-4.rounded-md.border.mt-2.ml-3 {
+    border-color: var(--border-1) !important;
+  }
+/*** Reading Page ***/
+  #comment-section {
+    background-color: var(--bg-1) !important;
+    background-image: none !important;
+  }
+  .border-r {
+    background-color: var(--bg-2) !important;
+  }
+  .dark\:border-gray-600 {
+    border-color: var(--border-1) !important;
+  }
+  .p-2.ml-2,
+  .select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex {
+    background-color: var(--bg-2) !important;
+    background-image: var(--bgg-1) !important;
+  }
+  .p-2 {
+    background-color: var(--bg-3) !important;
+    border-radius: var(--radius-1) !important;
+  }
+  .dark\:hover\:bg-gray-600:hover {
+    border-radius: var(--radius-1) !important;
+  }
+  #bottom-reader-settings button {
+    border-radius: var(--radius-2) !important;
+  }
+/* Likes Mod */
+  .text-xl.items-center.flex > .mx-2.w-3:after {
+    margin-left: 4px !important;
+    content: "Likes" !important;
+    font-size: large !important;
+  }
+  .text-xl.items-center.flex {
+    margin-left: -6px !important;
+  }
+/*** Search Page ***/
+  .w-40,
+  .focus\:ring-0,
+  .max-w-\[6rem\].md\:py-2.py-1.md\:mt-2.mt-1 {
+    background-color: var(--bg-2) !important;
+  }
