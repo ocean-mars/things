@@ -68,15 +68,6 @@ comick.io##li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:b
 comick.io##div.h-8.w-8:nth-of-type(2)
 comick.io##.gap-4.justify-center.items-center.flex.mt-4.ml-4
 comick.io##md\:h-10.md\:w-10.h-10.w-10 > span
+comick.io##.rounded.p-2.flex.border-l-8.shadow.items-center.border-blue-400.dark\:border-blue-700.bg-blue-100.dark\:bg-blue-900.text-blue-900.dark\:text-blue-300.mx-1.md\:mx-0
 
 ! Comick END -----------------------------
-
-
-
-
-
-
-
-
-
-
