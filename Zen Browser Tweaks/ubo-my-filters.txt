@@ -5,6 +5,9 @@ www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-re
 www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 www.youtube.com##.yt-tab-shape-wiz__tab--last-tab.yt-tab-shape-wiz
 www.youtube.com###tabs-divider
+! Subscription Page Row Fix
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
+youtube.com##ytd-rich-item-renderer:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important)
 ! Youtube Shorts
 youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
 m.youtube.com##.rich-section-content
@@ -17,11 +20,5 @@ youtube.com##.yt-simple-endpoint[title="YouTube Premium"]
 youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
 ! Hide "1080p Premium" in the video quality menu
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
-!Searx
-as.priv.au##*:style(font-family: "Helvetica" !important)
-as.priv.au##.search_filters
-as.priv.au##.link_on_top_about
-as.priv.au##button.category_button.category:nth-of-type(4)
-as.priv.au###result_count
-as.priv.au###clear_search
-as.priv.au##.link_on_top_donate
+! Members Only Content
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
