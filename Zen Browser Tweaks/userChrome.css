@@ -1,10 +1,10 @@
-/* Font */
+/* Font */          /*
 * {
-  font-family: "Space Grotesk" !important;
-  /*font-weight: lighter !important;*/
+  font-family: "Space Mono" !important;
+  /*font-weight: lighter !important;*/       /*
   font-size: 12.5px !important;
   letter-spacing: 0.2px !important;
-}
+} */
 /* Hide Buttons */
 #alltabs-button {
   display:none !important;
