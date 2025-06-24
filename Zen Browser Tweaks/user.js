@@ -3,7 +3,7 @@
 // https://git.nixnet.services/Narsil/desktop_user.js
 // **********************************************************************************
 //
-// Author    : Narsil    : https://git.nixnet.services/Narsil, Modified by Ocean_Mars
+// Author    : Narsil    : https://git.nixnet.services/Narsil
 //
 // Based on  : arkenfox  : https://github.com/arkenfox/user.js
 //
@@ -1198,32 +1198,35 @@ user_pref("webgl.enable-webgl2", false);
 // Remove webchannel whitelist
 // user_pref("webchannel.allowObject.urlWhitelist", "");
 //
-
+//
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // PERSONAL PREFERENCES
 // >>>>>>>>>>>>>>>>>>>>>
-
+//
 // Firefox don't close the window when you close the last tab
 user_pref("browser.tabs.closeWindowWithLastTab", false);
-
+//
 // userChrome & userContent support
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-
+//
 // Fix Scrolling
  user_pref("general.smoothScroll.currentVelocityWeighting", 0);
 user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
 user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
-user_pref("mousewheel.min_line_scroll_amount", 25);
+user_pref("mousewheel.min_line_scroll_amount", 32);
 user_pref("general.smoothScroll.msdPhysics.enabled", false);
-
+//
 // Mozilla VPN
 user_pref("browser.privatebrowsing.vpnpromourl", "");
-
+//
 // Firefox Labs
 user_pref("browser.preferences.experimental", true);
-
+//
 // Underline under characters in Linux
 user_pref("ui.key.menuAccessKey", 0);
 user_pref("ui.key.menuAccessKeyFocuses", true);
-
+//
+// Right Click Context Menu Theme Fix Linux
+user_pref("widget.gtk.native-context-menus", true);
+//
 // END
