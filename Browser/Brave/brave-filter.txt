@@ -1,3 +1,12 @@
+! Router
+192.168.1.1##*:style(font-family: "Space Grotesk" ; color: #a3a9af; border-color: #354057ee !important)
+192.168.1.1##header:style(background: #010409 !important)
+192.168.1.1##header:style(box-shadow: none !important)
+192.168.1.1##header .brand:style(font-family: "Inter" ; color: #f0f6fc !important)
+192.168.1.1##body:style(background-color: #0d1117 !important)
+192.168.1.1##.label, header [data-indicator]:style(font-size: 13px ; color: #f0f6fc !important)
+
+! Youtube
 www.youtube.com##*:style(font-family: "Luminari" !important)
 www.youtube.com##*:style(font-weight: lighter !important)
 
