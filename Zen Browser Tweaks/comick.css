@@ -1,3 +1,4 @@
+/* ComicK Theme */
 @-moz-document domain("comick.io") {
   /* General */
   * {
@@ -5,7 +6,7 @@
     font-weight: lighter !important;
   }
   :root {
-    --bg-1: #080e16;
+    --bg-1: #0d1117;
     --bg-2: #1b293be2;
     --bg-3: #1b2a3aee;
     --bg-4: #1d2938;
@@ -14,7 +15,7 @@
     --border-3: #373A40;
     --radius-1: 8px;
     --radius-2: 48px;
-    --bgg-1: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #080e16);
+    --bgg-1: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #0d1117);
   }
 /*** Logo ***/
   .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {
