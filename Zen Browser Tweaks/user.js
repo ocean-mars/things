@@ -3,9 +3,9 @@
 // https://git.nixnet.services/Narsil/desktop_user.js
 // **********************************************************************************
 //
-// Author    : Narsil    : https://git.nixnet.services/Narsil
-//
-// Based on  : arkenfox  : https://github.com/arkenfox/user.js
+// Author    : Narsil     : https://git.nixnet.services/Narsil
+// Modifier  : Ocean Mars : https://github.com/ocean-mars/things
+// Based on  : arkenfox   : https://github.com/arkenfox/user.js
 //
 // License   : https://git.nixnet.services/Narsil/desktop_user.js/raw/branch/master/LICENSE
 //
@@ -300,7 +300,7 @@ user_pref("network.gio.supported-protocols", ""); // [HIDDEN PREF] [DEFAULT: ""]
 // user_pref("network.proxy.allow_bypass", false);
 // -------------------------------------
 // Disable DNS-over-HTTPS (DoH)[FF60+]
-user_pref("network.trr.mode", 3);
+user_pref("network.trr.mode", 5);
 user_pref("network.trr.confirmationNS", "");
 // -------------------------------------
 // Disable skipping DoH when parental controls are enabled
