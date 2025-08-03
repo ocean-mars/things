@@ -527,7 +527,10 @@
     --ytb-bg-2: #010409ae;
     --ytb-border-1: #354057;
   }
-
+/*page color*/
+  html, html[dark], body, ytd-app {
+    background-color: var(--ytb-bg-1) !important;
+}
 /* From my Previous Theme ---------------------------------------------------------------------------------------------------------------------------------*/
   ytd-app,
   .ytd-popup-container.style-scope,
@@ -539,7 +542,35 @@
   .ytd-playlist-panel-renderer.style-scope,
   .ytd-tabbed-page-header.style-scope {
     background-color: var(--ytb-bg-1) !important;
-  }
+}
+/* header*/
+  #background.ytd-masthead {
+      background: var(--ytb-bg-2) !important;
+      backdrop-filter: blur(50px);
+}
+  #header {
+      background: transparent !important;
+      backdrop-filter: blur(50px);    
+}
+  #frosted-glass.with-chipbar.ytd-app {
+    height: 58px !important;
+}
+  ytd-feed-filter-chip-bar-renderer {
+      --ytd-rich-grid-chips-bar-top: 0px !important;
+      top: 0 !important;
+    }
+/*search bar*/
+  .ytSearchboxComponentInputBoxDark, html[dark] .sbsb_a,
+  .ytSearchboxComponentSearchButton {
+      background-color: var(--ytb-bg-1) !important;
+      border-color: var(--ytb-border-1) !important;
+      backdrop-filter: blur(17px);
+}
+/*search results popup*/
+  .ytSearchboxComponentSuggestionsContainer {
+      background-color: #010409a4 !important;
+      backdrop-filter: blur(35px);
+}
 }
 /* ComicK Theme */
 @-moz-document domain("comick.io") {
