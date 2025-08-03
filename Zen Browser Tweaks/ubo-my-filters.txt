@@ -15,6 +15,15 @@ youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
 youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
+
+www.youtube.com###contents > ytd-video-renderer:has( ytd-thumbnail > a[href*="/shorts/"] )
+! shorts
+www.youtube.com##ytd-search #contents > grid-shelf-view-model:has(.shortsLockupViewModelHost)
+! shorts disguised as normal video
+www.youtube.com##ytd-search #contents > ytd-video-renderer:has( a#video-title[href^="/shorts/"] )
+! instances of "People also..." and "Explore more"
+www.youtube.com##ytd-search #contents > * > div#dismissible h2:has-text(/^\s*(People also|Explore more)/):upward(#dismissible)
+
 youtube.com##.yt-simple-endpoint[title="YouTube Premium"]
 ! Premium Logo
 youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
@@ -22,3 +31,6 @@ youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 ! Members Only Content
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
+
+! https://comick.io
+comick.io##.margin-safe-top.mx-auto.xl\:container.my-3
