@@ -1,10 +1,8 @@
-/* Font */          /*
+/* Font */
 * {
-  font-family: "Space Mono" !important;
-  /*font-weight: lighter !important;*/       /*
-  font-size: 12.5px !important;
+  font-family: "Space Grotesk" !important;
   letter-spacing: 0.2px !important;
-} */
+}
 /* Hide Buttons */
 #alltabs-button {
   display:none !important;
@@ -23,7 +21,7 @@
 }   /* Reader Mode Button */
 #picture-in-picture-button {
   display: none !important;
-}   /* PIP Button */
+}   /* PIP Button *//*
 #unified-extensions-button {
   display: none !important;
 } /* Extension Button */
@@ -83,21 +81,21 @@
 #tabbrowser-tabs .tabbrowser-tab:not([pinned]):is([visuallyselected]):not(:hover) .tab-close-button {
   display: none !important;
 }
-/* Remove border padding */
+/* Remove border padding *//*
 #tabbrowser-tabpanels {
   padding: 0px !important;
 }
 #tabbrowser-tabbox {
   padding: 0px !important;
 }
-  /* Disable Rounded Corners */
+  /* Disable Rounded Corners *//*
 :root .browserSidebarContainer {
   margin: unset!important;
   box-shadow: unset!important;
   clip-path: unset!important;
   border-radius: unset!important;
   overflow: unset!important;
-}
+} */
   /* Floating Status-bar */
 #statuspanel {
   margin: 10px !important;
@@ -120,7 +118,7 @@
   box-shadow: none !important;
   padding: 10px !important;
 }
-/* No window control buttons */
+/* No window control buttons *//*
 #toolbar-menubar:not([inactive="true"]) .titlebar-buttonbox-container {
   display:flex !important;
 }
@@ -131,7 +129,6 @@
 .tab-text:not([pinned]) {
   margin-top: 1px !important;
   margin-left: 4px !important;
-  opacity: 95%;
 }
 /* Selected-Tabs Theme */
 .tabbrowser-tab:is([selected],
