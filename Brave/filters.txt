@@ -1,0 +1,122 @@
+! Router
+192.168.1.1##*:style(font-family: "Space Grotesk" ; color: #a3a9af; border-color: #354057ee !important)
+192.168.1.1##header:style(background: #010409 !important)
+192.168.1.1##header:style(box-shadow: none !important)
+192.168.1.1##header .brand:style(font-family: "Inter" ; color: #f0f6fc !important)
+192.168.1.1##body:style(background-color: #0d1117 !important)
+192.168.1.1##.label, header [data-indicator]:style(font-size: 13px ; color: #f0f6fc !important)
+
+! Facebook
+www.facebook.com##*:style(font-family: "Luminari" !important)
+www.facebook.com##*:style(font-weight: lighter !important)
+
+! Youtube
+www.youtube.com##*:style(font-family: "Luminari" !important)
+www.youtube.com##*:style(font-weight: lighter !important)
+
+! Colors ----------------------------------
+www.youtube.com##ytd-app:style(background-color: #010409 !important)
+www.youtube.com##.ytd-popup-container.style-scope:style(background-color: #010409 !important)
+www.youtube.com##.ytd-app.style-scope:style(background-color: #010409 !important)
+www.youtube.com###masthead > .ytd-masthead.style-scope:style(background-color: #010409 !important)
+www.youtube.com###contentContainer:style(background-color: #010409 !important)
+www.youtube.com###guide-renderer:style(background-color: #010409 !important)
+www.youtube.com###content-wrapper:style(background-color: #010409 !important)
+www.youtube.com###search:style(background-color: #010409 !important)
+www.youtube.com##.ytd-playlist-panel-renderer.style-scope:style(background-color: #010409 !important)
+www.youtube.com## .ytd-tabbed-page-header.style-scope:style(background-color: #010409 !important)
+
+! search bar popup ----------------------------------
+www.youtube.com##.sbsb_a:style(background: var(--yt-spec-raised-background))
+www.youtube.com##.sbsb_a:style(background-color: #010409ae !important)
+www.youtube.com##.sbsb_a:style(backdrop-filter: blur(33px))
+www.youtube.com##.sbsb_a:style(border-radius: 10px !important)
+www.youtube.com##ytd-browse.ytd-page-manager.style-scope:style(border: #354057 !important)
+
+! Elements
+www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(4)
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+www.youtube.com##.yt-tab-shape-wiz__tab--last-tab.yt-tab-shape-wiz
+www.youtube.com###tabs-divider
+! Premium Logo
+youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
+! Hide "1080p Premium" in the video quality menu
+youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
+youtube.com##ytd-rich-item-renderer:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important)
+! Comick -----------------------------
+comick.io##*:style(font-family: "Luminari" !important)
+comick.io##*:style(font-weight: lighter !important)
+
+! Home Page
+comick.io###main:style(width: 100% !important)
+comick.io##.dark\:bg-gray-800:style(background-color: #010409 !important)
+comick.io##.dark\:bg-gray-800\/95:style(background-color: #010409 !important)
+comick.io##.dark\:border-gray-700:style(border-color: #354057e2 !important)
+comick.io##.aa-DetachedSearchButton:style(background-color: #1b2a3aee !important)
+comick.io##.btn:style(background-color: #1b2a3aee !important)
+comick.io##.btn:style(border: none !important)
+comick.io##.dark\:bg-gray-700:style(background-color: #1b2a3aee !important)
+comick.io##.dark\:bg-gray-700:style(border: none !important)
+comick.io##.rounded:style(border-radius: 8px !important)
+comick.io##.dark\:hover\:bg-gray-700:hover:style(border-radius: 8px !important)
+
+! Preview Page
+comick.io##.dark\:scrollbox-dark:style(background-image: none !important)
+comick.io##.dark\:scrollbox-dark:style(background-color: transparent !important)
+comick.io##.dark\:bg-gray-750:style(background-color: #1b2a3aee !important)
+comick.io##tr.group:style(border-left: 0px; border-right: 0px; border-bottom: 0px; border-block-end: 0px !important)
+comick.io##tr.group:style(border-block-color: #1e2b3bee !important)
+comick.io##.dark\:border-gray-600.rounded.border-gray-300.border.py-1.pr-6.pl-2.cursor-pointer:style(background-color: #1b2a3aee !important)
+comick.io##.dark\:border-gray-600.rounded.border-gray-300.border.py-1.pr-6.pl-2.cursor-pointer:style(border: none !important)
+comick.io##.dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\]:style(background-color: #1b2a3aee !important)
+comick.io##.dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\]:style(border: none !important)
+comick.io##.md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3:style(background-color: #1b2a3aee !important)
+comick.io##.md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3:style(border: none !important)
+comick.io##.xl\:max-w-screen-xl>.grid.md\:grid-cols-3+div+div>div+div>div img:style(border-radius: 8px !important)
+comick.io##a.justify-center.items-center.flex.py-2.px-4.rounded-md.border.mt-2.ml-3:style(border-color: #354057e2 !important)
+
+! Reading Page
+comick.io###comment-section:style(background-color: #010409 !important)
+comick.io###comment-section:style(background-image: none !important)
+comick.io##.border-r:style( background-color: #1b293be2 !important)
+comick.io##.dark\:border-gray-600:style(border-color: #354057e2 !important)
+comick.io##.p-2.ml-2:style(background-color: #1b293be2 !important)
+comick.io##.p-2.ml-2:style(background-image: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #010409) !important)
+comick.io##.select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex:style(background-color: #1b293be2 !important)
+comick.io##.select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex:style(background-image: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #010409) !important)
+comick.io##.p-2:style(background-color: #1b2a3aee !important)
+comick.io##.p-2:style(border-radius: 8px !important)
+comick.io##.dark\:hover\:bg-gray-600:hover:style(border-radius: 8px !important)
+comick.io###bottom-reader-settings button:style(border-radius: 48px !important)
+
+! Search Page
+comick.io##.w-40:style(background-color: #1b293be2 !important)
+comick.io##.focus\:ring-0:style(background-color: #1b293be2 !important)
+comick.io##.max-w-\[6rem\].md\:py-2.py-1.md\:mt-2.mt-1:style(background-color: #1b293be2 !important)
+
+! Likes Mod 
+comick.io##.text-xl.items-center.flex > .mx-2.w-3:after:style(margin-left: 4px !important)
+comick.io##.text-xl.items-center.flex > .mx-2.w-3:after:style(content: "Likes" !important)
+comick.io##.text-xl.items-center.flex > .mx-2.w-3:after:style(font-size: large !important)
+comick.io##.text-xl.items-center.flex:style(margin-left: -6px !important)
+
+! Elements Blocking
+comick.io##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
+comick.io##.text-xs.dark\:border-gray-700.rounded
+comick.io###zoom-btn
+comick.io##.active\:animate-ping.active\:brightness-200.hover\:brightness-200.hover\:text-blue-500.cursor-pointer.h-12.w-12
+comick.io##.z-10.p-1.flex.items-center.bg-opacity-60.bg-gray-500.right-1.top-1.absolute.rounded-full
+comick.io##.dark\:fill-gray-300.fill-gray-500.h-6.w-6
+comick.io##.space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5
+comick.io##.text-sm.items-center.flex.relative
+comick.io##li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50:nth-of-type(4)
+comick.io##div.h-8.w-8:nth-of-type(2)
+comick.io##.gap-4.justify-center.items-center.flex.mt-4.ml-4
+comick.io##md\:h-10.md\:w-10.h-10.w-10 > span
+comick.io##.rounded.p-2.flex.border-l-8.shadow.items-center.border-blue-400.dark\:border-blue-700.bg-blue-100.dark\:bg-blue-900.text-blue-900.dark\:text-blue-300.mx-1.md\:mx-0
+
+! Comick END -----------------------------
