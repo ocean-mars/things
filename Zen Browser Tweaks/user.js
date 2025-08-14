@@ -3,9 +3,9 @@
 // https://git.nixnet.services/Narsil/desktop_user.js
 // **********************************************************************************
 //
-// Author    : Narsil     : https://git.nixnet.services/Narsil
+// Author    : Narsil    : https://git.nixnet.services/Narsil
 // Modifier  : Ocean Mars : https://github.com/ocean-mars/things
-// Based on  : arkenfox   : https://github.com/arkenfox/user.js
+// Based on  : arkenfox  : https://github.com/arkenfox/user.js
 //
 // License   : https://git.nixnet.services/Narsil/desktop_user.js/raw/branch/master/LICENSE
 //
@@ -26,21 +26,21 @@ user_pref("browser.shell.skipDefaultBrowserCheckOnFirstRun", true);
 // -------------------------------------
 // Set startup page
 // 0=blank, 1=home, 2=last visited page, 3=resume previous session
-user_pref("browser.startup.page", 1);
+user_pref("browser.startup.page", 1); // Modified
 // -------------------------------------
 // Set HOME+NEWWINDOW page
-user_pref("browser.startup.homepage", "about:home");
+user_pref("browser.startup.homepage", "about:home"); // Modified
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
-// user_pref("browser.newtabpage.enabled", false);
+// user_pref("browser.newtabpage.enabled", false); // Modified
 // -------------------------------------
 // Disable sponsored content on Firefox Home (Activity Stream)
 user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+]
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // [FF83+] Shortcuts>Sponsored shortcuts
 // -------------------------------------
 // Clear default topsites
-user_pref("browser.newtabpage.activity-stream.default.sites", "https://www.youtube.com/,https://comick.io/,https://mullvad.net/check/");
+user_pref("browser.newtabpage.activity-stream.default.sites", "https://www.youtube.com/,https://comick.io/,https://mullvad.net/check/"); // Modified
 user_pref("browser.topsites.contile.enabled", false);
 user_pref("browser.topsites.useRemoteSetting", false);
 //
@@ -79,12 +79,6 @@ user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("browser.discovery.sites", "");
 user_pref("extensions.getAddons.discovery.api_url", "");
-// -------------------------------------
-// Disable shopping experience [FF116+]
-user_pref("browser.shopping.experience2023.enabled", false); // [DEFAULT: false]
-user_pref("browser.shopping.experience2023.opted", 2);
-user_pref("browser.shopping.experience2023.active", false);
-user_pref("browser.shopping.experience2023.ads.enabled", false);
 //
 // TELEMETRY
 //
@@ -330,7 +324,6 @@ user_pref("browser.urlbar.trending.featureGate", false);
 user_pref("browser.urlbar.addons.featureGate", false); // [FF115+]
 user_pref("browser.urlbar.fakespot.featureGate", false); // [FF130+] [DEFAULT: false]
 user_pref("browser.urlbar.mdn.featureGate", false); // [FF117+] [HIDDEN PREF]
-user_pref("browser.urlbar.pocket.featureGate", false); // [FF116+] [DEFAULT: false]
 user_pref("browser.urlbar.weather.featureGate", false); // [FF108+] [DEFAULT: false]
 user_pref("browser.urlbar.yelp.featureGate", false); // [FF124+]
 // -------------------------------------
@@ -357,8 +350,8 @@ user_pref("browser.search.separatePrivateDefault.ui.enabled", true); // [FF71+]
 user_pref("browser.urlbar.merino.enabled", false);
 // -------------------------------------
 // Never trim URLs
-// user_pref("browser.urlbar.trimHttps", false);
-// user_pref("browser.urlbar.trimURLs", false);
+// user_pref("browser.urlbar.trimHttps", false); // Modified
+// user_pref("browser.urlbar.trimURLs", false); // Modified
 // -------------------------------------
 // Disable GNOME Integration
 user_pref("browser.gnome-search-provider.enabled", false);
@@ -629,7 +622,7 @@ user_pref("extensions.recommendations.themeRecommendationUrl", "");
 // >>>>>>>>>>>>>>>>>>>>>
 //
 // Enable ETP Strict Mode [FF86+]
-// user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
+user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
 // -------------------------------------
 // Disable ETP web compat features [FF93+]
 // user_pref("privacy.antitracking.enableWebcompat", false);
@@ -747,6 +740,7 @@ user_pref("browser.link.open_newwindow.restriction", 0);
 // -------------------------------------
 // Disable WebGL (Web Graphics Library)
 user_pref("webgl.disabled", true);
+user_pref("dom.webgpu.enabled", false);
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // OPTIONAL OPSEC
@@ -770,7 +764,7 @@ user_pref("webgl.disabled", true);
 // user_pref("security.nocertdb", true); //
 // -------------------------------------
 // Disable favicons in history and bookmarks
-// user_pref("browser.chrome.site_icons", false);
+// user_pref("browser.chrome.site_icons", false); // Modified
 // -------------------------------------
 // Exclude "Undo Closed Tabs" in Session Restore
 // user_pref("browser.sessionstore.max_tabs_undo", 0);
@@ -876,7 +870,7 @@ user_pref("media.eme.enabled", false);
 user_pref("browser.eme.ui.enabled", false);
 // -------------------------------------
 // Disable IPv6 if using a VPN
-user_pref("network.dns.disableIPv6", true);
+user_pref("network.dns.disableIPv6", true); // Modified
 // -------------------------------------
 // Control when to send a cross-origin referer
 // * 0=always (default), 1=only if base domains match, 2=only if hosts match
@@ -1150,8 +1144,8 @@ user_pref("layout.spellcheckDefault", 0); // 0=none, 1-multi-line, 2=multi-line 
 //
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // Recommended by Pocket
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
-// user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
-// user_pref("browser.newtabpage.activity-stream.showSearch", false);
+//user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Modified
+// user_pref("browser.newtabpage.activity-stream.showSearch", false); // Modified
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeBookmarks", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeDownloads", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeVisited", false);
