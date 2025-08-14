@@ -622,7 +622,7 @@ user_pref("extensions.recommendations.themeRecommendationUrl", "");
 // >>>>>>>>>>>>>>>>>>>>>
 //
 // Enable ETP Strict Mode [FF86+]
-user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
+// user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF] // Modified
 // -------------------------------------
 // Disable ETP web compat features [FF93+]
 // user_pref("privacy.antitracking.enableWebcompat", false);
