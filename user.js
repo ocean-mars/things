@@ -26,21 +26,21 @@ user_pref("browser.shell.skipDefaultBrowserCheckOnFirstRun", true);
 // -------------------------------------
 // Set startup page
 // 0=blank, 1=home, 2=last visited page, 3=resume previous session
-user_pref("browser.startup.page", 0);
+user_pref("browser.startup.page", 1); // Modified
 // -------------------------------------
 // Set HOME+NEWWINDOW page
-user_pref("browser.startup.homepage", "about:blank");
+user_pref("browser.startup.homepage", "about:home"); // Modified
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
-user_pref("browser.newtabpage.enabled", false);
+// user_pref("browser.newtabpage.enabled", false); // Modified
 // -------------------------------------
 // Disable sponsored content on Firefox Home (Activity Stream)
 user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+]
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // [FF83+] Shortcuts>Sponsored shortcuts
 // -------------------------------------
 // Clear default topsites
-user_pref("browser.newtabpage.activity-stream.default.sites", "");
+user_pref("browser.newtabpage.activity-stream.default.sites", "https://www.youtube.com/,https://comick.io/,https://mullvad.net/check/"); // Modified
 user_pref("browser.topsites.contile.enabled", false);
 user_pref("browser.topsites.useRemoteSetting", false);
 //
@@ -350,8 +350,8 @@ user_pref("browser.search.separatePrivateDefault.ui.enabled", true); // [FF71+]
 user_pref("browser.urlbar.merino.enabled", false);
 // -------------------------------------
 // Never trim URLs
-user_pref("browser.urlbar.trimHttps", false);
-user_pref("browser.urlbar.trimURLs", false);
+// user_pref("browser.urlbar.trimHttps", false); // Modified
+// user_pref("browser.urlbar.trimURLs", false); // Modified
 // -------------------------------------
 // Disable GNOME Integration
 user_pref("browser.gnome-search-provider.enabled", false);
@@ -764,7 +764,7 @@ user_pref("dom.webgpu.enabled", false);
 // user_pref("security.nocertdb", true); //
 // -------------------------------------
 // Disable favicons in history and bookmarks
-user_pref("browser.chrome.site_icons", false);
+// user_pref("browser.chrome.site_icons", false); // Modified
 // -------------------------------------
 // Exclude "Undo Closed Tabs" in Session Restore
 // user_pref("browser.sessionstore.max_tabs_undo", 0);
@@ -870,7 +870,7 @@ user_pref("media.eme.enabled", false);
 user_pref("browser.eme.ui.enabled", false);
 // -------------------------------------
 // Disable IPv6 if using a VPN
-// user_pref("network.dns.disableIPv6", true);
+user_pref("network.dns.disableIPv6", true); // Modified
 // -------------------------------------
 // Control when to send a cross-origin referer
 // * 0=always (default), 1=only if base domains match, 2=only if hosts match
@@ -1144,8 +1144,8 @@ user_pref("layout.spellcheckDefault", 0); // 0=none, 1-multi-line, 2=multi-line 
 //
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // Recommended by Pocket
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
-user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
-user_pref("browser.newtabpage.activity-stream.showSearch", false);
+//user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Modified
+// user_pref("browser.newtabpage.activity-stream.showSearch", false); // Modified
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeBookmarks", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeDownloads", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeVisited", false);
@@ -1192,3 +1192,35 @@ user_pref("webgl.enable-webgl2", false);
 // Remove webchannel whitelist
 // user_pref("webchannel.allowObject.urlWhitelist", "");
 //
+//
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// PERSONAL PREFERENCES
+// >>>>>>>>>>>>>>>>>>>>>
+//
+// Firefox don't close the window when you close the last tab
+user_pref("browser.tabs.closeWindowWithLastTab", false);
+//
+// userChrome & userContent support
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+//
+// Fix Scrolling
+ user_pref("general.smoothScroll.currentVelocityWeighting", 0);
+user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
+user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
+user_pref("mousewheel.min_line_scroll_amount", 32);
+user_pref("general.smoothScroll.msdPhysics.enabled", false);
+//
+// Mozilla VPN
+user_pref("browser.privatebrowsing.vpnpromourl", "");
+//
+// Firefox Labs
+user_pref("browser.preferences.experimental", true);
+//
+// Underline under characters in Linux
+user_pref("ui.key.menuAccessKey", 0);
+user_pref("ui.key.menuAccessKeyFocuses", true);
+//
+// Right Click Context Menu Theme Fix Linux
+user_pref("widget.gtk.native-context-menus", true);
+//
+// END
