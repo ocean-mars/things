@@ -3,7 +3,6 @@
     background: url("assets/wallpaper-1.png") !important;
     background-size: cover !important;
   }
-
   a[href="https://comick.io/"] .tile .letter-fallback {
     width: 58px !important;
     height: 58px !important;
@@ -24,8 +23,7 @@
       display: none !important;
     }
   }
-
-@media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
     :root {
       --uc-active: rgba(8,14,22, 0.8);
       --uc-selected: rgba(8,14,22, 0.3);
@@ -521,16 +519,19 @@
     font-family: Luminari !important;
     font-weight: lighter !important;
   }
-/* variables -----------------------------------------------------------*/ 
-:root {
+/* variables -----------------------------------------------------------*/
+  :root {
     --ytb-bg-1: #010409; /* 0d1117 */
     --ytb-bg-2: #010409ae;
     --ytb-border-1: #354057;
   }
 /*page color*/
-  html, html[dark], body, ytd-app {
+  html,
+  html[dark],
+  body,
+  ytd-app {
     background-color: var(--ytb-bg-1) !important;
-}
+  }
 /* From my Previous Theme ---------------------------------------------------------------------------------------------------------------------------------*/
   ytd-app,
   .ytd-popup-container.style-scope,
@@ -542,35 +543,36 @@
   .ytd-playlist-panel-renderer.style-scope,
   .ytd-tabbed-page-header.style-scope {
     background-color: var(--ytb-bg-1) !important;
-}
+  }
 /* header*/
   #background.ytd-masthead {
-      background: var(--ytb-bg-2) !important;
-      backdrop-filter: blur(50px);
-}
+    background: var(--ytb-bg-2) !important;
+    backdrop-filter: blur(50px);
+  }
   #header {
-      background: transparent !important;
-      backdrop-filter: blur(50px);    
-}
+    background: transparent !important;
+    backdrop-filter: blur(50px);
+  }
   #frosted-glass.with-chipbar.ytd-app {
     height: 58px !important;
-}
+  }
   ytd-feed-filter-chip-bar-renderer {
-      --ytd-rich-grid-chips-bar-top: 0px !important;
-      top: 0 !important;
-    }
+    --ytd-rich-grid-chips-bar-top: 0px !important;
+    top: 0 !important;
+  }
 /*search bar*/
-  .ytSearchboxComponentInputBoxDark, html[dark] .sbsb_a,
+  .ytSearchboxComponentInputBoxDark,
+  html[dark] .sbsb_a,
   .ytSearchboxComponentSearchButton {
-      background-color: var(--ytb-bg-1) !important;
-      border-color: var(--ytb-border-1) !important;
-      backdrop-filter: blur(17px);
-}
+    background-color: var(--ytb-bg-1) !important;
+    border-color: var(--ytb-border-1) !important;
+    backdrop-filter: blur(17px);
+  }
 /*search results popup*/
   .ytSearchboxComponentSuggestionsContainer {
-      background-color: #010409a4 !important;
-      backdrop-filter: blur(35px);
-}
+    background-color: #010409a4 !important;
+    backdrop-filter: blur(35px);
+  }
 }
 /* ComicK Theme */
 @-moz-document domain("comick.io") {
@@ -709,7 +711,10 @@
   li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50:nth-of-type(4),
   div.h-8.w-8:nth-of-type(2),
   .gap-4.justify-center.items-center.flex.mt-4.ml-4,
-  .md\:h-10.md\:w-10.h-10.w-10 > span {
+  .md\:h-10.md\:w-10.h-10.w-10 > span,
+  .margin-safe-top.mx-auto.xl\:container.my-3,
+  .md\:mx-0.mx-1.dark\:text-blue-300.text-blue-900.dark\:bg-blue-900.bg-blue-100.dark\:border-blue-700.border-blue-400.items-center.shadow.border-l-8.flex.p-2.rounded,
+  .py-16 {
     display: none !important;
   }
 }
