@@ -15,24 +15,19 @@ youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
 youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
-
 www.youtube.com###contents > ytd-video-renderer:has( ytd-thumbnail > a[href*="/shorts/"] )
 ! shorts
 www.youtube.com##ytd-search #contents > grid-shelf-view-model:has(.shortsLockupViewModelHost)
 ! shorts disguised as normal video
 www.youtube.com##ytd-search #contents > ytd-video-renderer:has( a#video-title[href^="/shorts/"] )
-
 ! YT Search - keep only videos (no shorts)
 youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-renderer,yt-showing-results-for-renderer,[icon-name="promo-full-height:EMPTY_SEARCH"]),ytd-video-renderer:has([aria-label="Shorts"])),ytd-secondary-search-container-renderer
-
 ! YT Search - keep only videos (no shorts) and channels
 youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-renderer,ytd-channel-renderer,yt-showing-results-for-renderer,[icon-name="promo-full-height:EMPTY_SEARCH"]),ytd-video-renderer:has([aria-label="Shorts"])),ytd-secondary-search-container-renderer
-
 ! YT Search - keep only videos (no shorts), channels and playlists
 youtube.com##ytd-search ytd-item-section-renderer>#contents>:is(:not(ytd-video-renderer,ytd-channel-renderer,ytd-playlist-renderer,yt-lockup-view-model,yt-showing-results-for-renderer,[icon-name="promo-full-height:EMPTY_SEARCH"]),ytd-video-renderer:has([aria-label="Shorts"])),ytd-secondary-search-container-renderer
 ! instances of "People also..." and "Explore more"
 www.youtube.com##ytd-search #contents > * > div#dismissible h2:has-text(/^\s*(People also|Explore more)/):upward(#dismissible)
-
 youtube.com##.yt-simple-endpoint[title="YouTube Premium"]
 ! Premium Logo
 youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
@@ -47,28 +42,13 @@ mangafire.to##.longstrip.pages:style(background-color: #010409 !important)
 mangafire.to###progress-bar:style(background-color: #010409 !important)
 mangafire.to##li > div:style(background-color: #010409 !important)
 mangafire.to##.m-content:style(background-color: #010409 !important)
-
-! Sep 17, 2025 https://mangataro.org
-mangataro.org##*:style(font-family: "Luminari" !important)
-mangataro.org##*:style(font-weight: lighter !important)
-mangataro.org###manga-history-index > .bg-neutral-900.sm\:py-3.py-2
-mangataro.org##.overflow-x-auto.mb-2.py-2.px-2.mx-auto.relative
-mangataro.org##.text-neutral-300.px-2.text-sm.mb-2.text-center
-mangataro.org##.text-neutral-400.text-xs.mb-4.text-center
-mangataro.org##.comments-container.text-neutral-300.bg-neutral-900\/90.p-2
-
-! Sep 18, 2025 https://mangafire.to
 ||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
 ||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
 ||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
 mangafire.to##.text-center.bg-secondary.alert
 mangafire.to##.container > .inner
 mangafire.to##.stars
-
-! Sep 19, 2025 https://mangafire.to
 mangafire.to###most-viewed
-
-! Sep 21, 2025 https://mangafire.to
 mangafire.to##.mr-1.fa-arrow-left.fa-light.ltr-icon
 mangafire.to##.ml-1.fa-arrow-right.fa-light.ltr-icon
 mangafire.to##.text-center.mt-3 > .mb-2
@@ -78,3 +58,21 @@ mangafire.to##.fa-sm.fa-sort.fa-solid
 mangafire.to##.tooltipz.btn-secondary1.btn.close-primary
 mangafire.to##nav:nth-of-type(2)
 mangafire.to##div.mb-2.btn-options:nth-of-type(7)
+mangafire.to##.gotop
+mangafire.to##.active.tab
+mangafire.to##.fa-folder-bookmark.fa-regular
+mangafire.to##.fa-xs.fa-play.fa-solid
+mangafire.to##.fa-xs.fa-bookmark.fa-solid
+mangafire.to###synopsis > .modal-dialog-centered.limit-w.modal-dialog > .p-4.modal-content > .modal-close > .fa-xmark.fa-solid
+! mangataro.org
+mangataro.org##*:style(font-family: "Luminari" !important)
+mangataro.org##*:style(font-weight: lighter !important)
+mangataro.org###manga-history-index > .bg-neutral-900.sm\:py-3.py-2
+mangataro.org##.overflow-x-auto.mb-2.py-2.px-2.mx-auto.relative
+mangataro.org##.text-neutral-300.px-2.text-sm.mb-2.text-center
+mangataro.org##.text-neutral-400.text-xs.mb-4.text-center
+mangataro.org##.comments-container.text-neutral-300.bg-neutral-900\/90.p-2
+mangataro.org##.overflow-hidden.relative.comments-viewport
+mangataro.org##.w-full.mb-4.py-3.px-4.relative
+mangataro.org##.mb-4.sm\:px-4.px-2.mx-auto.container
+mangataro.org###leaderboard-widget
