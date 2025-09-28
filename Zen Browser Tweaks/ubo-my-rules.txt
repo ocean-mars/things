@@ -1,5 +1,6 @@
 no-csp-reports: * true
 no-large-media: behind-the-scene false
+no-popups: mangafire.to true
 no-remote-fonts: * true
 * * 3p block
 * * 3p-frame block
@@ -11,7 +12,14 @@ behind-the-scene * 3p-frame noop
 behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
+comick.dev comick.pictures * noop
+comick.dev gravatar.com * noop
 comick.io comick.pictures * noop
+mangafire.to * 3p noop
+mangafire.to * 3p-script noop
+mangafire.to fonts.googleapis.com * block
+mangataro.org mangapeak.me * noop
+mangataro.org mangataro.net * noop
 www.youtube.com * 3p noop
 www.youtube.com * 3p-script noop
 www.youtube.com fonts.googleapis.com * block
