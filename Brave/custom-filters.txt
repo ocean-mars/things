@@ -1,19 +1,16 @@
-! Router
-192.168.1.1##*:style(font-family: "Space Grotesk" ; color: #a3a9af; border-color: #354057ee !important)
-192.168.1.1##header:style(background: #010409 !important)
-192.168.1.1##header:style(box-shadow: none !important)
-192.168.1.1##header .brand:style(font-family: "Inter" ; color: #f0f6fc !important)
-192.168.1.1##body:style(background-color: #0d1117 !important)
-192.168.1.1##.label, header [data-indicator]:style(font-size: 13px ; color: #f0f6fc !important)
-
-! Facebook
 www.facebook.com##*:style(font-family: "Luminari" !important)
 www.facebook.com##*:style(font-weight: lighter !important)
-
+! Router
+192.168.1.1##*:style(font-family: "Space Grotesk"; color: #a3a9af; border-color: #354057ee !important)
+192.168.1.1##header:style(background: #010409 !important)
+192.168.1.1##header:style(box-shadow: none !important)
+192.168.1.1##header .brand:style(font-family: "Geist"; color: #f0f6fc !important)
+192.168.1.1##body:style(background-color: #0d1117 !important)
+192.168.1.1##.label, header [data-indicator]:style(font-size: 13px ; color: #f0f6fc !important)
+! Facebook
 ! Youtube
 www.youtube.com##*:style(font-family: "Luminari" !important)
 www.youtube.com##*:style(font-weight: lighter !important)
-
 ! Colors ----------------------------------
 www.youtube.com##ytd-app:style(background-color: #010409 !important)
 www.youtube.com##.ytd-popup-container.style-scope:style(background-color: #010409 !important)
@@ -25,14 +22,12 @@ www.youtube.com###content-wrapper:style(background-color: #010409 !important)
 www.youtube.com###search:style(background-color: #010409 !important)
 www.youtube.com##.ytd-playlist-panel-renderer.style-scope:style(background-color: #010409 !important)
 www.youtube.com## .ytd-tabbed-page-header.style-scope:style(background-color: #010409 !important)
-
 ! search bar popup ----------------------------------
 www.youtube.com##.sbsb_a:style(background: var(--yt-spec-raised-background))
 www.youtube.com##.sbsb_a:style(background-color: #010409ae !important)
 www.youtube.com##.sbsb_a:style(backdrop-filter: blur(33px))
 www.youtube.com##.sbsb_a:style(border-radius: 10px !important)
 www.youtube.com##ytd-browse.ytd-page-manager.style-scope:style(border: #354057 !important)
-
 ! Elements
 www.youtube.com###voice-search-button > .ytd-masthead.style-scope > yt-button-shape
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(2)
@@ -44,79 +39,101 @@ www.youtube.com###tabs-divider
 youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
 ! Hide "1080p Premium" in the video quality menu
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
-
 youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
 youtube.com##ytd-rich-item-renderer:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important)
-! Comick -----------------------------
-comick.io##*:style(font-family: "Luminari" !important)
-comick.io##*:style(font-weight: lighter !important)
 
-! Home Page
-comick.io###main:style(width: 100% !important)
-comick.io##.dark\:bg-gray-800:style(background-color: #010409 !important)
-comick.io##.dark\:bg-gray-800\/95:style(background-color: #010409 !important)
-comick.io##.dark\:border-gray-700:style(border-color: #354057e2 !important)
-comick.io##.aa-DetachedSearchButton:style(background-color: #1b2a3aee !important)
-comick.io##.btn:style(background-color: #1b2a3aee !important)
-comick.io##.btn:style(border: none !important)
-comick.io##.dark\:bg-gray-700:style(background-color: #1b2a3aee !important)
-comick.io##.dark\:bg-gray-700:style(border: none !important)
-comick.io##.rounded:style(border-radius: 8px !important)
-comick.io##.dark\:hover\:bg-gray-700:hover:style(border-radius: 8px !important)
-
-! Preview Page
-comick.io##.dark\:scrollbox-dark:style(background-image: none !important)
-comick.io##.dark\:scrollbox-dark:style(background-color: transparent !important)
-comick.io##.dark\:bg-gray-750:style(background-color: #1b2a3aee !important)
-comick.io##tr.group:style(border-left: 0px; border-right: 0px; border-bottom: 0px; border-block-end: 0px !important)
-comick.io##tr.group:style(border-block-color: #1e2b3bee !important)
-comick.io##.dark\:border-gray-600.rounded.border-gray-300.border.py-1.pr-6.pl-2.cursor-pointer:style(background-color: #1b2a3aee !important)
-comick.io##.dark\:border-gray-600.rounded.border-gray-300.border.py-1.pr-6.pl-2.cursor-pointer:style(border: none !important)
-comick.io##.dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\]:style(background-color: #1b2a3aee !important)
-comick.io##.dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\]:style(border: none !important)
-comick.io##.md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3:style(background-color: #1b2a3aee !important)
-comick.io##.md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3:style(border: none !important)
-comick.io##.xl\:max-w-screen-xl>.grid.md\:grid-cols-3+div+div>div+div>div img:style(border-radius: 8px !important)
-comick.io##a.justify-center.items-center.flex.py-2.px-4.rounded-md.border.mt-2.ml-3:style(border-color: #354057e2 !important)
-
-! Reading Page
-comick.io###comment-section:style(background-color: #010409 !important)
-comick.io###comment-section:style(background-image: none !important)
-comick.io##.border-r:style( background-color: #1b293be2 !important)
-comick.io##.dark\:border-gray-600:style(border-color: #354057e2 !important)
-comick.io##.p-2.ml-2:style(background-color: #1b293be2 !important)
-comick.io##.p-2.ml-2:style(background-image: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #010409) !important)
-comick.io##.select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex:style(background-color: #1b293be2 !important)
-comick.io##.select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex:style(background-image: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #010409) !important)
-comick.io##.p-2:style(background-color: #1b2a3aee !important)
-comick.io##.p-2:style(border-radius: 8px !important)
-comick.io##.dark\:hover\:bg-gray-600:hover:style(border-radius: 8px !important)
-comick.io###bottom-reader-settings button:style(border-radius: 48px !important)
-
-! Search Page
-comick.io##.w-40:style(background-color: #1b293be2 !important)
-comick.io##.focus\:ring-0:style(background-color: #1b293be2 !important)
-comick.io##.max-w-\[6rem\].md\:py-2.py-1.md\:mt-2.mt-1:style(background-color: #1b293be2 !important)
-
-! Likes Mod 
-comick.io##.text-xl.items-center.flex > .mx-2.w-3:after:style(margin-left: 4px !important)
-comick.io##.text-xl.items-center.flex > .mx-2.w-3:after:style(content: "Likes" !important)
-comick.io##.text-xl.items-center.flex > .mx-2.w-3:after:style(font-size: large !important)
-comick.io##.text-xl.items-center.flex:style(margin-left: -6px !important)
-
-! Elements Blocking
-comick.io##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
-comick.io##.text-xs.dark\:border-gray-700.rounded
-comick.io###zoom-btn
-comick.io##.active\:animate-ping.active\:brightness-200.hover\:brightness-200.hover\:text-blue-500.cursor-pointer.h-12.w-12
-comick.io##.z-10.p-1.flex.items-center.bg-opacity-60.bg-gray-500.right-1.top-1.absolute.rounded-full
-comick.io##.dark\:fill-gray-300.fill-gray-500.h-6.w-6
-comick.io##.space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5
-comick.io##.text-sm.items-center.flex.relative
-comick.io##li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50:nth-of-type(4)
-comick.io##div.h-8.w-8:nth-of-type(2)
-comick.io##.gap-4.justify-center.items-center.flex.mt-4.ml-4
-comick.io##md\:h-10.md\:w-10.h-10.w-10 > span
-comick.io##.rounded.p-2.flex.border-l-8.shadow.items-center.border-blue-400.dark\:border-blue-700.bg-blue-100.dark\:bg-blue-900.text-blue-900.dark\:text-blue-300.mx-1.md\:mx-0
-
-! Comick END -----------------------------
+animekai.ac##.text-center.mb-5
+animekai.ac##.alert.alert-secondary
+animekai.ac###swiper-wrapper-882776b9a19838105 > .swiper-slide.swiper-slide-active
+animekai.ac##section.swiper-slide:nth-of-type(3)
+animekai.ac###swiper-wrapper-882776b9a19838105 > .swiper-slide.swiper-slide-next > .inner
+animekai.ac##.top-footer > .container > .wrapper
+animekai.ac###continue-watching > section
+animekai.ac##.btn.nav-btn.indicator > .fa-solid.fa-bell
+animekai.ac##.nav-btn.shuffle-btn > .fa-solid.fa-shuffle
+animekai.ac##.nav-btn.w2g-btn > .fa-solid.fa-users-line
+animekai.ac##.watch-section .watch-section-bg:style(opacity: 0 !important)
+animekai.ac##body:before:style(background: #010409 !important)
+animekai.ac##.ctrl.w2g
+animekai.ac##.btn.modal-trigger
+animekai.ac##.alert.alert-info
+animekai.ac##.entity-scroll
+animekai.ac###main-entity
+animekai.ac##.entity-section
+!animekai.ac##*, ::after, ::before:style(border-radius: 10px !important)
+animetsu.cc##*:style(font-family: "Luminari" !important)
+animetsu.cc##*:style(font-weight: lighter !important)
+animetsu.cc##.w-\[3rem\].h-fit.\!aspect-square.relative.\!rounded-full.\!overflow-hidden > .w-full.object-cover.h-full
+anigo.to##.text-center.mb-5
+anigo.to##.az
+anigo.to##[href*="/random"]
+anigo.to##.header-nav > ul:nth-of-type(1) > li:nth-of-type(7) > .toggle-schedule
+anigo.to##.btn.header-btn.indicator
+anigo.to##.conti > .section-header.breaking
+anigo.to##.text-center.mb-3
+anigo.to###comment
+! Mangafire
+mangafire.to##.longstrip.pages:style(background-color: #010409 !important)
+mangafire.to###progress-bar:style(background-color: #010409 !important)
+mangafire.to##li > div:style(background-color: #010409 !important)
+mangafire.to##.m-content:style(background-color: #010409 !important)
+||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
+||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
+||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
+mangafire.to##.text-center.bg-secondary.alert
+mangafire.to##.container > .inner
+mangafire.to##.stars
+mangafire.to###most-viewed
+mangafire.to##.mr-1.fa-arrow-left.fa-light.ltr-icon
+mangafire.to##.ml-1.fa-arrow-right.fa-light.ltr-icon
+mangafire.to##.text-center.mt-3 > .mb-2
+mangafire.to##.fa-arrows-rotate.fa-light
+mangafire.to##.fa-earth-americas.fa-regular
+mangafire.to##.fa-sm.fa-sort.fa-solid
+mangafire.to##.tooltipz.btn-secondary1.btn.close-primary
+mangafire.to##nav:nth-of-type(2)
+mangafire.to##div.mb-2.btn-options:nth-of-type(7)
+mangafire.to##.gotop
+mangafire.to##.active.tab
+mangafire.to##.fa-folder-bookmark.fa-regular
+mangafire.to##.fa-xs.fa-play.fa-solid
+mangafire.to##.fa-xs.fa-bookmark.fa-solid
+mangafire.to###synopsis > .modal-dialog-centered.limit-w.modal-dialog > .p-4.modal-content > .modal-close > .fa-xmark.fa-solid
+! mangataro.org
+mangataro.org##*:style(font-family: "Luminari" !important)
+mangataro.org##*:style(font-weight: lighter !important)
+mangataro.org###manga-history-index > .bg-neutral-900.sm\:py-3.py-2
+mangataro.org##.overflow-x-auto.mb-2.py-2.px-2.mx-auto.relative
+mangataro.org##.text-neutral-300.px-2.text-sm.mb-2.text-center
+mangataro.org##.text-neutral-400.text-xs.mb-4.text-center
+mangataro.org##.comments-container.text-neutral-300.bg-neutral-900\/90.p-2
+mangataro.org##.overflow-hidden.relative.comments-viewport
+mangataro.org##.w-full.mb-4.py-3.px-4.relative
+mangataro.org##.mb-4.sm\:px-4.px-2.mx-auto.container
+mangataro.org###leaderboard-widget
+! tanime
+tanime.tv##.comments-section
+tanime.tv##.mb-6.text-center.sm\:text-left
+tanime.tv##.px-3.py-1\.5.bg-\[\#ff0066\].hover\:bg-\[\#ff1a75\].text-white.rounded-md.text-sm.font-medium.transition-colors.flex.items-center.gap-1\.5
+tanime.tv##.hidden.md\:flex.items-center.gap-4 > .flex.items-center.gap-3
+tanime.tv##.max-w-\[1920px\].mx-auto.px-4.py-6
+tanime.tv##.sharethis-compact.watch-share
+! asuracomic.net
+asuracomic.net##*:style(font-family: "Luminari" !important)
+asuracomic.net##*:style(font-weight: lighter !important)
+asuracomic.net##+js(set-local-storage-item, asuraPremiumTrialClosedG, {})
+asuracomic.net##.justify-center.items-center.flex-col.flex.md\:mx-0.-mx-5.py-8:style(max-width: 800px; !important)
+asuracomic.net##body > div.w-full
+asuracomic.net##.bg-\[\#121212\].justify-center.items-center.flex.rounded-full
+asuracomic.net##p.text-\[\#999999\].text-sm
+asuracomic.net##.py-2.gap-1.justify-center.items-center.flex
+asuracomic.net##.text-\[\#999999\].text-sm.py-4.md\:text-center.text-center
+asuracomic.net##.w-full.items-center.justify-between.flex.dropdown-btn.p-3
+asuracomic.net##.flex-row.md\:flex.hidden > li:nth-of-type(4)
+asuracomic.net##.style_visible__uDKt5.style_scrollToTop__nenBE
+asuracomic.net##.w-full.gap-x-2.justify-center.md\:text-start.items-center.flex.py-4.px-5.bg-\[\#222222\]
+asuracomic.net##.bg-comments-background
+asuracomic.net##.lg\:py-8.py-6.px-4.w-full.z-10.relative
+asuracomic.net##.py-4.gap-1.flex-wrap.sm\:justify-start.justify-center.items-center.flex
+asuracomic.net##.px-5.py-4.border-t-\[\#A2A2A2\]\/20.border-t-\[1px\]
+asuracomic.net##.hidden.md\:flex.flex-row.w-full.gap-3\.5.items-center > div:nth-of-type(2) > .hidden.md\:flex.flex-row.items-center.gap-3\.5 > div:nth-of-type(1) > .flex.justify-between.items-center > .justify-center.whitespace-nowrap.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.h-10.py-2.bg-\[\#6F2598\].text-white.hover\:bg-\[\#5a1f78\].flex.items-center.px-2.gap-0\.5.ml-1
