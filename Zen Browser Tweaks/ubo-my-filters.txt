@@ -76,3 +76,24 @@ mangataro.org##.overflow-hidden.relative.comments-viewport
 mangataro.org##.w-full.mb-4.py-3.px-4.relative
 mangataro.org##.mb-4.sm\:px-4.px-2.mx-auto.container
 mangataro.org###leaderboard-widget
+! comick.dev
+comick.dev##.md\:mx-0.mx-1.dark\:text-red-300.text-red-900.dark\:bg-red-900.bg-red-100.dark\:border-red-700.border-red-400.items-center.shadow.border-l-8.flex.p-2.rounded
+comick.dev##.text-xs.dark\:border-gray-700.rounded
+comick.dev##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
+comick.dev##.text-center.w-full.text-xs.font-semibold.py-\[0\.15em\].dark\:text-red-300.text-red-900.dark\:bg-red-900.bg-red-100.dark\:border-red-700.border-red-400
+! asuracomic.net
+asuracomic.net##+js(set-local-storage-item, asuraPremiumTrialClosedG, {})
+asuracomic.net##.justify-center.items-center.flex-col.flex.md\:mx-0.-mx-5.py-8:style(max-width: 800px; !important)
+asuracomic.net##body > div.w-full
+asuracomic.net##.bg-\[\#121212\].justify-center.items-center.flex.rounded-full
+asuracomic.net##p.text-\[\#999999\].text-sm
+asuracomic.net##.py-2.gap-1.justify-center.items-center.flex
+asuracomic.net##.text-\[\#999999\].text-sm.py-4.md\:text-center.text-center
+asuracomic.net##.w-full.items-center.justify-between.flex.dropdown-btn.p-3
+asuracomic.net##.flex-row.md\:flex.hidden > li:nth-of-type(4)
+asuracomic.net##.style_visible__uDKt5.style_scrollToTop__nenBE
+asuracomic.net##.w-full.gap-x-2.justify-center.md\:text-start.items-center.flex.py-4.px-5.bg-\[\#222222\]
+asuracomic.net##.bg-comments-background
+asuracomic.net##.lg\:py-8.py-6.px-4.w-full.z-10.relative
+asuracomic.net##.py-4.gap-1.flex-wrap.sm\:justify-start.justify-center.items-center.flex
+asuracomic.net##.px-5.py-4.border-t-\[\#A2A2A2\]\/20.border-t-\[1px\]
