@@ -67,6 +67,7 @@ mangafire.to###synopsis > .modal-dialog-centered.limit-w.modal-dialog > .p-4.mod
 ! mangataro.org
 mangataro.org##*:style(font-family: "Luminari" !important)
 mangataro.org##*:style(font-weight: lighter !important)
+mangataro.org##.comic-image:style(max-width: 800px !important)
 mangataro.org###manga-history-index > .bg-neutral-900.sm\:py-3.py-2
 mangataro.org##.overflow-x-auto.mb-2.py-2.px-2.mx-auto.relative
 mangataro.org##.text-neutral-300.px-2.text-sm.mb-2.text-center
@@ -76,14 +77,19 @@ mangataro.org##.overflow-hidden.relative.comments-viewport
 mangataro.org##.w-full.mb-4.py-3.px-4.relative
 mangataro.org##.mb-4.sm\:px-4.px-2.mx-auto.container
 mangataro.org###leaderboard-widget
+mangataro.org###pwa-install-hero
+mangataro.org###upload-invite-banner
+mangataro.org##.sm\:p-4.p-3.rounded-lg.border-neutral-700\/50.border.bg-neutral-800\/50.mb-4.sm\:mx-0.mx-2
 ! comick.dev
 comick.dev##.md\:mx-0.mx-1.dark\:text-red-300.text-red-900.dark\:bg-red-900.bg-red-100.dark\:border-red-700.border-red-400.items-center.shadow.border-l-8.flex.p-2.rounded
 comick.dev##.text-xs.dark\:border-gray-700.rounded
 comick.dev##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
 comick.dev##.text-center.w-full.text-xs.font-semibold.py-\[0\.15em\].dark\:text-red-300.text-red-900.dark\:bg-red-900.bg-red-100.dark\:border-red-700.border-red-400
+comick.dev##.items-center.w-full.justify-between.flex
+comick.dev##.md\:mx-0.mx-1.dark\:text-yellow-300.text-yellow-900.dark\:bg-yellow-900.bg-yellow-100.dark\:border-yellow-700.border-yellow-400.items-center.shadow.border-l-8.flex.p-2.rounded
 ! asuracomic.net
 asuracomic.net##+js(set-local-storage-item, asuraPremiumTrialClosedG, {})
-asuracomic.net##.justify-center.items-center.flex-col.flex.md\:mx-0.-mx-5.py-8:style(max-width: 800px; !important)
+asuracomic.net##.justify-center.items-center.flex-col.flex.md\:mx-0.-mx-5.py-8:style(max-width: 800px !important)
 asuracomic.net##body > div.w-full
 asuracomic.net##.bg-\[\#121212\].justify-center.items-center.flex.rounded-full
 asuracomic.net##p.text-\[\#999999\].text-sm
@@ -97,3 +103,60 @@ asuracomic.net##.bg-comments-background
 asuracomic.net##.lg\:py-8.py-6.px-4.w-full.z-10.relative
 asuracomic.net##.py-4.gap-1.flex-wrap.sm\:justify-start.justify-center.items-center.flex
 asuracomic.net##.px-5.py-4.border-t-\[\#A2A2A2\]\/20.border-t-\[1px\]
+||asuracomic.net/images/EndDesign.webp$image
+asuracomic.net##.data-\[state\=open\]\:fade-in-0.data-\[state\=closed\]\:fade-out-0.data-\[state\=closed\]\:animate-out.data-\[state\=open\]\:animate-in.bg-black\/80.z-50.inset-0.fixed
+! rizzfables.com
+rizzfables.com##.notice-ribbon
+rizzfables.com###thememode
+rizzfables.com##.avatar
+rizzfables.com##div.section:nth-of-type(2)
+rizzfables.com##div.section:nth-of-type(1)
+rizzfables.com##div.section > .releases
+rizzfables.com##.copyright
+rizzfables.com##.menu-footer-container > .menu
+rizzfables.com##.hero-overlay
+rizzfables.com##.bixbox.rating
+rizzfables.com###post-69001 > div.bixbox:nth-of-type(4)
+rizzfables.com##.navlef > .r.npv > .nextprev > .ch-next-btn > .fa-angle-right.fas
+rizzfables.com###screenmode
+rizzfables.com##.l.readingmode.selector
+rizzfables.com##.chdesc > p
+rizzfables.com##.allc
+rizzfables.com###readerarea:style(max-width: 800px !important)
+rizzfables.com##.amob > .r.npv > .nextprev > .ch-next-btn > .fa-angle-right.fas
+rizzfables.com###disqus_thread
+rizzfables.com##.releases
+rizzfables.com##.navlef > .r.npv > .nextprev > .ch-prev-btn > .fa-angle-left.fas
+! mgeko.cc
+www.mgeko.cc##.login.nav-link
+www.mgeko.cc##.fa-safari.fab
+www.mgeko.cc##.fa-book.fas
+www.mgeko.cc##.fa-searchengin.fab
+www.mgeko.cc##.lnw-slog
+www.mgeko.cc###chapter-article > div
+www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(1)
+www.mgeko.cc##.content-wrap.page-in > div > div
+www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(3)
+www.mgeko.cc##div:nth-of-type(4)
+www.mgeko.cc##.skiptranslate.content-wrap.recommends
+www.mgeko.cc##.links.col
+www.mgeko.cc##.head-slider-top
+www.mgeko.cc###index > div
+www.mgeko.cc##.section-header > p
+www.mgeko.cc###header
+www.mgeko.cc##.view-more-link > .fa-chevron-right.fas
+www.mgeko.cc##.flex-box
+www.mgeko.cc##.comment-list
+www.mgeko.cc##.tags-more
+www.mgeko.cc##.section-title
+www.mgeko.cc###info > div
+www.mgeko.cc##.ad-container
+www.mgeko.cc##.header-stats .material-icons
+www.mgeko.cc##.links > .empty
+www.mgeko.cc##li.nav-item:nth-of-type(3) > .nav-link
+www.mgeko.cc##section.fullfit.vspace.container:nth-of-type(1)
+www.mgeko.cc##.fa-clock.fas
+www.mgeko.cc##section.fullfit.vspace.container:nth-of-type(2)
+www.mgeko.cc##a.hotBtn:nth-of-type(1)
+www.mgeko.cc##.active-hb.hotBtn
+||imgsrv4.com/credits-mgeko.png$image
