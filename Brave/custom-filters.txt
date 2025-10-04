@@ -122,7 +122,7 @@ tanime.tv##.sharethis-compact.watch-share
 asuracomic.net##*:style(font-family: "Luminari" !important)
 asuracomic.net##*:style(font-weight: lighter !important)
 asuracomic.net##+js(set-local-storage-item, asuraPremiumTrialClosedG, {})
-asuracomic.net##.justify-center.items-center.flex-col.flex.md\:mx-0.-mx-5.py-8:style(max-width: 800px; !important)
+asuracomic.net##.justify-center.items-center.flex-col.flex.md\:mx-0.-mx-5.py-8:style(max-width: 800px !important)
 asuracomic.net##body > div.w-full
 asuracomic.net##.bg-\[\#121212\].justify-center.items-center.flex.rounded-full
 asuracomic.net##p.text-\[\#999999\].text-sm
@@ -137,3 +137,16 @@ asuracomic.net##.lg\:py-8.py-6.px-4.w-full.z-10.relative
 asuracomic.net##.py-4.gap-1.flex-wrap.sm\:justify-start.justify-center.items-center.flex
 asuracomic.net##.px-5.py-4.border-t-\[\#A2A2A2\]\/20.border-t-\[1px\]
 asuracomic.net##.hidden.md\:flex.flex-row.w-full.gap-3\.5.items-center > div:nth-of-type(2) > .hidden.md\:flex.flex-row.items-center.gap-3\.5 > div:nth-of-type(1) > .flex.justify-between.items-center > .justify-center.whitespace-nowrap.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.h-10.py-2.bg-\[\#6F2598\].text-white.hover\:bg-\[\#5a1f78\].flex.items-center.px-2.gap-0\.5.ml-1
+www.mgeko.cc##.login-wrap-nav
+www.mgeko.cc##.top_button
+www.mgeko.cc##.recommends.content-wrap.skiptranslate
+www.mgeko.cc###chapter-mini-actions
+www.mgeko.cc##.col.links
+www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(1)
+www.mgeko.cc##.page-in.content-wrap > center:nth-of-type(1) > .chapternav.skiptranslate
+www.mgeko.cc###chapter-article > div:nth-of-type(3)
+www.mgeko.cc##.page-in.content-wrap > div:nth-of-type(2) > div:nth-of-type(1)
+www.mgeko.cc##.page-in.content-wrap > div:nth-of-type(3) > .chapternav.skiptranslate
+www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(4)
+www.mgeko.cc###chapter-article > .container > div:nth-of-type(1)
+www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(3)
