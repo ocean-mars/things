@@ -68,6 +68,7 @@ mangafire.to###synopsis > .modal-dialog-centered.limit-w.modal-dialog > .p-4.mod
 mangataro.org##*:style(font-family: "Luminari" !important)
 mangataro.org##*:style(font-weight: lighter !important)
 mangataro.org##.comic-image:style(max-width: 800px !important)
+mangataro.org##.nohori
 mangataro.org###manga-history-index > .bg-neutral-900.sm\:py-3.py-2
 mangataro.org##.overflow-x-auto.mb-2.py-2.px-2.mx-auto.relative
 mangataro.org##.text-neutral-300.px-2.text-sm.mb-2.text-center
@@ -128,6 +129,20 @@ rizzfables.com###disqus_thread
 rizzfables.com##.releases
 rizzfables.com##.navlef > .r.npv > .nextprev > .ch-prev-btn > .fa-angle-left.fas
 ! mgeko.cc
+www.mgeko.cc##center:nth-of-type(2):style(line-height: 0 !important)
+www.mgeko.cc##*:style(font-family: "Space Grotesk" !important)
+www.mgeko.cc##body.nightmode:style(background-color: #000 !important)
+www.mgeko.cc##center > .skiptranslate.chapternav:style(background-color: #000 !important)
+www.mgeko.cc###cars:style(margin-right: 0px !important) 
+www.mgeko.cc###cars:style(width: 148px !important)
+www.mgeko.cc###cars:style(text-align: center !important)
+www.mgeko.cc##.skiptranslate.chapter-header:style(background-color: #1b1d20 !important)
+www.mgeko.cc##.chapter-header:style(border: none !important)
+www.mgeko.cc##.content-wrap.page-in:style(margin-top: 8px !important)
+www.mgeko.cc###novel:style(background-color: #000 !important)
+www.mgeko.cc##.novel-tab-links:style(background-color: #000 !important)
+www.mgeko.cc##.description:style(background-color: #0d1117 !important)
+www.mgeko.cc##.intro:style(background-color: #000 !important)
 www.mgeko.cc##.login.nav-link
 www.mgeko.cc##.fa-safari.fab
 www.mgeko.cc##.fa-book.fas
@@ -159,4 +174,9 @@ www.mgeko.cc##.fa-clock.fas
 www.mgeko.cc##section.fullfit.vspace.container:nth-of-type(2)
 www.mgeko.cc##a.hotBtn:nth-of-type(1)
 www.mgeko.cc##.active-hb.hotBtn
+www.mgeko.cc##.nextchap
+www.mgeko.cc##.prevchap
+www.mgeko.cc##.nsad--auto.nsad
 ||imgsrv4.com/credits-mgeko.png$image
+www.mgeko.cc##.fa-allergies.fas
+www.mgeko.cc##.chapter-no
