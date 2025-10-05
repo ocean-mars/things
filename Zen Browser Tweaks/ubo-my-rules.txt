@@ -2,7 +2,7 @@ no-csp-reports: * true
 no-large-media: behind-the-scene false
 no-popups: asuracomic.net true
 no-popups: mangafire.to true
-no-popups: mangamob.com true
+no-popups: mangataro.org true
 no-popups: www.mgeko.cc true
 no-remote-fonts: * true
 * * 3p block
@@ -18,13 +18,9 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 comick.dev comick.pictures * noop
 comick.dev gravatar.com * noop
-comick.io comick.pictures * noop
 mangafire.to * 3p noop
 mangafire.to * 3p-script noop
 mangafire.to fonts.googleapis.com * block
-mangamob.com * 3p noop
-mangamob.com fonts.googleapis.com * block
-mangamob.com imgsrv4.com * noop
 mangataro.org mangapeak.me * noop
 mangataro.org mangataro.net * noop
 www.mgeko.cc * 3p noop
