@@ -1,14 +1,24 @@
 no-csp-reports: * true
 no-large-media: behind-the-scene false
-no-popups: asuracomic.net true
-no-popups: mangafire.to true
-no-popups: mangataro.org true
+no-popups: demonicscans.org true
+no-popups: discord.com true
+no-popups: drakecomic.org true
+no-popups: lhtranslation.net true
+no-popups: mangadex.org true
+no-popups: manhuaplus.org true
+no-popups: manhuarm.com true
+no-popups: manhuatop.org true
 no-popups: www.mgeko.cc true
+no-popups: spiderscans.xyz true
+no-popups: weebcentral.com true
 no-remote-fonts: * true
+no-remote-fonts: everythingmoe.com false
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
-asuracomic.net cloudflareinsights.com * noop
+* cloudflare.com * noop
+animepahe.si * 3p noop
+animepahe.si ddos-guard.net * noop
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -16,15 +26,34 @@ behind-the-scene * 3p-frame noop
 behind-the-scene * 3p-script noop
 behind-the-scene * image noop
 behind-the-scene * inline-script noop
+coffeemanga.to comick.site * noop
 comick.dev comick.pictures * noop
-comick.dev gravatar.com * noop
-mangafire.to * 3p noop
-mangafire.to * 3p-script noop
-mangafire.to fonts.googleapis.com * block
+demonicscans.org demoniclibs.com * noop
+demonicscans.org mangafirst.org * noop
+demonicscans.org mangareadon.org * noop
+demonicscans.org readermc.org * noop
+discord.com * 3p noop
+revenge-of-the-ironblooded-sword-hound.fandom.com * 3p noop
+revenge-of-the-ironblooded-sword-hound.fandom.com * 3p-script noop
+the-100th-regression-of-the-maxlevel-player.fandom.com * 3p noop
+the-heavenly-demon-cant-live-a-normal-life.fandom.com * 3p noop
+github.com * 3p noop
+mangaball.net poke-black-and-white.net * noop
+mangadex.org mangadex.network * noop
+mangahub.io mghcdn.com * noop
 mangataro.org mangapeak.me * noop
 mangataro.org mangataro.net * noop
-www.mgeko.cc * 3p noop
-www.mgeko.cc fonts.googleapis.com * block
-www.youtube.com * 3p noop
-www.youtube.com * 3p-script noop
-www.youtube.com fonts.googleapis.com * block
+manhuaplus.org manhuaplus.cc * noop
+manhuarm.com manhuarm.site * noop
+www.mgeko.cc imgsrv4.com * noop
+www.mgeko.cc jsdelivr.net * noop
+ravenscans.com * 3p noop
+ravenscans.com * 3p-script noop
+ravenscans.com disqus.com * block
+ravenscans.com disqus.map.fastlylb.net * block
+ravenscans.com net.cdn.cloudflare.net * noop
+vortexscans.org vexmanga.com * noop
+www.webtoons.com d.akamai.net * noop
+www.webtoons.com pstatic.net * noop
+www.webtoons.com v.akamai.net * noop
+weebcentral.com * 3p noop
