@@ -28,6 +28,22 @@ asuracomic.net##.px-5.py-4.border-t-\[\#A2A2A2\]\/20.border-t-\[1px\]
 asuracomic.net/series/##.space-y-1\.5 > div:nth-of-type(1)
 asuracomic.net##.data-\[state\=open\]\:fade-in-0.data-\[state\=closed\]\:fade-out-0.data-\[state\=closed\]\:animate-out.data-\[state\=open\]\:animate-in.bg-black\/80.z-50.inset-0.fixed
 ||asuracomic.net/images/EndDesign.webp$image
+! aquareader.net ==================================================================================================================================
+aquareader.net##.content-area:style(background-color: #000 !important)
+! style end
+aquareader.net##.sticky.with-border.c-sub-header-nav
+aquareader.net##.active.go-to-top
+aquareader.net##.main-col-inner > div.row
+aquareader.net##.site-footer
+aquareader.net##.wp-manga.c-top-sidebar.c-sidebar
+aquareader.net##.with-border.c-sub-header-nav
+aquareader.net###chapter-heading
+aquareader.net##.c-widget-wrap.manga-history-widget__inner.widget__inner
+aquareader.net##.col-sm-4.col-md-4.sidebar-col
+aquareader.net##.c-breadcrumb-wrapper
+aquareader.net##.h4.item-title
+aquareader.net##.c-top-sidebar.c-sidebar
+aquareader.net##.c-top-second-sidebar.c-sidebar
 ! comick.dev ==================================================================================================================================
 comick.dev##.overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3
 comick.dev##.md\:mx-0.mx-1.dark\:text-yellow-300.text-yellow-900.dark\:bg-yellow-900.bg-yellow-100.dark\:border-yellow-700.border-yellow-400.items-center.shadow.border-l-8.flex.p-2.rounded
@@ -35,6 +51,60 @@ comick.dev##.text-xs.dark\:border-gray-700.rounded
 comick.dev##.relative.h-8.w-8
 comick.dev##.pr-2.mt-3
 comick.dev##.gap-y-5.py-5.px-2.justify-center.flex-wrap.flex.-my-1\.5.-mx-2
+! coffeemanga.to ==================================================================================================================================
+coffeemanga.to##.max-w-screen-lg.mx-auto:style(max-width: 800px !important)
+coffeemanga.to##.w-full.relative:style(background-color: #000 !important)
+coffeemanga.to##.content-center.text-foreground\/80.border-border.border-b.flex-col.flex.lg\:rounded-b-lg.bg-\[\#181818\].z-50.px-0\.5.py-0\.5.top-0.sticky:style(max-width: 800px !important)
+coffeemanga.to##.content-center.text-foreground\/80.border-border.border-b.flex-col.flex.lg\:rounded-b-lg.bg-\[\#181818\].z-50.px-0\.5.py-0\.5.top-0.sticky:style(margin-left: auto !important)
+coffeemanga.to##.content-center.text-foreground\/80.border-border.border-b.flex-col.flex.lg\:rounded-b-lg.bg-\[\#181818\].z-50.px-0\.5.py-0\.5.top-0.sticky:style(margin-right: auto !important)
+! style end
+coffeemanga.to##.items-center.justify-center.flex-row.flex
+coffeemanga.to##.space-x-2.items-center.flex
+coffeemanga.to##.text-foreground\/80.\[\&_svg\]\:size-7.hover\:bg-zinc-600.rounded-full.size-9.hover\:text-accent-foreground.aria-invalid\:focus-visible\:ring-0.focus-visible\:outline-1.focus-visible\:ring-4.outline-ring\/50.dark\:outline-ring\/40.dark\:ring-ring\/20.ring-ring\/10.\[\&_svg\]\:shrink-0.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.\[\&_svg\]\:pointer-events-none.disabled\:opacity-50.disabled\:pointer-events-none.transition-\[color\,box-shadow\].font-medium.text-sm.whitespace-nowrap.gap-2.justify-center.items-center.inline-flex
+! demonicscans.org ==================================================================================================================================
+demonicscans.org/title/##img.imgholder:style(max-width: 800px !important)
+demonicscans.org/title/##.main-width:style(line-height: 0 !important)
+demonicscans.org##body:style(background-color: #000 !important)
+demonicscans.org/manga/###chapters-list li:style(border-bottom-color: #212121 !important)
+demonicscans.org###login-container > div:style(padding: 4px 14px 4px 14px !important)
+demonicscans.org###login-container > div:style(font-size: 32px !important)
+demonicscans.org##div.border-box.updates-element:style(background-color: #212328 !important)
+demonicscans.org##div.border-box.updates-element:style(border-radius: 6px !important)
+demonicscans.org##div.border-box.updates-element:style(margin-right: 5px !important)
+demonicscans.org##.relative.mr-2.justify-center.center-align.flex.right-nav-cont:style(background-color: #212328 !important)
+demonicscans.org##.toffee-card
+demonicscans.org##div.border-radius-1.padd-1.light-bg:style(background-color: #121318 !important)
+demonicscans.org###bookmark > li
+demonicscans.org###chapters-list:style(background-color: #212328 !important)
+demonicscans.org##p > button:style(background-color: #121318 !important)
+! style end
+demonicscans.org##.payment-widget
+demonicscans.org##.center-m.main-width > [href="/premium.php"]
+demonicscans.org###gotopreader
+demonicscans.org##h4
+demonicscans.org##.chapter-info > h2
+demonicscans.org##center
+demonicscans.org###info-about-chapter
+demonicscans.org###rate-container
+demonicscans.org##.justify-center.center-align.flex.rounded.cursor-pointer
+demonicscans.org###game-launch-banner
+demonicscans.org##a.flex:nth-of-type(3)
+demonicscans.org##div.justify-center.flex:nth-of-type(2)
+demonicscans.org##div.justify-center.flex:nth-of-type(3)
+demonicscans.org###toffebanner
+! drakecomic.org ==================================================================================================================================
+drakecomic.org###readerarea:style(max-width: 800px !important)
+! style end
+drakecomic.org##.rdbot.rdnmx
+drakecomic.org##.rnavbot.readingnav
+drakecomic.org##.scrollToTop
+drakecomic.org##.chdesc > p
+drakecomic.org##.bixbox.ts-breadcrumb
+drakecomic.org##.menu-item-10553.menu-item-object-custom.menu-item-type-custom.menu-item
+drakecomic.org##[href="https://drakecomic.org/login/"] > span
+drakecomic.org##.commentx.cmt
+drakecomic.org###comments > .releases
+drakecomic.org##.chaptertags
 ! flamecomics.xyz ==================================================================================================================================
 flamecomics.xyz##main:style(background-color: #000 !important)
 ! style end
@@ -43,12 +113,33 @@ flamecomics.xyz##.mantine-UnstyledButton-root.m_87cf2631.mantine-ActionIcon-root
 flamecomics.xyz##main > .mantine-Stack-root.m_6d731127
 flamecomics.xyz##.mantine-Center-root.m_4451eb3a
 flamecomics.xyz##div.mantine-Container-root.m_7485cace:nth-of-type(8)
+! firescans.xyz ==================================================================================================================================
+firescans.xyz##.content-area > .container:style(max-width: 800px !important)
+! style end
+firescans.xyz##.list-inline.action_list_icon
+firescans.xyz##.col-lg-12.col-md-12.col-sm-12.col-12.sidebar-hidden
+firescans.xyz##.wp-manga-tags
+firescans.xyz##.social_account__item.list-inline
 ! kagane.org ==================================================================================================================================
 kagane.org##.dark\:to-blue-900\/20.dark\:from-blue-950\/20.to-blue-100.from-blue-50.bg-gradient-to-r.dark\:border-blue-800.border-blue-200.mb-4.shadow-sm.py-6.border.rounded-xl.gap-6.flex-col.flex.text-card-foreground
 kagane.org##.to-primary\/5.from-background.bg-gradient-to-r.border-primary\/20.border.mb-4.shadow-sm.py-6.rounded-xl.gap-6.flex-col.flex.text-card-foreground
 kagane.org##a.size-9.dark\:hover\:bg-accent\/50.hover\:text-accent-foreground.hover\:bg-accent.aria-invalid\:border-destructive.dark\:aria-invalid\:ring-destructive\/40.aria-invalid\:ring-destructive\/20.focus-visible\:ring-\[3px\].focus-visible\:ring-ring\/50.focus-visible\:border-ring.outline-none.\[\&_svg\]\:shrink-0.shrink-0.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.\[\&_svg\]\:pointer-events-none.disabled\:opacity-50.disabled\:pointer-events-none.transition-all.font-medium.text-sm.rounded-md.whitespace-nowrap.gap-2.justify-center.items-center.inline-flex:nth-of-type(3)
 kagane.org##.py-6.w-full
 kagane.org##.pb-4.pt-4.items-center.justify-center.gap-4.md\:flex-row.flex-col.flex
+! lhtranslation.net ==================================================================================================================================
+lhtranslation.net##.content-area > .container:style(max-width: 800px !important)
+lhtranslation.net##.content-area, .error.entered.lazy.summary-layout-1.profile-manga:style(background-color: #000 !important)
+lhtranslation.net##.wp-manga-action-button:style(color: #ebebeb !important)
+! style end
+lhtranslation.net##.col-lg-12.col-md-12.col-sm-12.col-12.sidebar-hidden
+lhtranslation.net##.with-border.c-sub-header-nav.no-subnav
+lhtranslation.net##.c-top-sidebar.c-sidebar
+lhtranslation.net##.loaded.entered.lazy.c-top-second-sidebar.c-sidebar
+lhtranslation.net##.count-comment
+lhtranslation.net##.manga-action
+lhtranslation.net##.active.go-to-top
+lhtranslation.net##.site-footer
+||lhtranslation.net/wp-content/themes/madara/images/bg-search.jpg$image
 ! mangataro.org ==================================================================================================================================
 mangataro.org##*:style(font-family: "Luminari" !important)
 mangataro.org##*:style(font-weight: lighter !important)
@@ -122,128 +213,6 @@ www.mgeko.cc##.chapter-no
 ||imgsrv4.com/credits-mgeko.png$image
 ! mangacloud.org ==================================================================================================================================
 mangacloud.org##.xl\:col-span-6.sm\:col-span-24.col-span-24
-! search.brave.com ==================================================================================================================================
-search.brave.com##.svelte-ve2bd1.download-cta
-! webtoons.com ==================================================================================================================================
-www.webtoons.com###_viewerBox:style(max-width: 800px !important)
-www.webtoons.com###container:style(background-color: #000 !important)
-www.webtoons.com###content > .episode_area,#toolbar:style(background-color: #0d1117 !important)
-www.webtoons.com##.section_title:style(color: #f5f5f5 !important)
-www.webtoons.com##.title, .author, ._sort_by_a.sort_by, .series_count, .number, .cnt,.day_info,.summary,.tx,.paginate a, .paginate strong, .paginate.v2 [class^="pg_"],.detail_body .detail_lst .subj span,.link,._snb_tab_a.snb_tab:style(color: #f5f5f5 !important)
-www.webtoons.com##a:hover:style(background-color: #0d1117 !important)
-www.webtoons.com##.detail_body .detail_lst li:style(border-bottom: 2px solid #0d1117 !important)
-www.webtoons.com##.detail_body .detail_lst li:style(border-top: 2px solid #0d1117 !important)
-www.webtoons.com##.detail_lst,.detail.aside,.banner.detail_body,#header,#genre_wrap,._snbNext.btn_snb_next:style(background-color: #0d1117 !important)
-www.webtoons.com##.detail.aside:style(border-left: #0d1117 !important)
-www.webtoons.com##.detail_body .detail_lst:style(border-right: #0d1117 !important)
-www.webtoons.com###header,.snb_wrap:style(border-bottom: #0d1117 !important)
-! style end
-www.webtoons.com##.disney_banner_area
-www.webtoons.com##._btnRecentBarFold.menu
-www.webtoons.com##.detail_install_app
-www.webtoons.com##.spi_wrap
-www.webtoons.com##.detail_other
-www.webtoons.com##.foot_cont
-www.webtoons.com##.notice_area
-www.webtoons.com###footer
-www.webtoons.com###_toolBarRightArea > .spi_area
-www.webtoons.com##.viewer_info_area
-www.webtoons.com###_bottomDisplay
-www.webtoons.com##.link_publish
-www.webtoons.com##a.link_menu:nth-of-type(2)
-www.webtoons.com###webshopLink
-www.webtoons.com##.type_hover.lnb > li:nth-of-type(4) > .link
-www.webtoons.com##._snbNext.btn_snb_next
-www.webtoons.com##._snbPrev.btn_snb_prev
-! lhtranslation.net ==================================================================================================================================
-lhtranslation.net##.content-area > .container:style(max-width: 800px !important)
-lhtranslation.net##.content-area, .error.entered.lazy.summary-layout-1.profile-manga:style(background-color: #000 !important)
-lhtranslation.net##.wp-manga-action-button:style(color: #ebebeb !important)
-! style end
-lhtranslation.net##.col-lg-12.col-md-12.col-sm-12.col-12.sidebar-hidden
-lhtranslation.net##.with-border.c-sub-header-nav.no-subnav
-lhtranslation.net##.c-top-sidebar.c-sidebar
-lhtranslation.net##.loaded.entered.lazy.c-top-second-sidebar.c-sidebar
-lhtranslation.net##.count-comment
-lhtranslation.net##.manga-action
-lhtranslation.net##.active.go-to-top
-lhtranslation.net##.site-footer
-||lhtranslation.net/wp-content/themes/madara/images/bg-search.jpg$image
-! mangaball.net ==================================================================================================================================
-mangaball.net##.mt-5.pt-5.reader-container:style(background-color: #000 !important)
-! style end
-mangaball.net##.page-overlay
-mangaball.net##.auto-scroll-btn.rounded-circle.btn-success.btn
-! firescans.xyz ==================================================================================================================================
-firescans.xyz##.content-area > .container:style(max-width: 800px !important)
-! style end
-firescans.xyz##.list-inline.action_list_icon
-firescans.xyz##.col-lg-12.col-md-12.col-sm-12.col-12.sidebar-hidden
-firescans.xyz##.wp-manga-tags
-firescans.xyz##.social_account__item.list-inline
-! demonicscans.org ==================================================================================================================================
-demonicscans.org/title/##img.imgholder:style(max-width: 800px !important)
-demonicscans.org/title/##.main-width:style(line-height: 0 !important)
-demonicscans.org##body:style(background-color: #000 !important)
-demonicscans.org/manga/###chapters-list li:style(border-bottom-color: #212121 !important)
-demonicscans.org###login-container > div:style(padding: 4px 14px 4px 14px !important)
-demonicscans.org###login-container > div:style(font-size: 32px !important)
-demonicscans.org##div.border-box.updates-element:style(background-color: #212328 !important)
-demonicscans.org##div.border-box.updates-element:style(border-radius: 6px !important)
-demonicscans.org##div.border-box.updates-element:style(margin-right: 5px !important)
-demonicscans.org##.relative.mr-2.justify-center.center-align.flex.right-nav-cont:style(background-color: #212328 !important)
-demonicscans.org##.toffee-card
-demonicscans.org##div.border-radius-1.padd-1.light-bg:style(background-color: #121318 !important)
-demonicscans.org###bookmark > li
-demonicscans.org###chapters-list:style(background-color: #212328 !important)
-demonicscans.org##p > button:style(background-color: #121318 !important)
-! style end
-demonicscans.org##.payment-widget
-demonicscans.org##.center-m.main-width > [href="/premium.php"]
-demonicscans.org###gotopreader
-demonicscans.org##h4
-demonicscans.org##.chapter-info > h2
-demonicscans.org##center
-demonicscans.org###info-about-chapter
-demonicscans.org###rate-container
-demonicscans.org##.justify-center.center-align.flex.rounded.cursor-pointer
-demonicscans.org###game-launch-banner
-demonicscans.org##a.flex:nth-of-type(3)
-demonicscans.org##div.justify-center.flex:nth-of-type(2)
-demonicscans.org##div.justify-center.flex:nth-of-type(3)
-demonicscans.org###toffebanner
-! drakecomic.org ==================================================================================================================================
-drakecomic.org###readerarea:style(max-width: 800px !important)
-! style end
-drakecomic.org##.rdbot.rdnmx
-drakecomic.org##.rnavbot.readingnav
-drakecomic.org##.scrollToTop
-drakecomic.org##.chdesc > p
-drakecomic.org##.bixbox.ts-breadcrumb
-drakecomic.org##.menu-item-10553.menu-item-object-custom.menu-item-type-custom.menu-item
-drakecomic.org##[href="https://drakecomic.org/login/"] > span
-drakecomic.org##.commentx.cmt
-drakecomic.org###comments > .releases
-drakecomic.org##.chaptertags
-! spiderscans.xyz ==================================================================================================================================
-spiderscans.xyz##.reading-content:style(max-width: 800px !important)
-spiderscans.xyz##.reading-content:style(margin-left: auto !important)
-spiderscans.xyz##.reading-content:style(margin-right: auto !important)
-spiderscans.xyz##.content-area:style(background-color: #000 !important)
-! style end
-spiderscans.xyz##.list-inline.action_list_icon
-spiderscans.xyz##.breadcrumb
-spiderscans.xyz##.active.go-to-top
-spiderscans.xyz##.col-sm-4.col-md-4.sidebar-col
-spiderscans.xyz##.main-col-inner > .row
-spiderscans.xyz##.site-footer
-spiderscans.xyz##.c-breadcrumb-wrapper
-! vortexscans.org ==================================================================================================================================
-vortexscans.org##.mx-auto.max-w-screen-xl
-vortexscans.org##.gap-4.md\:grid-cols-2.grid-cols-1.grid
-vortexscans.org##.bg-\[\#171529\].leading-5.font-medium.h-full.text-\[0\.8125rem\].rounded-md.inline-flex.duration-400.transition-all.data-\[hover\=true\]\:opacity-hover.text-default-foreground.motion-reduce\:transition-none.\[\&\>svg\]\:max-w-\[theme\(spacing\.8\)\].gap-2.min-w-20.px-4.data-\[focus-visible\=true\]\:outline-offset-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:z-10.outline-transparent.outline-solid.cursor-pointer.data-\[pressed\=true\]\:scale-\[0\.97\].transform-gpu.tap-highlight-transparent.overflow-hidden.subpixel-antialiased.whitespace-nowrap.select-none.appearance-none.box-border.justify-center.items-center.relative.group.z-0
-vortexscans.org##.gap-4.flex-col.flex
-vortexscans.org##.z-50.right-4.bottom-4.fixed
 ! manhuatop.org ==================================================================================================================================
 manhuatop.org##.active.go-to-top
 manhuatop.org##.content-area, body:style(background-color: #000 !important)
@@ -285,22 +254,6 @@ manhuatop.org##.section-about.mg_section
 manhuatop.org##.section-blog.mg_section
 manhuatop.org##.section-tags.mg_section
 ||manhuatop.org/wp-content/themes/manhua/images/discord_invite.jpg$image
-! aquareader.net ==================================================================================================================================
-aquareader.net##.content-area:style(background-color: #000 !important)
-! style end
-aquareader.net##.sticky.with-border.c-sub-header-nav
-aquareader.net##.active.go-to-top
-aquareader.net##.main-col-inner > div.row
-aquareader.net##.site-footer
-aquareader.net##.wp-manga.c-top-sidebar.c-sidebar
-aquareader.net##.with-border.c-sub-header-nav
-aquareader.net###chapter-heading
-aquareader.net##.c-widget-wrap.manga-history-widget__inner.widget__inner
-aquareader.net##.col-sm-4.col-md-4.sidebar-col
-aquareader.net##.c-breadcrumb-wrapper
-aquareader.net##.h4.item-title
-aquareader.net##.c-top-sidebar.c-sidebar
-aquareader.net##.c-top-second-sidebar.c-sidebar
 ! manhuaplus.org ==================================================================================================================================
 manhuaplus.org##.mb-20.p-20.oh.a3.s1.r2.bc-fff:style(background-color: #0d1117 !important)
 manhuaplus.org##.mt-5.fs-20.c-0.tac.fs-25.m-0 > [href="https://manhuaplus.org/manga/after-improperly-licking-a-dog-i-became-a-billionaire"]:style(color: #fff !important)
@@ -342,24 +295,8 @@ manhuafast.com/manga/##.list-inline.action_list_icon > li:nth-of-type(1)
 manhuafast.com##.active.go-to-top
 manhuafast.com##.col-lg-12.col-md-12.col-sm-12.col-12.sidebar-hidden
 ||manhuafast.com/wp-content/themes/madara/images/bg-search.jpg$image
-! ravenscans.com ==================================================================================================================================
-ravenscans.com##.th:style(background-color: #0d1117 !important)
-ravenscans.com##body:style(background-color: #000 !important)
-ravenscans.com###readerarea:style(max-width: 800px !important)
-! style end
-ravenscans.com##.chdesc
-ravenscans.com##.bixbox.ts-breadcrumb
-ravenscans.com###submit
-ravenscans.com##.navlef > .r.npv > .nextprev
-ravenscans.com##.r.pagedsel.selector
-ravenscans.com##.chaptertags
-ravenscans.com##div.bixbox:nth-of-type(1)
-ravenscans.com##.comments-area.bixbox
-ravenscans.com##.amob > .r.npv > .nextprev
-ravenscans.com##.menu-footer-menu-container > .menu
-ravenscans.com###footer
-ravenscans.com##.cbot.chnav
-ravenscans.com##.site-footer
+! mangaball.net ==================================================================================================================================
+mangaball.net##.mt-5.pt-5.reader-container:style(background-color: #000 !important)
 ! mangahub.io ==================================================================================================================================
 mangahub.io/chapter/##img:style(max-width: 800px !important)
 mangahub.io##.navbar-fixed-bottom.navbar-inverse.navbar.NCzfZ, section, ._3pfyN, .collapse.navbar-collapse,.navbar-inverse.navbar, body:style(background-color: #0d1117 !important)
@@ -388,16 +325,6 @@ mangahub.io##.scroll-top
 mangahub.io###comments
 mangahub.io##div.container:nth-of-type(2)
 mangahub.io###chapters-tab-tab-999
-! coffeemanga.to ==================================================================================================================================
-coffeemanga.to##.max-w-screen-lg.mx-auto:style(max-width: 800px !important)
-coffeemanga.to##.w-full.relative:style(background-color: #000 !important)
-coffeemanga.to##.content-center.text-foreground\/80.border-border.border-b.flex-col.flex.lg\:rounded-b-lg.bg-\[\#181818\].z-50.px-0\.5.py-0\.5.top-0.sticky:style(max-width: 800px !important)
-coffeemanga.to##.content-center.text-foreground\/80.border-border.border-b.flex-col.flex.lg\:rounded-b-lg.bg-\[\#181818\].z-50.px-0\.5.py-0\.5.top-0.sticky:style(margin-left: auto !important)
-coffeemanga.to##.content-center.text-foreground\/80.border-border.border-b.flex-col.flex.lg\:rounded-b-lg.bg-\[\#181818\].z-50.px-0\.5.py-0\.5.top-0.sticky:style(margin-right: auto !important)
-! style end
-coffeemanga.to##.items-center.justify-center.flex-row.flex
-coffeemanga.to##.space-x-2.items-center.flex
-coffeemanga.to##.text-foreground\/80.\[\&_svg\]\:size-7.hover\:bg-zinc-600.rounded-full.size-9.hover\:text-accent-foreground.aria-invalid\:focus-visible\:ring-0.focus-visible\:outline-1.focus-visible\:ring-4.outline-ring\/50.dark\:outline-ring\/40.dark\:ring-ring\/20.ring-ring\/10.\[\&_svg\]\:shrink-0.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.\[\&_svg\]\:pointer-events-none.disabled\:opacity-50.disabled\:pointer-events-none.transition-\[color\,box-shadow\].font-medium.text-sm.whitespace-nowrap.gap-2.justify-center.items-center.inline-flex
 ! manhuarm.com ==================================================================================================================================
 manhuarm.com/manga/##span:style(font-family: Space grotesk !important)
 manhuarm.com/manga/##.content-area:style(font-family: Space grotesk !important)
@@ -419,6 +346,79 @@ manhuafast.net##.col-lg-12.col-md-12.col-sm-12.col-12.sidebar-hidden
 manhuafast.net##li:nth-of-type(1) > .wp-manga-action-button
 manhuafast.net##.nav-links
 manhuafast.net##.content-area > .container:style(line-height: 0 !important)
+! style end
+mangaball.net##.page-overlay
+mangaball.net##.auto-scroll-btn.rounded-circle.btn-success.btn
+! ravenscans.com ==================================================================================================================================
+ravenscans.com##.th:style(background-color: #0d1117 !important)
+ravenscans.com##body:style(background-color: #000 !important)
+ravenscans.com###readerarea:style(max-width: 800px !important)
+! style end
+ravenscans.com##.chdesc
+ravenscans.com##.bixbox.ts-breadcrumb
+ravenscans.com###submit
+ravenscans.com##.navlef > .r.npv > .nextprev
+ravenscans.com##.r.pagedsel.selector
+ravenscans.com##.chaptertags
+ravenscans.com##div.bixbox:nth-of-type(1)
+ravenscans.com##.comments-area.bixbox
+ravenscans.com##.amob > .r.npv > .nextprev
+ravenscans.com##.menu-footer-menu-container > .menu
+ravenscans.com###footer
+ravenscans.com##.cbot.chnav
+ravenscans.com##.site-footer
+! search.brave.com ==================================================================================================================================
+search.brave.com##.svelte-ve2bd1.download-cta
+! webtoons.com ==================================================================================================================================
+www.webtoons.com###_viewerBox:style(max-width: 800px !important)
+www.webtoons.com###container:style(background-color: #000 !important)
+www.webtoons.com###content > .episode_area,#toolbar:style(background-color: #0d1117 !important)
+www.webtoons.com##.section_title:style(color: #f5f5f5 !important)
+www.webtoons.com##.title, .author, ._sort_by_a.sort_by, .series_count, .number, .cnt,.day_info,.summary,.tx,.paginate a, .paginate strong, .paginate.v2 [class^="pg_"],.detail_body .detail_lst .subj span,.link,._snb_tab_a.snb_tab:style(color: #f5f5f5 !important)
+www.webtoons.com##a:hover:style(background-color: #0d1117 !important)
+www.webtoons.com##.detail_body .detail_lst li:style(border-bottom: 2px solid #0d1117 !important)
+www.webtoons.com##.detail_body .detail_lst li:style(border-top: 2px solid #0d1117 !important)
+www.webtoons.com##.detail_lst,.detail.aside,.banner.detail_body,#header,#genre_wrap,._snbNext.btn_snb_next:style(background-color: #0d1117 !important)
+www.webtoons.com##.detail.aside:style(border-left: #0d1117 !important)
+www.webtoons.com##.detail_body .detail_lst:style(border-right: #0d1117 !important)
+www.webtoons.com###header,.snb_wrap:style(border-bottom: #0d1117 !important)
+! style end
+www.webtoons.com##.disney_banner_area
+www.webtoons.com##._btnRecentBarFold.menu
+www.webtoons.com##.detail_install_app
+www.webtoons.com##.spi_wrap
+www.webtoons.com##.detail_other
+www.webtoons.com##.foot_cont
+www.webtoons.com##.notice_area
+www.webtoons.com###footer
+www.webtoons.com###_toolBarRightArea > .spi_area
+www.webtoons.com##.viewer_info_area
+www.webtoons.com###_bottomDisplay
+www.webtoons.com##.link_publish
+www.webtoons.com##a.link_menu:nth-of-type(2)
+www.webtoons.com###webshopLink
+www.webtoons.com##.type_hover.lnb > li:nth-of-type(4) > .link
+www.webtoons.com##._snbNext.btn_snb_next
+www.webtoons.com##._snbPrev.btn_snb_prev
+! spiderscans.xyz ==================================================================================================================================
+spiderscans.xyz##.reading-content:style(max-width: 800px !important)
+spiderscans.xyz##.reading-content:style(margin-left: auto !important)
+spiderscans.xyz##.reading-content:style(margin-right: auto !important)
+spiderscans.xyz##.content-area:style(background-color: #000 !important)
+! style end
+spiderscans.xyz##.list-inline.action_list_icon
+spiderscans.xyz##.breadcrumb
+spiderscans.xyz##.active.go-to-top
+spiderscans.xyz##.col-sm-4.col-md-4.sidebar-col
+spiderscans.xyz##.main-col-inner > .row
+spiderscans.xyz##.site-footer
+spiderscans.xyz##.c-breadcrumb-wrapper
+! vortexscans.org ==================================================================================================================================
+vortexscans.org##.mx-auto.max-w-screen-xl
+vortexscans.org##.gap-4.md\:grid-cols-2.grid-cols-1.grid
+vortexscans.org##.bg-\[\#171529\].leading-5.font-medium.h-full.text-\[0\.8125rem\].rounded-md.inline-flex.duration-400.transition-all.data-\[hover\=true\]\:opacity-hover.text-default-foreground.motion-reduce\:transition-none.\[\&\>svg\]\:max-w-\[theme\(spacing\.8\)\].gap-2.min-w-20.px-4.data-\[focus-visible\=true\]\:outline-offset-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:z-10.outline-transparent.outline-solid.cursor-pointer.data-\[pressed\=true\]\:scale-\[0\.97\].transform-gpu.tap-highlight-transparent.overflow-hidden.subpixel-antialiased.whitespace-nowrap.select-none.appearance-none.box-border.justify-center.items-center.relative.group.z-0
+vortexscans.org##.gap-4.flex-col.flex
+vortexscans.org##.z-50.right-4.bottom-4.fixed
 ! weebcentral.com ==================================================================================================================================
 weebcentral.com##img.mx-auto.maw-w-full:style(max-width: 800px !important)
 weebcentral.com##.md\:px-4.px-0.py-4.items-center.flex-col.flex.flex-1.bg-base-100:style(background-color: #000 !important)
