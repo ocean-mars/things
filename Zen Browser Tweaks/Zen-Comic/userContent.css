@@ -1,0 +1,108 @@
+@-moz-document domain("manhuarmmtl.com") {
+  .main-col.col-md-12.col-sm-12.sidebar-hidden {
+    max-width: 860px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .summary-layout-2.profile-manga, .content-area {
+    background-color: #000 !important;
+  }
+  .top0.content-area {
+    background-color: #000 !important;
+    margin-top: 0px !important;
+  }
+  .col-sm-8.col-md-8.main-col {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .summary_image {
+    max-width: 384px !important;
+  }
+  [href] {
+    color: #fff !important;
+  }
+  .summary_content, .breadcrumb, h1, .col-sm-8.col-md-8.main-col, .c-page.main-col-inner, .site-header, #ocr-settings-panel, #manga-reading-nav-head > .wp-manga-nav, #manga-reading-nav-foot > .wp-manga-nav {
+    font-family: Space Grotesk !important;
+  }
+  .site-footer, .main-col-inner > .row, .active.go-to-top, li:nth-of-type(1) > .wp-manga-action-button, .allow_vote.post-total-rating, .list-inline.action_list_icon, .c-top-sidebar.c-sidebar, .header-links, .user-menu, .col-sm-4.col-md-4.sidebar-col, .manga-action, .main-col-inner > .font-heading.style-2.c-blog__heading, .comment-respond, #madara-comments, .c-page__content > .font-heading.style-2.c-blog__heading, .chapter-report-btn {
+    display: none !important;
+  }
+}
+@-moz-document domain("comix.to") {
+.title, .content, .subtitle, .status, .more, span {
+    font-family: Luminari !important;
+    font-weight: lighter !important;
+  }
+.longsrtip.read-viewer {
+  max-width: 800px !important;
+  margin-right: auto!important;
+  margin-left: auto !important;
+}
+.read-btn.btn-primary.btn, .chap-area, [href="/browser"] {
+      font-family: "Space Grotesk" !important;
+}
+#readbar .comment::before, #readbar .comment::after, section .swiper.md::before, section .swiper.md::after {
+  background: none !important;
+}
+#readbar-btn, .read-st-toggle {
+  font-family: Luminari !important;
+}
+.read-head .head-inner #readbar-btn::before {
+  content: "" !important;
+}
+.show-header {
+  --header-height: 0rem !important;
+}
+.back-btn {
+  background-color: #0d1117 !important;
+  padding: 12px !important;
+  max-width: 240px !important;
+  border-radius: 8px !important;
+}
+#readbar-btn {
+  background-color: #0d1117 !important;
+  padding: 12px !important;
+  width: 6rem !important;
+  border-radius: 8px !important;
+}
+.read-st-toggle {
+  --bs-body-bg: #18202b !important;
+  bottom: 70.6rem !important;
+  border-radius: 8px !important;
+  width: 6rem !important;
+  padding: 12px !important;
+}
+.read-st-toggle::before {
+  --bs-body-bg: #0d1117 !important;
+  content: "Pref." !important;
+  font-size: medium !important;
+  color: #fff !important;
+  text-align: center !important;
+}
+
+#wrapper > main {
+  padding-top: 0rem !important;
+}
+.head-brand > .logo::before {
+  content: "COMIX" !important;
+  font-size: 2rem !important;
+  font-family: Ciguatera !important;
+  text-align: center !important;
+  vertical-align: text-bottom !important;
+}
+.longsrtip.read-viewer, body, .inner > form {
+  background-color: #000 !important;
+}
+.head-inner, .show.suggestion, .next, .prev, header, .inner, .form-control-lg.form-control, .set-w.btn-filter.btn-lg.btn, :root .user-head, [data-bs-theme="default"] .user-head, [data-bs-theme="dark"] .user-head, .go-chap.form-group > .form-control {
+  background-color: #0d1117 !important;
+}
+.head-inner {
+  max-height: 4.75rem !important;
+}
+.user-head {
+  padding-top: 4rem !important;
+}
+.comic-info, .advanced-filter {
+  padding-top: 3rem !important;
+}
+}

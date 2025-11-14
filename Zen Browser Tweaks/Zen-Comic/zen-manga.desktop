@@ -1,0 +1,25 @@
+
+[Desktop Entry]
+Name=Zen Comic
+Comment=Experience tranquillity while browsing the web without people tracking you
+Keywords=web;browser;internet
+Exec=/home/sohanur_joy/.tarball-installations/zen/zen -P Comic --name Comic -no-remote %u
+Icon=/home/sohanur_joy/Downloads/Misc./icon/zen-comic3.icns
+Terminal=false
+StartupNotify=true
+StartupWMClass=Comic
+NoDisplay=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+Categories=Network;WebBrowser;
+Actions=new-window;new-private-window;profile-manager-window;
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=/home/sohanur_joy/.tarball-installations/zen/zen -P Comic -no-remote --new-window %u
+[Desktop Action new-private-window]
+Name=Open a New Private Window
+Exec=/home/sohanur_joy/.tarball-installations/zen/zen -P Comic -no-remote --private-window %u
+[Desktop Action profile-manager-window]
+Name=Open the Profile Manager
+Exec=/home/sohanur_joy/.tarball-installations/zen/zen --ProfileManager
+
