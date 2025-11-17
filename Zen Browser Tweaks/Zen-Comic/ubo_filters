@@ -355,7 +355,6 @@ manhuafast.com/manga/##.list-inline.action_list_icon > li:nth-of-type(1)
 manhuafast.com##.active.go-to-top
 manhuafast.com##.col-lg-12.col-md-12.col-sm-12.col-12.sidebar-hidden
 ||manhuafast.com/wp-content/themes/madara/images/bg-search.jpg$image
-||manhuarmmtl.com/wp-content/themes/madara/images/bg-search.jpg$image
 ! mangaball.net ==================================================================================================================================
 mangaball.net##.mt-5.pt-5.reader-container:style(background-color: #000 !important)
 ! mangahub.io ==================================================================================================================================
@@ -578,3 +577,10 @@ rizzfables.com##.allc
 rizzfables.com##.navlef > .r.npv > .nextprev
 ! ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ! ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+! Nov 15, 2025 https://comix.to
+comix.to##.p-5
+
+! Nov 15, 2025 https://manhuarmmtl.com
+manhuarmmtl.com###chapter-heading
+
