@@ -1,4 +1,3 @@
-no-cosmetic-filtering: manhuarmmtl.com true
 no-csp-reports: * true
 no-large-media: behind-the-scene false
 no-popups: demonicscans.org true
@@ -14,6 +13,7 @@ no-popups: spiderscans.xyz true
 no-popups: weebcentral.com true
 no-remote-fonts: * true
 no-remote-fonts: comix.to false
+no-remote-fonts: manhuarmmtl.com false
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
@@ -43,10 +43,6 @@ discord.com discord.gg * noop
 discord.com discordapp.com * noop
 discord.com discordapp.net * noop
 elftoon.com wp.com * noop
-revenge-of-the-ironblooded-sword-hound.fandom.com * 3p noop
-revenge-of-the-ironblooded-sword-hound.fandom.com * 3p-script noop
-the-100th-regression-of-the-maxlevel-player.fandom.com * 3p noop
-the-heavenly-demon-cant-live-a-normal-life.fandom.com * 3p noop
 github.com * 3p noop
 mangaball.net poke-black-and-white.net * noop
 mangadex.org mangadex.network * noop
@@ -54,6 +50,7 @@ mangahub.io mghcdn.com * noop
 mangataro.org mangapeak.me * noop
 mangataro.org mangataro.net * noop
 manhuaplus.org manhuaplus.cc * noop
+manhuarmmtl.com lon1.cdn.digitaloceanspaces.com * noop
 manhuarmmtl.com manhuarm.com * noop
 manhuarmmtl.com manhuarm.site * noop
 www.mgeko.cc imgsrv4.com * noop
