@@ -1,0 +1,583 @@
+accessibility.typeaheadfind	false	
+app.feedback.baseURL		
+app.normandy.api_url		
+app.normandy.enabled	false	
+app.normandy.first_run	false	
+app.normandy.migrationsApplied	12	
+app.releaseNotesURL		
+app.shield.optoutstudies.enabled	false	
+app.support.baseURL		
+app.update.auto	false	
+app.update.lastUpdateTime.addon-background-update-timer	1763376845	
+app.update.lastUpdateTime.background-update-timer	1763376845	
+app.update.lastUpdateTime.browser-cleanup-thumbnails	1763380446	
+app.update.lastUpdateTime.services-settings-poll-changes	1763376845	
+app.update.lastUpdateTime.xpi-signature-verification	1763376845	
+app.update.staging.enabled	false	
+app.update.url.details		
+app.update.url.manual		
+beacon.enabled	false	
+breakpad.reportURL		
+browser.aboutConfig.showWarning	false	
+browser.aboutwelcome.enabled	false	
+browser.bookmarks.restore_default_bookmarks	false	
+browser.cache.disk.enable	false	
+browser.contentanalysis.default_result	0	
+browser.contentanalysis.enabled	false	
+browser.contentblocking.category	custom	
+browser.contentblocking.cfr-milestone.enabled	false	
+browser.contentblocking.database.enabled	false	
+browser.contentblocking.report.cookie.url		
+browser.contentblocking.report.cryptominer.url		
+browser.contentblocking.report.endpoint_url		
+browser.contentblocking.report.fingerprinter.url		
+browser.contentblocking.report.hide_vpn_banner	true	
+browser.contentblocking.report.lockwise.enabled	false	
+browser.contentblocking.report.lockwise.how_it_works.url		
+browser.contentblocking.report.manage_devices.url		
+browser.contentblocking.report.monitor.enabled	false	
+browser.contentblocking.report.monitor.home_page_url		
+browser.contentblocking.report.monitor.how_it_works.url		
+browser.contentblocking.report.monitor.preferences_url		
+browser.contentblocking.report.monitor.sign_in_url		
+browser.contentblocking.report.monitor.url		
+browser.contentblocking.report.proxy.enabled	false	
+browser.contentblocking.report.proxy_extension.url		
+browser.contentblocking.report.show_mobile_app	false	
+browser.contentblocking.report.social.url		
+browser.contentblocking.report.tracker.url		
+browser.contentblocking.report.vpn.enabled	false	
+browser.contentblocking.reportBreakage.url		
+browser.crashReports.unsubmittedCheck.autoSubmit2	false	
+browser.disableResetPrompt	true	
+browser.discovery.enabled	false	
+browser.discovery.sites		
+browser.display.use_document_fonts	0	
+browser.display.use_system_colors	false	
+browser.download.alwaysOpenPanel	false	
+browser.download.always_ask_before_handling_new_types	true	
+browser.download.manager.addToRecentDocs	false	
+browser.download.start_downloads_in_tmp_dir	true	
+browser.download.useDownloadDir	false	
+browser.download.viewableInternally.typeWasRegistered.avif	true	
+browser.download.viewableInternally.typeWasRegistered.jxl	true	
+browser.download.viewableInternally.typeWasRegistered.webp	true	
+browser.firefox-view.virtual-list.enabled	false	
+browser.formfill.enable	false	
+browser.gnome-search-provider.enabled	false	
+browser.helperApps.deleteTempFileOnExit	true	
+browser.link.open_newwindow	3	
+browser.link.open_newwindow.restriction	0	
+browser.migration.version	161	
+browser.ml.chat.enabled	false	
+browser.ml.chat.shortcuts	false	
+browser.ml.chat.sidebar	false	
+browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons	false	
+browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features	false	
+browser.newtabpage.activity-stream.default.sites	https://www.youtube.com/,https://comick.io/,https://mullvad.net/check/	
+browser.newtabpage.activity-stream.feeds.section.topstories	false	
+browser.newtabpage.activity-stream.feeds.telemetry	false	
+browser.newtabpage.activity-stream.impressionId	{56a5800f-c2c8-49e8-b4cc-f2574a22198e}	
+browser.newtabpage.activity-stream.section.highlights.includeBookmarks	false	
+browser.newtabpage.activity-stream.section.highlights.includeDownloads	false	
+browser.newtabpage.activity-stream.section.highlights.includePocket	false	
+browser.newtabpage.activity-stream.section.highlights.includeVisited	false	
+browser.newtabpage.activity-stream.showSponsored	false	
+browser.newtabpage.activity-stream.showSponsoredTopSites	false	
+browser.newtabpage.activity-stream.showWeather	false	
+browser.newtabpage.activity-stream.telemetry	false	
+browser.newtabpage.storageVersion	1	
+browser.pageActions.persistedActions	{"ids":["bookmark"],"idsInUrlbar":["bookmark"],"idsInUrlbarPreProton":[],"version":1}	
+browser.pagethumbnails.storage_version	3	
+browser.places.speculativeConnect.enabled	false	
+browser.preferences.experimental	true	
+browser.preferences.experimental.hidden	true	
+browser.preferences.moreFromMozilla	false	
+browser.privatebrowsing.forceMediaMemoryCache	true	
+browser.privatebrowsing.vpnpromourl		
+browser.promo.focus.enabled	false	
+browser.proton.toolbar.version	3	
+browser.region.network.url		
+browser.region.update.enabled	false	
+browser.safebrowsing.allowOverride	false	
+browser.safebrowsing.blockedURIs.enabled	false	
+browser.safebrowsing.downloads.enabled	false	
+browser.safebrowsing.downloads.remote.block_dangerous	false	
+browser.safebrowsing.downloads.remote.block_dangerous_host	false	
+browser.safebrowsing.downloads.remote.block_potentially_unwanted	false	
+browser.safebrowsing.downloads.remote.block_uncommon	false	
+browser.safebrowsing.downloads.remote.enabled	false	
+browser.safebrowsing.downloads.remote.url		
+browser.safebrowsing.malware.enabled	false	
+browser.safebrowsing.passwords.enabled	false	
+browser.safebrowsing.phishing.enabled	false	
+browser.safebrowsing.provider.google.advisory		
+browser.safebrowsing.provider.google.advisoryURL		
+browser.safebrowsing.provider.google.gethashURL		
+browser.safebrowsing.provider.google.reportMalwareMistakeURL		
+browser.safebrowsing.provider.google.reportPhishMistakeURL		
+browser.safebrowsing.provider.google.reportURL		
+browser.safebrowsing.provider.google.updateURL		
+browser.safebrowsing.provider.google4.advisoryURL		
+browser.safebrowsing.provider.google4.dataSharing.enabled	false	
+browser.safebrowsing.provider.google4.dataSharingURL		
+browser.safebrowsing.provider.google4.gethashURL		
+browser.safebrowsing.provider.google4.reportMalwareMistakeURL		
+browser.safebrowsing.provider.google4.reportPhishMistakeURL		
+browser.safebrowsing.provider.google4.reportURL		
+browser.safebrowsing.provider.google4.updateURL		
+browser.safebrowsing.provider.mozilla.gethashURL		
+browser.safebrowsing.provider.mozilla.updateURL		
+browser.safebrowsing.reportPhishURL		
+browser.search.separatePrivateDefault	true	
+browser.search.separatePrivateDefault.ui.enabled	true	
+browser.search.serpEventTelemetry.enabled	false	
+browser.search.serpEventTelemetryCategorization.regionEnabled	false	
+browser.search.suggest.enabled	false	
+browser.search.totalSearches	2	
+browser.search.update	false	
+browser.sessionstore.interval	30000	
+browser.sessionstore.privacy_level	2	
+browser.shell.checkDefaultBrowser	false	
+browser.shell.shortcutFavicons	false	
+browser.shell.skipDefaultBrowserCheckOnFirstRun	true	
+browser.startup.couldRestoreSession.count	1	
+browser.startup.homepage	about:home	
+browser.startup.homepage_override.mstone	ignore	
+browser.startup.lastColdStartupCheck	1763379760	
+browser.startup.page	1	
+browser.tabs.closeWindowWithLastTab	false	
+browser.tabs.crashReporting.sendReport	false	
+browser.tabs.firefox-view	false	
+browser.tabs.remote.separatePrivilegedMozillaWebContentProcess	false	
+browser.tabs.remote.separatedMozillaDomains		
+browser.tabs.searchclipboardfor.middleclick	false	
+browser.tabs.warnOnClose	false	
+browser.tabs.warnOnCloseOtherTabs	false	
+browser.tabs.warnOnOpen	false	
+browser.termsofuse.prefMigrationCheck	true	
+browser.topsites.contile.enabled	false	
+browser.topsites.useRemoteSetting	false	
+browser.translation.engine		
+browser.uiCustomization.state	{"placements":{"widget-overflow-fixed-list":[],"unified-extensions-area":[],"nav-bar":["back-button","forward-button","stop-reload-button","customizableui-special-spring1","vertical-spacer","urlbar-container","customizableui-special-spring2","unified-extensions-button","ublock0_raymondhill_net-browser-action"],"toolbar-menubar":["menubar-items"],"TabsToolbar":["tabbrowser-tabs"],"vertical-tabs":[],"PersonalToolbar":["personal-bookmarks"],"zen-sidebar-top-buttons":["zen-toggle-compact-mode"],"zen-sidebar-foot-buttons":["downloads-button","zen-workspaces-button","zen-create-new-button"]},"seen":["developer-button","screenshot-button","ublock0_raymondhill_net-browser-action"],"dirtyAreaCache":["nav-bar","vertical-tabs","zen-sidebar-foot-buttons","toolbar-menubar","TabsToolbar","PersonalToolbar","zen-sidebar-top-buttons"],"currentVersion":23,"newElementCount":2}	
+browser.uitour.enabled	false	
+browser.uitour.url		
+browser.urlbar.addons.featureGate	false	
+browser.urlbar.autoFill	false	
+browser.urlbar.clipboard.featureGate	false	
+browser.urlbar.fakespot.featureGate	false	
+browser.urlbar.filter.javascript	true	
+browser.urlbar.lastUrlbarSearchSeconds	1763377443	
+browser.urlbar.mdn.featureGate	false	
+browser.urlbar.merino.enabled	false	
+browser.urlbar.quicksuggest.enabled	false	
+browser.urlbar.quicksuggest.migrationVersion	3	
+browser.urlbar.recentsearches.featureGate	false	
+browser.urlbar.recentsearches.lastDefaultChanged	1763376888943	
+browser.urlbar.shortcuts.history	false	
+browser.urlbar.shortcuts.tabs	false	
+browser.urlbar.showSearchTerms.enabled	false	
+browser.urlbar.speculativeConnect.enabled	false	
+browser.urlbar.suggest.engines	false	
+browser.urlbar.suggest.fakespot	false	
+browser.urlbar.suggest.history	false	
+browser.urlbar.suggest.openpage	false	
+browser.urlbar.suggest.quicksuggest.nonsponsored	false	
+browser.urlbar.suggest.quicksuggest.sponsored	false	
+browser.urlbar.suggest.searches	false	
+browser.urlbar.suggest.topsites	true	
+browser.urlbar.suggest.weather	false	
+browser.urlbar.trending.featureGate	false	
+browser.urlbar.weather.featureGate	false	
+browser.urlbar.yelp.featureGate	false	
+browser.vpn_promo.enabled	false	
+browser.warnOnQuit	false	
+browser.warnOnQuitShortcut	false	
+browser.xul.error_pages.expert_bad_cert	true	
+canvas.capturestream.enabled	false	
+captchadetection.lastSubmission	1763376	
+captivedetect.canonicalURL		
+clipboard.autocopy	false	
+cookiebanners.bannerClicking.enabled	true	
+cookiebanners.cookieInjector.enabled	true	
+cookiebanners.service.enableGlobalRules	true	
+cookiebanners.service.enableGlobalRules.subFrames	true	
+cookiebanners.service.mode	1	
+cookiebanners.service.mode.privateBrowsing	1	
+cookiebanners.ui.desktop.enabled	true	
+corroborator.enabled	false	
+datareporting.dau.cachedUsageProfileGroupID	0659ad62-2fa2-4347-bb2f-9b5275a0d72e	
+datareporting.dau.cachedUsageProfileID	2210fb42-2fb5-45bd-a9e5-98f438daeacb	
+datareporting.healthreport.uploadEnabled	false	
+datareporting.policy.dataSubmissionEnabled	false	
+default-browser-agent.enabled	false	
+device.sensors.enabled	false	
+devtools.debugger.remote-enabled	false	
+devtools.everOpened	true	
+devtools.inspector.activeSidebar	fontinspector	
+devtools.inspector.selectedSidebar	fontinspector	
+devtools.toolsidebar-height.inspector	350	
+devtools.toolsidebar-width.inspector	700	
+devtools.toolsidebar-width.inspector.splitsidebar	350	
+distribution.iniFile.exists.appversion	1.17.7b	
+distribution.iniFile.exists.value	false	
+dom.disable_window_move_resize	true	
+dom.forms.autocomplete.formautofill	true	
+dom.gamepad.enabled	false	
+dom.ipc.processCount.privilegedmozilla	0	
+dom.netinfo.enabled	false	
+dom.payments.defaults.saveAddress	false	
+dom.payments.defaults.saveCreditCard	false	
+dom.private-attribution.submission.enabled	false	
+dom.push.connection.enabled	false	
+dom.push.enabled	false	
+dom.push.serverURL		
+dom.push.userAgentID		
+dom.security.https_only_mode	true	
+dom.security.https_only_mode_ever_enabled	true	
+dom.security.https_only_mode_send_http_background_request	false	
+dom.textMetrics.actualBoundingBox.enabled	false	
+dom.textMetrics.baselines.enabled	false	
+dom.textMetrics.emHeight.enabled	false	
+dom.textMetrics.fontBoundingBox.enabled	false	
+dom.vibrator.enabled	false	
+dom.w3c_touch_events.enabled	0	
+dom.webaudio.enabled	false	
+dom.webgpu.enabled	false	
+extensions.activeThemeID	default-theme@mozilla.org	
+extensions.blocklist.addonItemURL		
+extensions.blocklist.detailsURL		
+extensions.blocklist.enabled	false	
+extensions.blocklist.itemURL		
+extensions.blocklist.pingCountVersion	0	
+extensions.colorway-builtin-themes-cleanup	1	
+extensions.databaseSchema	37	
+extensions.enabledScopes	5	
+extensions.formautofill.addresses.enabled	false	
+extensions.formautofill.creditCards.enabled	false	
+extensions.getAddons.cache.enabled	false	
+extensions.getAddons.discovery.api_url		
+extensions.getAddons.showPane	false	
+extensions.htmlaboutaddons.recommendations.enabled	false	
+extensions.lastAppBuildId	20251116111950	
+extensions.lastAppVersion	1.17.7b	
+extensions.lastPlatformVersion	145.0	
+extensions.pendingOperations	false	
+extensions.pictureinpicture.enable_picture_in_picture_overrides	true	
+extensions.pocket.enabled	false	
+extensions.postDownloadThirdPartyPrompt	false	
+extensions.quarantinedDomains.enabled	false	
+extensions.quarantinedDomains.list	autoatendimento.bb.com.br,ibpf.sicredi.com.br,ibpj.sicredi.com.br,internetbanking.caixa.gov.br,www.ib12.bradesco.com.br,www2.bancobrasil.com.br	
+extensions.recommendations.themeRecommendationUrl		
+extensions.screenshots.disabled	true	
+extensions.signatureCheckpoint	1	
+extensions.systemAddon.update.enabled	false	
+extensions.systemAddon.update.url		
+extensions.ui.dictionary.hidden	true	
+extensions.ui.extension.hidden	false	
+extensions.ui.lastCategory	addons://list/plugin	
+extensions.ui.locale.hidden	true	
+extensions.ui.mlmodel.hidden	true	
+extensions.ui.sitepermission.hidden	true	
+extensions.update.autoUpdateDefault	false	
+extensions.update.enabled	false	
+extensions.webcompat-reporter.enabled	false	
+extensions.webcompat.enable_shims	true	
+extensions.webcompat.perform_injections	true	
+extensions.webextensions.ExtensionStorageIDB.migrated.uBlock0@raymondhill.net	true	
+extensions.webextensions.uuids	{"data-leak-blocker@mozilla.com":"17f0e11a-7e00-4935-9a91-4725f710a55a","formautofill@mozilla.org":"5476f130-8d8e-46ab-80c3-873b0a8857e7","ipp-activator@mozilla.com":"f82c8fa3-1ca3-4fd6-98be-f4e4e0edb5f3","pictureinpicture@mozilla.org":"21026303-2536-4e27-91f8-15855823415c","addons-search-detection@mozilla.com":"6368c8fd-9ff4-430d-9242-74c1fe36392f","webcompat@mozilla.org":"9a310967-e580-48bf-b3e8-4eafebbc122d","newtab@mozilla.org":"53d1ae67-0a06-40f8-86b8-59b4019ab607","default-theme@mozilla.org":"0fd5d89a-636b-4e2b-b302-45940c62bd86","uBlock0@raymondhill.net":"d9034de8-80cd-4e19-a0e8-62788612aec6"}	
+extensions.webservice.discoverURL		
+fission.autostart	true	
+font.default.ar	font-family: Luminari	
+font.name.monospace.x-western	SpaceMono Nerd Font	
+font.name.sans-serif.x-western	Space Grotesk	
+font.name.serif.x-western	Luminari	
+full-screen-api.warning.delay	0	
+full-screen-api.warning.timeout	0	
+gecko.handlerService.defaultHandlersVersion	1	
+gecko.handlerService.schemes.irc.0.name		
+gecko.handlerService.schemes.irc.0.uriTemplate		
+gecko.handlerService.schemes.ircs.0.name		
+gecko.handlerService.schemes.ircs.0.uriTemplate		
+gecko.handlerService.schemes.mailto.0.name		
+gecko.handlerService.schemes.mailto.0.uriTemplate		
+gecko.handlerService.schemes.mailto.1.name		
+gecko.handlerService.schemes.mailto.1.uriTemplate		
+general.smoothScroll.mouseWheel.durationMaxMS	250	
+general.smoothScroll.msdPhysics.enabled	false	
+geo.enabled	false	
+geo.provider.geoclue.always_high_accuracy	false	
+geo.provider.ms-windows-location	false	
+geo.provider.network.url		
+geo.provider.use_corelocation	false	
+geo.provider.use_geoclue	false	
+geo.provider.use_gpsd	false	
+gfx.font_rendering.graphite.enabled	false	
+gfx.font_rendering.opentype_svg.enabled	false	
+gfx.offscreencanvas.enabled	false	
+gfx.webrender.all	true	
+identity.fxaccounts.enabled	false	
+javascript.options.asmjs	false	
+javascript.options.jit_trustedprincipals	true	
+javascript.options.spectre.disable_for_isolated_content	false	
+javascript.options.wasm	false	
+javascript.options.wasm_baselinejit	false	
+layout.css.visited_links_enabled	false	
+layout.spellcheckDefault	0	
+mathml.disabled	true	
+media.gmp-gmpopenh264.enabled	false	
+media.gmp-manager.buildID	20251116111950	
+media.gmp-manager.lastCheck	1763380785	
+media.gmp-manager.lastEmptyCheck	1763380785	
+media.gmp-manager.url		
+media.gmp-provider.enabled	false	
+media.gmp-widevinecdm.enabled	false	
+media.gmp.storage.version.observed	1	
+media.memory_cache_max_size	65536	
+media.navigator.enabled	false	
+media.peerconnection.enabled	false	
+media.peerconnection.ice.default_address_only	true	
+media.peerconnection.ice.proxy_only_if_behind_proxy	true	
+media.videocontrols.picture-in-picture.video-toggle.enabled	false	
+media.webrtc.enable_pq_dtls	true	
+media.webspeech.synth.enabled	false	
+media.webvtt.debug.logging	false	
+media.webvtt.testing.events	false	
+mousewheel.min_line_scroll_amount	32	
+network.IDN_show_punycode	true	
+network.auth.subresource-http-auth-allow	1	
+network.captive-portal-service.enabled	false	
+network.connectivity-service.enabled	false	
+network.cookie.CHIPS.lastMigrateDatabase	2	
+network.cookie.cookieBehavior	1	
+network.cookie.sameSite.laxByDefault	true	
+network.cookie.sameSite.noneRequiresSecure	true	
+network.cookie.sameSite.schemeful	true	
+network.dns.disableIPv6	true	
+network.dns.disablePrefetch	true	
+network.dns.disablePrefetchFromHTTPS	true	
+network.file.disable_unc_paths	true	
+network.gio.supported-protocols		
+network.http.http3.enable_kyber	true	
+network.http.referer.XOriginTrimmingPolicy	2	
+network.http.referer.defaultPolicy.trackers	1	
+network.http.referer.defaultPolicy.trackers.pbmode	1	
+network.http.referer.spoofSource	true	
+network.http.speculative-parallel-limit	0	
+network.manage-offline-status	false	
+network.predictor.enable-prefetch	false	
+network.predictor.enabled	false	
+network.prefetch-next	false	
+network.proxy.socks_remote_dns	true	
+network.trr.custom_uri	https://se-mma-dns-001.mullvad.net/dns-query	
+network.trr.mode	3	
+network.trr.uri	https://se-mma-dns-001.mullvad.net/dns-query	
+nimbus.migrations.after-remote-settings-update	0	
+nimbus.migrations.after-store-initialized	2	
+nimbus.migrations.init-started	0	
+nimbus.profileId	b98ee4b9-5951-4567-bc8b-28ebfb740ec5	
+pdfjs.disabled	false	
+pdfjs.enableScripting	false	
+pdfjs.enabledCache.state	true	
+pdfjs.migrationVersion	2	
+permissions.default.camera	2	
+permissions.default.desktop-notification	2	
+permissions.default.geo	2	
+permissions.default.microphone	2	
+permissions.default.xr	2	
+permissions.manager.defaultsUrl		
+places.history.enabled	false	
+privacy.bounceTrackingProtection.hasMigratedUserActivationData	true	
+privacy.clearHistory.browsingHistoryAndDownloads	true	
+privacy.clearHistory.cache	true	
+privacy.clearHistory.cookiesAndStorage	false	
+privacy.clearHistory.formdata	true	
+privacy.clearHistory.historyFormDataAndDownloads	true	
+privacy.clearOnShutdown_v2.browsingHistoryAndDownloads	true	
+privacy.clearOnShutdown_v2.cache	true	
+privacy.clearOnShutdown_v2.cookiesAndStorage	true	
+privacy.clearOnShutdown_v2.downloads	true	
+privacy.clearOnShutdown_v2.formdata	true	
+privacy.clearOnShutdown_v2.historyFormDataAndDownloads	true	
+privacy.clearSiteData.browsingHistoryAndDownloads	true	
+privacy.clearSiteData.cache	true	
+privacy.clearSiteData.cookiesAndStorage	false	
+privacy.clearSiteData.formdata	true	
+privacy.clearSiteData.historyFormDataAndDownloads	true	
+privacy.donottrackheader.enabled	false	
+privacy.fingerprintingProtection	true	
+privacy.firstparty.isolate	false	
+privacy.globalprivacycontrol.enabled	true	
+privacy.globalprivacycontrol.functionality.enabled	true	
+privacy.globalprivacycontrol.pbmode.enabled	true	
+privacy.globalprivacycontrol.was_ever_enabled	true	
+privacy.history.custom	true	
+privacy.query_stripping.strip_list	__hsfp __hssc __hstc __s _hsenc _openstat dclid fbclid gbraid gclid hsCtaTracking igshid mc_eid ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id rb_clickid s_cid twclid vero_conv vero_id wbraid wickedid yclid	
+privacy.resistFingerprinting	true	
+privacy.resistFingerprinting.block_mozAddonManager	true	
+privacy.resistFingerprinting.pbmode	true	
+privacy.sanitize.clearOnShutdown.hasMigratedToNewPrefs3	true	
+privacy.sanitize.pending	[{"id":"shutdown","itemsToClear":["cache","formdata","downloads","browsingHistoryAndDownloads","cookiesAndStorage"],"options":{}},{"id":"newtab-container","itemsToClear":[],"options":{}}]	
+privacy.sanitize.sanitizeOnShutdown	true	
+privacy.sanitize.timeSpan	0	
+privacy.spoof_english	2	
+privacy.trackingprotection.allow_list.baseline.enabled	false	
+privacy.trackingprotection.allow_list.convenience.enabled	false	
+privacy.trackingprotection.allow_list.hasMigratedCategoryPrefs	true	
+privacy.trackingprotection.allow_list.hasUserInteractedWithETPSettings	true	
+privacy.trackingprotection.emailtracking.enabled	true	
+privacy.trackingprotection.enabled	true	
+privacy.trackingprotection.socialtracking.enabled	true	
+privacy.userContext.enabled	true	
+privacy.userContext.ui.enabled	true	
+privacy.window.maxInnerHeight	900	
+privacy.window.maxInnerWidth	1400	
+reader.parse-on-load.enabled	false	
+security.OCSP.enabled	0	
+security.OCSP.require	false	
+security.ask_for_password	2	
+security.cert_pinning.enforcement_level	2	
+security.certerrors.mitm.priming.enabled	false	
+security.certerrors.mitm.priming.endpoint		
+security.dialog_enable_delay	1000	
+security.password_lifetime	5	
+security.pki.crlite_mode	0	
+security.pki.mitm_canary_issuer.enabled	false	
+security.pki.mitm_detected	false	
+security.remote_settings.crlite_filters.bucket		
+security.remote_settings.crlite_filters.collection		
+security.remote_settings.crlite_filters.enabled	false	
+security.remote_settings.crlite_filters.signer		
+security.remote_settings.intermediates.bucket		
+security.remote_settings.intermediates.collection		
+security.remote_settings.intermediates.enabled	false	
+security.remote_settings.intermediates.signer		
+security.sandbox.gpu.level	1	
+security.ssl.enable_ocsp_stapling	false	
+security.ssl.require_safe_negotiation	true	
+security.ssl.treat_unsafe_negotiation_as_broken	true	
+security.tls.enable_0rtt_data	false	
+security.tls.enable_kyber	true	
+security.tls.version.enable-deprecated	false	
+services.blocklist.addons.collection		
+services.blocklist.addons.signer		
+services.blocklist.gfx.collection		
+services.blocklist.gfx.signer		
+services.blocklist.plugins.collection		
+services.blocklist.plugins.signer		
+services.settings.clock_skew_seconds	-172	
+services.settings.last_etag	"1763368241698"	
+services.settings.last_update_seconds	1763377017	
+services.settings.main.addons-data-leak-blocker-domains.last_check	1763377017	
+services.settings.main.addons-manager-settings.last_check	1763377017	
+services.settings.main.anti-tracking-url-decoration.last_check	1763377017	
+services.settings.main.cfr.last_check	1763377017	
+services.settings.main.cookie-banner-rules-list.last_check	1763377017	
+services.settings.main.devtools-compatibility-browsers.last_check	1763377017	
+services.settings.main.devtools-devices.last_check	1763377017	
+services.settings.main.doh-config.last_check	1763377017	
+services.settings.main.doh-providers.last_check	1763377017	
+services.settings.main.fingerprinting-protection-overrides.last_check	1763377017	
+services.settings.main.hijack-blocklists.last_check	1763377017	
+services.settings.main.language-dictionaries.last_check	1763377017	
+services.settings.main.message-groups.last_check	1763377017	
+services.settings.main.moz-essential-domain-fallbacks.last_check	1763377017	
+services.settings.main.newtab-wallpapers-v2.last_check	1763377017	
+services.settings.main.nimbus-desktop-experiments.last_check	1763377017	
+services.settings.main.nimbus-secure-experiments.last_check	1763377017	
+services.settings.main.normandy-recipes-capabilities.last_check	1763377017	
+services.settings.main.partitioning-exempt-urls.last_check	1763377017	
+services.settings.main.password-recipes.last_check	1763377017	
+services.settings.main.password-rules.last_check	1763377017	
+services.settings.main.query-stripping.last_check	1763377017	
+services.settings.main.remote-permissions.last_check	1763377017	
+services.settings.main.search-categorization.last_check	1763377017	
+services.settings.main.search-config-icons.last_check	1763377017	
+services.settings.main.search-config-overrides-v2.last_check	1763377017	
+services.settings.main.search-config-v2.last_check	1763377017	
+services.settings.main.search-default-override-allowlist.last_check	1763377017	
+services.settings.main.search-telemetry-v2.last_check	1763377017	
+services.settings.main.sites-classification.last_check	1763377017	
+services.settings.main.third-party-cookie-blocking-exempt-urls.last_check	1763377017	
+services.settings.main.tippytop.last_check	1763377017	
+services.settings.main.top-sites.last_check	1763377017	
+services.settings.main.tracking-protection-lists.last_check	1763377017	
+services.settings.main.translations-models-v2.last_check	1763377017	
+services.settings.main.translations-models.last_check	1763377017	
+services.settings.main.translations-wasm.last_check	1763377017	
+services.settings.main.url-classifier-exceptions.last_check	1763377017	
+services.settings.main.url-classifier-skip-urls.last_check	1763377017	
+services.settings.main.url-parser-default-unknown-schemes-interventions.last_check	1763377017	
+services.settings.main.urlbar-persisted-search-terms.last_check	1763377017	
+services.settings.main.webcompat-interventions.last_check	1763377017	
+services.settings.main.websites-with-shared-credential-backends.last_check	1763377017	
+services.settings.security-state.cert-revocations.last_check	1763377017	
+services.settings.security-state.intermediates.last_check	1763377017	
+services.settings.security-state.onecrl.last_check	1763377017	
+services.settings.server		
+services.sync.clients.lastSync	0	
+services.sync.declinedEngines		
+services.sync.engine.addresses.available	true	
+services.sync.globalScore	0	
+services.sync.nextSync	0	
+sidebar.backupState	{"command":"viewBookmarksSidebar","panelOpen":false,"launcherExpanded":false,"launcherVisible":false}	
+sidebar.old-sidebar.has-used	true	
+sidebar.visibility	hide-sidebar	
+signon.autofillForms	false	
+signon.firefoxRelay.feature	disabled	
+signon.formlessCapture.enabled	false	
+signon.generation.enabled	false	
+signon.management.page.breach-alerts.enabled	false	
+signon.management.page.breachAlertUrl		
+signon.rememberSignons	false	
+startup.homepage_override_url		
+startup.homepage_welcome_url		
+startup.homepage_welcome_url.additional		
+toolkit.coverage.endpoint.base		
+toolkit.coverage.opt-out	true	
+toolkit.legacyUserProfileCustomizations.stylesheets	true	
+toolkit.profiles.storeID	60a86fa8	
+toolkit.shopping.ohttpConfigURL		
+toolkit.shopping.ohttpRelayURL		
+toolkit.startup.last_success	1763379758	
+toolkit.telemetry.archive.enabled	false	
+toolkit.telemetry.bhrPing.enabled	false	
+toolkit.telemetry.cachedClientID	92dde283-ba46-44fc-a0c5-1b6cb204a03f	
+toolkit.telemetry.cachedProfileGroupID	3c598d70-065d-4b55-9ee3-95c85c54dbe4	
+toolkit.telemetry.coverage.opt-out	true	
+toolkit.telemetry.enabled	false	
+toolkit.telemetry.firstShutdownPing.enabled	false	
+toolkit.telemetry.newProfilePing.enabled	false	
+toolkit.telemetry.reportingpolicy.firstRun	false	
+toolkit.telemetry.server	data:,	
+toolkit.telemetry.shutdownPingSender.enabled	false	
+toolkit.telemetry.unified	false	
+toolkit.telemetry.updatePing.enabled	false	
+toolkit.winRegisterApplicationRestart	false	
+ui.key.menuAccessKey	0	
+ui.key.menuAccessKeyFocuses	true	
+ui.use_standins_for_native_colors	true	
+webgl.disabled	true	
+webgl.enable-webgl2	false	
+widget.gtk.native-context-menus	true	
+widget.non-native-theme.use-theme-accent	false	
+zen.glance.enabled	false	
+zen.keyboard.shortcuts.version	13	
+zen.mods.last-update	1763376786	
+zen.mods.milestone	1.17.7b	
+zen.mods.updated-value-observer	true	
+zen.startup.smooth-scroll-in-tabs	false	
+zen.theme.accent-color	#007AFF	
+zen.theme.border-radius	10	
+zen.theme.content-element-separation	0	
+zen.theme.gradient.show-custom-colors	true	
+zen.themes.disable-all	true	
+zen.ui.migration.compact-mode-button-added	true	
+zen.ui.migration.version	5	
+zen.updates.last-build-id	20251116111950	
+zen.urlbar.behavior	float	
+zen.urlbar.suggestions-learner	{"Browser:ReloadSkipCache":-3}	
+zen.view.compact.enable-at-startup	true	
+zen.view.experimental-no-window-controls	true	
+zen.welcome-screen.seen	true	
+zen.workspaces.active	{a1003919-282f-4a07-9245-86456042d4b6}	
