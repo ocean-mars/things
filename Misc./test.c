@@ -58,7 +58,7 @@ void current_date_str(char *buf, size_t n) {
 time_t now = time(NULL);
 struct tm *today = localtime(&now);
 
-FILE *mem = fmemopen(buf, n, "w"); // temporary in-memory stream
+FILE *mem = fmemopen(buf, n, "w");
 if (mem == NULL) return;
 
 fprintf(mem, "%04d-%02d-%02d",
