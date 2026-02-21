@@ -1,3 +1,7 @@
+@-moz-document domain("kagane.org") {
+  * {
+  font-family: "Space Grotesk" !important;
+}}
 @-moz-document domain("manhuarmmtl.com") {
   .main-col.col-md-12.col-sm-12.sidebar-hidden {
     max-width: 860px !important;
@@ -28,6 +32,7 @@
     display: none !important;
   }
 }
+
 @-moz-document domain("comix.to") {
 .title, .content, .subtitle, .status, .more, span {
     font-family: Luminari !important;
@@ -67,10 +72,12 @@
 }
 .read-st-toggle {
   --bs-body-bg: #18202b !important;
+  background: rgb(20, 30, 43) !important;
   bottom: 70.6rem !important;
   border-radius: 8px !important;
   width: 6rem !important;
-  padding: 12px !important;
+  padding: 14px !important;
+  right: 1rem !important;
 }
 .read-st-toggle::before {
   --bs-body-bg: #0d1117 !important;
@@ -93,7 +100,12 @@
 .longsrtip.read-viewer, body, .inner > form {
   background-color: #000 !important;
 }
-.head-inner, .show.suggestion, .next, .prev, header, .inner, .form-control-lg.form-control, .set-w.btn-filter.btn-lg.btn, :root .user-head, [data-bs-theme="default"] .user-head, [data-bs-theme="dark"] .user-head, .go-chap.form-group > .form-control {
+
+.rate-box {
+  margin-top: 2.15rem !important;
+  background-color: #0d1117 !important;
+}
+.head-inner, .chapter-info, .show.suggestion, .next, .prev, header, .inner, .form-control-lg.form-control, .set-w.btn-filter.btn-lg.btn, :root .user-head, [data-bs-theme="default"] .user-head, [data-bs-theme="dark"] .user-head, .go-chap.form-group > .form-control {
   background-color: #0d1117 !important;
 }
 .head-inner {
@@ -106,3 +118,5 @@
   padding-top: 3rem !important;
 }
 }
+
+
