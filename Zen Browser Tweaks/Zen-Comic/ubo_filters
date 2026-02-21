@@ -78,7 +78,8 @@ coffeemanga.to##.text-foreground\/80.\[\&_svg\]\:size-7.hover\:bg-zinc-600.round
 ! comix.to ==================================================================================================================================
 comix.to##.head-inner:style(background-color: transparent !important)
 comix.to##.mb-5.notice
-comix.to##.sidebar
+comix.to##:matches-path(/^\/home$/) .sidebar
+comix.to##.head-dropdown.user-menu.dropdown
 comix.to##form > .fa-magnifying-glass.fa-solid.fa-sharp
 comix.to##[href="/browser"] > .fa-filter.fa-solid.fa-sharp
 comix.to##.popular > div:nth-of-type(2)
@@ -86,10 +87,10 @@ comix.to##.popular
 comix.to##.left.progress-line
 comix.to##.me-2.number
 comix.to##.fa-gear.fa-solid.fa-sharp
-comix.to##.main > section:nth-of-type(1) > div:nth-of-type(2) > .swiper-horizontal.swiper-initialized.md.num.swiper > .swiper-wrapper.md.comic
-comix.to##.main > section:nth-of-type(1) > .break_.justify.section-head
-comix.to##section:nth-of-type(2) > .break_.justify.section-head
-comix.to##section:nth-of-type(2) > div:nth-of-type(2) > .swiper-horizontal.swiper-initialized.md.num.swiper > .swiper-wrapper.md.comic
+!comix.to##.main > section:nth-of-type(1) > div:nth-of-type(2) > .swiper-horizontal.swiper-initialized.md.num.swiper > .swiper-wrapper.md.comic
+!comix.to##.main > section:nth-of-type(1) > .break_.justify.section-head
+!comix.to##section:nth-of-type(2) > .break_.justify.section-head
+!comix.to##section:nth-of-type(2) > div:nth-of-type(2) > .swiper-horizontal.swiper-initialized.md.num.swiper > .swiper-wrapper.md.comic
 comix.to##footer
 comix.to##.head-brand > .logo > svg
 comix.to##.container > .inner
@@ -557,30 +558,19 @@ yakshascans.com##.related-manga.c-row.row
 ! END ==============================================================================================================================================================================
 ! ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ! ==================================================================================================================================================================================
-! TEMPORARY >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-! ==================================================================================================================================================================================
-! rizzfables.com ===================================================================================================================================================================
-rizzfables.com###readerarea:style(max-width: 800px !important)
-rizzfables.com##.readercontent:style(background-color: #000 !important)
-rizzfables.com##body:style(background-color: #000 !important)
-rizzfables.com##.bixbox.ts-breadcrumb, #chapter:style(background-color: #0d1117 !important)
-rizzfables.com##.th
-rizzfables.com##.notice-ribbon
-rizzfables.com##.chapterbody > .bixbox
-rizzfables.com##.site-footer
-rizzfables.com##.amob > .r.npv > .nextprev
-rizzfables.com##.chdesc > p
-rizzfables.com##.readingmode.selector
-rizzfables.com##.navlef > .r.npv > .nextprev > .ch-prev-btn > .fa-angle-left.fas
-rizzfables.com##.navlef > .r.npv > .nextprev > .ch-next-btn > .fa-angle-right.fas
-rizzfables.com##.allc
-rizzfables.com##.navlef > .r.npv > .nextprev
-! ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-! ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ! Nov 15, 2025 https://comix.to
-comix.to##.p-5
+!omix.to##.p-5
 
 ! Nov 15, 2025 https://manhuarmmtl.com
 manhuarmmtl.com###chapter-heading
+
+! Feb 21, 2026 https://comix.to
+comix.to##.new.head-btn.btn
+comix.to##.fa-gear-complex.fa-solid.fa-sharp
+comix.to##.detail-ctrl > button.btn:nth-of-type(2)
+comix.to###cm-widget
+comix.to##.btn.like-btn
+
+! Feb 21, 2026 https://asuracomic.net
+asuracomic.net##.bg-\[\#0D0B0E\].px-4.sm\:py-8.py-6.justify-center.items-center.flex.jsx-140b8c962fbf8bd6
 
