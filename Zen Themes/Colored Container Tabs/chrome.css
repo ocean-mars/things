@@ -15,10 +15,12 @@
       transparent
     ) !important;
   opacity: 0.8 !important;
-  border-left: 32px solid
-    color-mix(
-      in srgb,
-      var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
-      transparent
-    ) !important;
+  &:not(.zen-essentials-container .tab-background) {
+    border-left: 32px solid
+      color-mix(
+        in srgb,
+        var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
+        transparent
+      ) !important;
+  }
 }
