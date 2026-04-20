@@ -1,0 +1,118 @@
+Student Management System 
+
+Department (Did (PK), Dname, Location)
+Student (Sid(PK), Sname, Age, Thana, Distinct, Email, DID (FK))
+Course (CCode (PK), Cname, Credit,DID (FK) )
+Result (Sid(FK),CCode (FK), Composite key (Sid,CCode), Mark )
+
+
+-- Create the Department table
+
+CREATE TABLE Department (
+    Did INT PRIMARY KEY, 
+    Dname VARCHAR(100) NOT NULL, 
+    Location VARCHAR(100)
+);
+
+-- Create the Student table
+
+CREATE TABLE Student (
+    Sid INT PRIMARY KEY, 
+    Sname VARCHAR(100) NOT NULL, 
+    Age INT, 
+    Thana VARCHAR(100), 
+    District VARCHAR(100), 
+    Email VARCHAR(100) UNIQUE, 
+    DID INT,
+    FOREIGN KEY (DID) REFERENCES Department(Did)
+);
+
+-- Create the Course table
+
+CREATE TABLE Course (
+    CCode varchar(16) PRIMARY KEY, 
+    Cname VARCHAR(100) NOT NULL, 
+    Credit INT, 
+    DID INT,
+    FOREIGN KEY (DID) REFERENCES Department(Did)
+);
+
+
+
+
+
+
+-- Create the Result table
+
+CREATE TABLE Result (
+    Sid INT, 
+    CCode varchar(16), 
+    Mark INT, 
+    PRIMARY KEY (Sid, CCode), 
+    FOREIGN KEY (Sid) REFERENCES Student(Sid), 
+    FOREIGN KEY (CCode) REFERENCES Course(CCode)
+);
+
+-- Insert data into Department table
+
+INSERT INTO Department (Did, Dname, Location) VALUES
+(1, 'Computer Science', 'Building A'),
+(2, 'Electrical Engineering', 'Building A'),
+(3, 'Mechanical Engineering', 'Building B'),
+(4, 'Civil Engineering', 'Building D'),
+(5, 'Business Administration', 'Building D'),
+(6, 'Mathematics', 'Building D'),
+(7, 'Physics', 'Building B'),
+(8, 'Chemistry', 'Building C'),
+(9, 'Biology', 'Building C'),
+(10, 'Architecture', 'Building A'),
+(11, 'Philosophy', 'Building D'),
+(12, 'Economics', 'Building D'),
+(13, 'Law', 'Building A'),
+(14, 'Psychology', 'Building C'),
+(15, 'History', 'Building B');
+
+-- Insert data into Student table
+
+INSERT INTO Student (Sid, Sname, Age, Thana, District, Email, DID) VALUES
+(1, 'Alice', 20, 'Thana1', 'District1', 'alice@example.com', 1),
+(2, 'Bob', 21, 'Thana2', 'District2', 'bob@example.com', 2),
+(3, 'Charlie', 22, 'Thana3', 'District3', 'charlie@example.com', 3),
+(4, 'David', 23, 'Thana4', 'District4', 'david@example.com', 1),
+(5, 'Eve', 24, 'Thana5', 'District5', 'eve@example.com', 2),
+(6, 'Frank', 20, 'Thana6', 'District6', 'frank@example.com', 3),
+(7, 'Grace', 21, 'Thana7', 'District7', 'grace@example.com', 7),
+(8, 'Hannah', 22, 'Thana8', 'District8', 'hannah@example.com', 8),
+(9, 'Ivy', 23, 'Thana9', 'District9', 'ivy@example.com', 8),
+(10, 'Jack', 24, 'Thana10', 'District10', 'jack@example.com', 10),
+(11, 'Kathy', 20, 'Thana11', 'District11', 'kathy@example.com', 10),
+(12, 'Leo', 21, 'Thana12', 'District12', 'leo@example.com', 12),
+(13, 'Mona', 22, 'Thana13', 'District13', 'mona@example.com', 12),
+(14, 'Nathan', 23, 'Thana14', 'District14', 'nathan@example.com', 14),
+(15, 'Olivia', 24, 'Thana15', 'District15', 'olivia@example.com', 15);
+
+-- Insert data into Course table
+
+INSERT INTO Course (CCode, Cname, Credit, DID) VALUES
+('CS101', 'Data Structures', 3, 1),
+('CS102', 'Algorithms', 4, 1),
+('EE103', 'Circuits', 4, 2),
+('EE104', 'Thermodynamics', 3, 2),
+('BA105', 'Statics', 3, 5),
+('BA106', 'Accounting', 3, 5),
+('BA107', 'Linear Algebra', 4, 5),
+('CS108', 'Quantum Mechanics', 3, 1),
+('CH109', 'Organic Chemistry', 2, 8),
+('BIO110', 'Genetics', 2, 9),
+('BIO111', 'Design Principles', 2, 9),
+('CS112', 'Ethics in Law', 3, 1),
+('EE113', 'Psychological Testing', 3, 2),
+('PSY114', 'Macroeconomics', 3, 14),
+('PSY115', 'Modern History', 2, 14);
+
+
+-- Insert data into Result table
+
+INSERT INTO Result (Sid, CCode, Mark) VALUES
+(1, 'CS101', 85), (1, 'CS102', 90), (1, 'CS112', 75), (1, 'CS108', 88), (2, 'EE103', 80), (2, 'EE104', 82), (2, 'CS101', 87), (3, 'CS101', 70), (3, 'CS102', 78), (3, 'CH109', 65), (3, 'BIO110', 72), (4, 'CS108', 60), (4, 'EE104', 74),  (5, 'CS112', 93), (5, 'PSY114', 88), (5, 'PSY115', 85), (5, 'BIO111', 89), (6, 'CS102', 81), (6, 'BIO110', 78), (6, 'CH109', 70), (7, 'CS101', 90), (7, 'CS112', 95), (7, 'EE103', 85), (7, 'BA105', 88), (8, 'CH109', 62),(9, 'BA106', 75), (9, 'BIO111', 82), (9, 'CS112', 90), (9, 'PSY115', 78), (10, 'CS101', 88), (10, 'CS102', 84), (10, 'EE113', 77), (10, 'BA105', 73);
+
