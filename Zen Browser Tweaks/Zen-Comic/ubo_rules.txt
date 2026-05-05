@@ -1,3 +1,4 @@
+no-cosmetic-filtering: vortexscans.org true
 no-csp-reports: * true
 no-large-media: behind-the-scene false
 no-popups: demonicscans.org true
@@ -7,6 +8,7 @@ no-popups: lhtranslation.net true
 no-popups: mangadex.org true
 no-popups: manhuaplus.org true
 no-popups: manhuarmmtl.com true
+no-popups: manhuarmtl.com true
 no-popups: manhuatop.org true
 no-popups: www.mgeko.cc true
 no-popups: spiderscans.xyz true
@@ -14,12 +16,14 @@ no-popups: weebcentral.com true
 no-remote-fonts: * true
 no-remote-fonts: comix.to false
 no-remote-fonts: manhuarmmtl.com false
+no-remote-fonts: manhuarmtl.com false
 * * 3p block
 * * 3p-frame block
 * * 3p-script block
 * cloudflare.com * noop
 animepahe.si ddos-guard.net * noop
 animepahe.si owocdn.top * noop
+asurascans.com asuracomic.net * noop
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
 behind-the-scene * 3p noop
@@ -42,6 +46,7 @@ demonicscans.org readermc.org * noop
 discord.com discord.gg * noop
 discord.com discordapp.com * noop
 discord.com discordapp.net * noop
+elftoon.com elftoon.xyz * noop
 elftoon.com wp.com * noop
 github.com * 3p noop
 mangaball.net poke-black-and-white.net * noop
@@ -49,10 +54,13 @@ mangadex.org mangadex.network * noop
 mangahub.io mghcdn.com * noop
 mangataro.org mangapeak.me * noop
 mangataro.org mangataro.net * noop
+mangataro.org mangataro.yachts * noop
 manhuaplus.org manhuaplus.cc * noop
 manhuarmmtl.com lon1.cdn.digitaloceanspaces.com * noop
 manhuarmmtl.com manhuarm.com * noop
 manhuarmmtl.com manhuarm.site * noop
+manhuarmmtl.com manhuarmtl.com * noop
+manhuarmtl.com manhuarmmtl.com * noop
 www.mgeko.cc imgsrv4.com * noop
 www.mgeko.cc jsdelivr.net * noop
 ravenscans.com * 3p noop
@@ -60,11 +68,13 @@ ravenscans.com * 3p-script noop
 ravenscans.com disqus.com * block
 ravenscans.com disqus.map.fastlylb.net * block
 ravenscans.com net.cdn.cloudflare.net * noop
+vortexcomics.org iconify.design * noop
+vortexcomics.org wsrv.nl * noop
 vortexscans.org vexmanga.com * noop
-www.webtoons.com d.akamai.net * noop
 www.webtoons.com e73.akamaiedge.net * noop
 www.webtoons.com pstatic.net * noop
 www.webtoons.com v.akamai.net * noop
 weebcentral.com * 3p noop
 weebdex.org notdelta.xyz * noop
+weebdex.org weebdex.net * noop
 yakshascans.com mangacdn.online * noop
