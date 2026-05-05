@@ -32,6 +32,8 @@ asuracomic.net##.bg-black\/60.p-4.justify-center.items-center.flex.z-50.inset-0.
 asuracomic.net##.text-center.px-5.pt-6.space-y-2.items-center.flex-col.flex > .space-y-4
 asuracomic.net##.text-center.bg-themecolor.h-18.border-gray-200
 asuracomic.net##.bg-\[\#222222\].h-24.border-gray-200.items-center.justify-center.flex
+asuracomic.net##.bg-\[\#0D0B0E\].px-4.sm\:py-8.py-6.justify-center.items-center.flex.jsx-140b8c962fbf8bd6
+asuracomic.net##.bg-\[\#0D0B0E\].px-4.sm\:py-8.py-6.justify-center.items-center.flex.jsx-c0e7ec60c626fa91
 ||asuracomic.net/images/EndDesign.webp$image
 ! aquareader.net ==================================================================================================================================
 aquareader.net##.content-area:style(background-color: #000 !important)
@@ -571,6 +573,85 @@ comix.to##.detail-ctrl > button.btn:nth-of-type(2)
 comix.to###cm-widget
 comix.to##.btn.like-btn
 
-! Feb 21, 2026 https://asuracomic.net
-asuracomic.net##.bg-\[\#0D0B0E\].px-4.sm\:py-8.py-6.justify-center.items-center.flex.jsx-140b8c962fbf8bd6
+
+
+! Feb 22, 2026 https://kagane.org
+kagane.org##.py-6.px-4 > .space-y-6
+
+! Feb 23, 2026 https://ritharscans.com
+ritharscans.com##.h-full.w-full.relative > .overflow-hidden.h-full.w-full.relative:style(max-width: 800px !important)
+ritharscans.com##.h-full.w-full.relative > .overflow-hidden.h-full.w-full.relative:style(margin-left: auto !important)
+ritharscans.com##.h-full.w-full.relative > .overflow-hidden.h-full.w-full.relative:style(margin-right: auto !important)
+ritharscans.com##.opacity-100.bg-opacity-70.shadow-lg.border-gray-700.border-b.bg-black.duration-300.transition-opacity.p-3.w-full.justify-between.items-center.flex.z-50.left-0.top-0.absolute
+
+! Feb 26, 2026 https://www.webtoons.com
+www.webtoons.com###btnLogin
+
+! Mar 3, 2026 https://vortexscans.org
+vortexscans.org##.sm\:space-y-6.space-y-4.pt-2.sm\:p-4.p-3
+vortexscans.org##.backdrop-blur-sm.to-card\/95.from-card.bg-gradient-to-b.rounded-md.border-none.text-card-foreground.shadow-lg.bg-card.border
+vortexscans.org##.text-white.bg-\[\#171529\].leading-5.font-medium.h-full.text-\[0\.8125rem\].rounded-md.inline-flex.duration-400.transition-all.data-\[hover\=true\]\:opacity-hover.motion-reduce\:transition-none.\[\&\>svg\]\:max-w-\[theme\(spacing\.8\)\].gap-2.min-w-20.px-4.data-\[focus-visible\=true\]\:outline-offset-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:z-10.outline-transparent.outline-solid.cursor-pointer.data-\[pressed\=true\]\:scale-\[0\.97\].transform-gpu.tap-highlight-transparent.overflow-hidden.subpixel-antialiased.whitespace-nowrap.select-none.appearance-none.box-border.justify-center.items-center.relative.group.z-0
+
+! Mar 4, 2026 https://flamecomics.xyz
+flamecomics.xyz##button.mantine-UnstyledButton-root.m_87cf2631.mantine-Button-root.m_77c9d27d.mantine-active.mantine-focus-auto:nth-of-type(2)
+flamecomics.xyz##.mantine-Affix-root.m_7f854edf > .mantine-Group-root.m_4081bf90 > button.mantine-UnstyledButton-root.m_87cf2631.mantine-Button-root.m_77c9d27d.mantine-active.mantine-focus-auto
+flamecomics.xyz/series/##.Header_header__dGqam
+
+! Mar 4, 2026 https://comix.to
+comix.to##.chapter-info
+
+! Mar 5, 2026 https://mangadot.net
+mangadot.net##.pb-20.space-y-16 > section:nth-of-type(1)
+mangadot.net##.transition-opacity.hover\:opacity-80.shrink-0.gap-2.items-center.md\:flex.hidden > .gap-2.items-center.md\:flex.hidden
+mangadot.net##.translate-y-0.opacity-100.hover\:-translate-y-1.hover\:bg-\[var\(--primary\)\]\/90.duration-300.transition-all.shadow-\[var\(--primary\)\]\/20.shadow-lg.text-white.bg-\[var\(--primary\)\].rounded-full.w-12.h-12.z-40.right-6.bottom-20.fixed.size-9.aria-invalid\:border-destructive.dark\:aria-invalid\:ring-destructive\/40.aria-invalid\:ring-destructive\/20.focus-visible\:ring-\[3px\].focus-visible\:ring-ring\/50.focus-visible\:border-ring.outline-none.\[\&_svg\]\:shrink-0.shrink-0.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.\[\&_svg\]\:pointer-events-none.disabled\:opacity-50.disabled\:pointer-events-none.font-medium.text-sm.whitespace-nowrap.gap-2.justify-center.items-center.inline-flex
+
+! Mar 5, 2026 https://kagane.org
+kagane.org##.pb-16.pt-6.px-4
+
+
+
+! Mar 16, 2026 https://manhuatop.org
+manhuatop.org##.wp-manga-tags
+
+! asurascans.com
+asurascans.com##.leading-\[0\].flex-col.flex.overflow-hidden.mx-auto.max-w-4xl:style(max-width: 800px !important)
+asurascans.com##.flex-col.min-h-screen.flex > astro-island > .overflow-hidden.relative
+asurascans.com##.flex-1 > div > astro-island
+asurascans.com##.group.cursor-pointer.transition-colors.rounded-xl.hover\:text-amber-400.hover\:bg-amber-600\/20.bg-zinc-800.py-2\.5.px-2\.5.gap-1\.5.items-center.flex
+asurascans.com##.md\:p-6.p-4.bg-zinc-900\/50
+asurascans.com###comments-section > .rounded-xl
+asurascans.com##.cursor-pointer.shadow-lg.rounded-full.text-white.hover\:bg-\[\#7c35c2\].bg-\[\#913FE2\].p-3.z-\[51\].bottom-6.sm\:right-6.right-4.fixed
+
+! Mar 20, 2026 https://asurascans.com
+asurascans.com##.cursor-pointer.pointer-events-none.opacity-0.duration-300.transition-all.shadow-lg.rounded-full.text-white.hover\:bg-\[\#7c35c2\].bg-\[\#913FE2\].p-3.z-40.right-6.bottom-6.fixed
+asurascans.com##.pt-2.pb-6.justify-center.flex
+asurascans.com##.transition-colors.hover\:bg-\[\#5a1f78\].text-white.bg-\[\#6F2598\].font-medium.text-sm.rounded-md.w-\[85px\].h-10.gap-1\.5.justify-center.items-center.flex
+asurascans.com##astro-island > .rounded-xl
+asurascans.com##.cursor-pointer.shadow-lg.rounded-full.text-white.hover\:bg-\[\#7c35c2\].bg-\[\#913FE2\].p-3.sm\:right-6.right-4.-top-20.absolute
+asurascans.com##body:style(background-color: #000 !important)
+asurascans.com##.transition-colors.hover\:bg-\[\#7C3AED\].bg-\[\#913FE2\].rounded-md.py-2.px-4.gap-2.items-center.flex
+asurascans.com##a.hover\:text-white.text-white\/90.hover\:bg-gray-900\/40.transition-colors.rounded-md.py-2.px-3.justify-center.items-center.flex:nth-of-type(2)
+
+! Mar 24, 2026 https://kagane.org
+kagane.org##.pb-48.pt-6.px-4.z-40.relative
+
+! Mar 31, 2026 https://manhuarmtl.com
+manhuarmtl.com##.active.go-to-top
+manhuarmtl.com##.content-area:style(background-color: #000 !important)
+manhuarmtl.com##.mrm-chapter-urgency
+manhuarmtl.com##li:nth-of-type(1) > .wp-manga-action-button
+manhuarmtl.com##.site-footer
+manhuarmtl.com##.col-sm-4.col-md-4.sidebar-col
+manhuarmtl.com##.main-col-inner > .row
+manhuarmtl.com##.header-links
+manhuarmtl.com##.user-menu
+
+! Apr 1, 2026 https://asurascans.com
+asurascans.com##.flex-1 > astro-island
+
+! Apr 3, 2026 https://vortexcomics.org
+vortexcomics.org##.promo-banner
+
+! Apr 29, 2026 https://manganusa.com
+manganusa.com##.hover\:scale-110.transition-transform.shadow-lg.text-primary-foreground.p-3.bg-primary.rounded-full.right-6.bottom-6.fixed
 
