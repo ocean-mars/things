@@ -61,6 +61,43 @@ comick.dev##.text-xs.dark\:border-gray-700.rounded
 comick.dev##.relative.h-8.w-8
 comick.dev##.pr-2.mt-3
 comick.dev##.gap-y-5.py-5.px-2.justify-center.flex-wrap.flex.-my-1\.5.-mx-2
+! comix.to ==================================================================================================================================
+comix.to##.announce--accent.announce
+comix.to##.notifbell > .icon-btn
+comix.to##.side-col
+comix.to##.mpage__sec.cm-widget
+comix.to##.footer__baseline
+comix.to##.footer
+comix.to##.toast--info.toast
+comix.to##.toast-viewport
+comix.to###toast-root
+comix.to##.usermenu__pop, .settings-dialog__panel, .browse-pop, .search-pop, .topnav::before:style(backdrop-filter: saturate(180%) blur(8px) !important)
+comix.to##.usermenu__pop, .settings-dialog__panel, .browse-pop, .search-pop, .topnav::before:style(background: rgba(22,22,23,.7) !important)
+comix.to##.usermenu__head, .usermenu__item--signout.usermenu__item, .search-pop__more, .search__form, .browse-pop__all:style(background: rgba(32,32,33,.7) !important)
+comix.to##.rpage-main__inner:style(background-color: #000 !important)
+comix.to###app-root:style(background: #000 !important)
+comix.to##.toast__text
+comix.to##.layout--top.layout:style(width: 1920px !important)
+comix.to##.main-col:style(margin-left: auto !important)
+comix.to##.main-col:style(margin-right: auto !important)
+comix.to##.main-col:style(width: 1335px !important)
+comix.to##.mchap-row, .mchap-bookmark, .mchap-search, div.mpage__group.fdrop:style(backdrop-filter: saturate(180%) blur(20px) !important)
+comix.to##.mchap-row, .mchap-bookmark, .mchap-search, div.mpage__group.fdrop:style(background: rgba(22,22,23,.7) !important)
+comix.to##.uprofile__body, .rpage-header:style(background: #111 !important)
+comix.to##.rpage-bottombar__chap.rpage-chapnav:style(background: rgba(22,22,23,.8) !important; backdrop-filter: saturate(180%) blur(20px) !important; border-radius: 6px !important)
+comix.to##.rpage-bottombar__hide-mobile.rpage-bottombar__settings.rpage-iconbtn:style(background: rgba(22,22,23,.8) !important; backdrop-filter: saturate(180%) blur(20px) !important; border-radius: 6px !important)
+comix.to##.rpage-zoom:style(background: rgba(22,22,23,.8) !important; backdrop-filter: saturate(180%) blur(20px) !important; border-radius: 6px !important)
+comix.to##button.rpage-bottombar__settings.rpage-iconbtn:nth-of-type(2):style(background: rgba(22,22,23,.8) !important; backdrop-filter: saturate(180%) blur(20px) !important; border-radius: 6px !important)
+comix.to##button.rpage-bottombar__settings.rpage-iconbtn:nth-of-type(3):style(background: rgba(22,22,23,.8) !important; backdrop-filter: saturate(180%) blur(20px) !important; border-radius: 6px !important)
+comix.to##.rpage-chap-ending__nav:style(padding-bottom: 6vh !important)
+comix.to##.topnav__inner > .logo > svg
+comix.to##.rpage-progress
+comix.to##.mono.rpage-chap-ending__placeholder
+comix.to##.ubtn--soft.ubtn
+comix.to##.rpage-chap-ending__like
+comix.to##.rpage-header__actions > .rpage-iconbtn
+comix.to##.card__menu-pop.fdrop__pop--menu.fdrop__pop:style(backdrop-filter: saturate(180%) blur(8px) !important)
+comix.to##.card__menu-pop.fdrop__pop--menu.fdrop__pop:style(background: rgba(22,22,23,.9) !important)
 ! controld.com ==================================================================================================================================
 controld.com###barry-toggle > svg > g > circle
 controld.com###barry-toggle > svg
@@ -77,27 +114,7 @@ coffeemanga.to##.content-center.text-foreground\/80.border-border.border-b.flex-
 coffeemanga.to##.items-center.justify-center.flex-row.flex
 coffeemanga.to##.space-x-2.items-center.flex
 coffeemanga.to##.text-foreground\/80.\[\&_svg\]\:size-7.hover\:bg-zinc-600.rounded-full.size-9.hover\:text-accent-foreground.aria-invalid\:focus-visible\:ring-0.focus-visible\:outline-1.focus-visible\:ring-4.outline-ring\/50.dark\:outline-ring\/40.dark\:ring-ring\/20.ring-ring\/10.\[\&_svg\]\:shrink-0.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.\[\&_svg\]\:pointer-events-none.disabled\:opacity-50.disabled\:pointer-events-none.transition-\[color\,box-shadow\].font-medium.text-sm.whitespace-nowrap.gap-2.justify-center.items-center.inline-flex
-! comix.to ==================================================================================================================================
-comix.to##.head-inner:style(background-color: transparent !important)
-comix.to##.mb-5.notice
-comix.to##:matches-path(/^\/home$/) .sidebar
-comix.to##.head-dropdown.user-menu.dropdown
-comix.to##form > .fa-magnifying-glass.fa-solid.fa-sharp
-comix.to##[href="/browser"] > .fa-filter.fa-solid.fa-sharp
-comix.to##.popular > div:nth-of-type(2)
-comix.to##.popular
-comix.to##.left.progress-line
-comix.to##.me-2.number
-comix.to##.fa-gear.fa-solid.fa-sharp
-!comix.to##.main > section:nth-of-type(1) > div:nth-of-type(2) > .swiper-horizontal.swiper-initialized.md.num.swiper > .swiper-wrapper.md.comic
-!comix.to##.main > section:nth-of-type(1) > .break_.justify.section-head
-!comix.to##section:nth-of-type(2) > .break_.justify.section-head
-!comix.to##section:nth-of-type(2) > div:nth-of-type(2) > .swiper-horizontal.swiper-initialized.md.num.swiper > .swiper-wrapper.md.comic
-comix.to##footer
-comix.to##.head-brand > .logo > svg
-comix.to##.container > .inner
-comix.to##.readbar-like
-comix.to##.section-foot > .section-nav
+
 ! discord.com ==================================================================================================================================
 discord.com##*:style(font-family: Space Grotesk !important)
 ! style end
@@ -560,59 +577,33 @@ yakshascans.com##.related-manga.c-row.row
 ! END ==============================================================================================================================================================================
 ! ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ! ==================================================================================================================================================================================
-! Nov 15, 2025 https://comix.to
-!omix.to##.p-5
-
 ! Nov 15, 2025 https://manhuarmmtl.com
 manhuarmmtl.com###chapter-heading
-
-! Feb 21, 2026 https://comix.to
-comix.to##.new.head-btn.btn
-comix.to##.fa-gear-complex.fa-solid.fa-sharp
-comix.to##.detail-ctrl > button.btn:nth-of-type(2)
-comix.to###cm-widget
-comix.to##.btn.like-btn
-
-
-
 ! Feb 22, 2026 https://kagane.org
 kagane.org##.py-6.px-4 > .space-y-6
-
 ! Feb 23, 2026 https://ritharscans.com
 ritharscans.com##.h-full.w-full.relative > .overflow-hidden.h-full.w-full.relative:style(max-width: 800px !important)
 ritharscans.com##.h-full.w-full.relative > .overflow-hidden.h-full.w-full.relative:style(margin-left: auto !important)
 ritharscans.com##.h-full.w-full.relative > .overflow-hidden.h-full.w-full.relative:style(margin-right: auto !important)
 ritharscans.com##.opacity-100.bg-opacity-70.shadow-lg.border-gray-700.border-b.bg-black.duration-300.transition-opacity.p-3.w-full.justify-between.items-center.flex.z-50.left-0.top-0.absolute
-
 ! Feb 26, 2026 https://www.webtoons.com
 www.webtoons.com###btnLogin
-
 ! Mar 3, 2026 https://vortexscans.org
 vortexscans.org##.sm\:space-y-6.space-y-4.pt-2.sm\:p-4.p-3
 vortexscans.org##.backdrop-blur-sm.to-card\/95.from-card.bg-gradient-to-b.rounded-md.border-none.text-card-foreground.shadow-lg.bg-card.border
 vortexscans.org##.text-white.bg-\[\#171529\].leading-5.font-medium.h-full.text-\[0\.8125rem\].rounded-md.inline-flex.duration-400.transition-all.data-\[hover\=true\]\:opacity-hover.motion-reduce\:transition-none.\[\&\>svg\]\:max-w-\[theme\(spacing\.8\)\].gap-2.min-w-20.px-4.data-\[focus-visible\=true\]\:outline-offset-2.data-\[focus-visible\=true\]\:outline-focus.data-\[focus-visible\=true\]\:outline-2.data-\[focus-visible\=true\]\:z-10.outline-transparent.outline-solid.cursor-pointer.data-\[pressed\=true\]\:scale-\[0\.97\].transform-gpu.tap-highlight-transparent.overflow-hidden.subpixel-antialiased.whitespace-nowrap.select-none.appearance-none.box-border.justify-center.items-center.relative.group.z-0
-
 ! Mar 4, 2026 https://flamecomics.xyz
 flamecomics.xyz##button.mantine-UnstyledButton-root.m_87cf2631.mantine-Button-root.m_77c9d27d.mantine-active.mantine-focus-auto:nth-of-type(2)
 flamecomics.xyz##.mantine-Affix-root.m_7f854edf > .mantine-Group-root.m_4081bf90 > button.mantine-UnstyledButton-root.m_87cf2631.mantine-Button-root.m_77c9d27d.mantine-active.mantine-focus-auto
 flamecomics.xyz/series/##.Header_header__dGqam
-
-! Mar 4, 2026 https://comix.to
-comix.to##.chapter-info
-
 ! Mar 5, 2026 https://mangadot.net
 mangadot.net##.pb-20.space-y-16 > section:nth-of-type(1)
 mangadot.net##.transition-opacity.hover\:opacity-80.shrink-0.gap-2.items-center.md\:flex.hidden > .gap-2.items-center.md\:flex.hidden
 mangadot.net##.translate-y-0.opacity-100.hover\:-translate-y-1.hover\:bg-\[var\(--primary\)\]\/90.duration-300.transition-all.shadow-\[var\(--primary\)\]\/20.shadow-lg.text-white.bg-\[var\(--primary\)\].rounded-full.w-12.h-12.z-40.right-6.bottom-20.fixed.size-9.aria-invalid\:border-destructive.dark\:aria-invalid\:ring-destructive\/40.aria-invalid\:ring-destructive\/20.focus-visible\:ring-\[3px\].focus-visible\:ring-ring\/50.focus-visible\:border-ring.outline-none.\[\&_svg\]\:shrink-0.shrink-0.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.\[\&_svg\]\:pointer-events-none.disabled\:opacity-50.disabled\:pointer-events-none.font-medium.text-sm.whitespace-nowrap.gap-2.justify-center.items-center.inline-flex
-
 ! Mar 5, 2026 https://kagane.org
 kagane.org##.pb-16.pt-6.px-4
-
-
-
 ! Mar 16, 2026 https://manhuatop.org
 manhuatop.org##.wp-manga-tags
-
 ! asurascans.com
 asurascans.com##.leading-\[0\].flex-col.flex.overflow-hidden.mx-auto.max-w-4xl:style(max-width: 800px !important)
 asurascans.com##.flex-col.min-h-screen.flex > astro-island > .overflow-hidden.relative
@@ -631,10 +622,8 @@ asurascans.com##.cursor-pointer.shadow-lg.rounded-full.text-white.hover\:bg-\[\#
 asurascans.com##body:style(background-color: #000 !important)
 asurascans.com##.transition-colors.hover\:bg-\[\#7C3AED\].bg-\[\#913FE2\].rounded-md.py-2.px-4.gap-2.items-center.flex
 asurascans.com##a.hover\:text-white.text-white\/90.hover\:bg-gray-900\/40.transition-colors.rounded-md.py-2.px-3.justify-center.items-center.flex:nth-of-type(2)
-
 ! Mar 24, 2026 https://kagane.org
 kagane.org##.pb-48.pt-6.px-4.z-40.relative
-
 ! Mar 31, 2026 https://manhuarmtl.com
 manhuarmtl.com##.active.go-to-top
 manhuarmtl.com##.content-area:style(background-color: #000 !important)
@@ -645,13 +634,11 @@ manhuarmtl.com##.col-sm-4.col-md-4.sidebar-col
 manhuarmtl.com##.main-col-inner > .row
 manhuarmtl.com##.header-links
 manhuarmtl.com##.user-menu
-
 ! Apr 1, 2026 https://asurascans.com
 asurascans.com##.flex-1 > astro-island
-
 ! Apr 3, 2026 https://vortexcomics.org
 vortexcomics.org##.promo-banner
-
 ! Apr 29, 2026 https://manganusa.com
 manganusa.com##.hover\:scale-110.transition-transform.shadow-lg.text-primary-foreground.p-3.bg-primary.rounded-full.right-6.bottom-6.fixed
+
 
