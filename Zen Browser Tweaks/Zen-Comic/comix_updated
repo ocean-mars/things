@@ -26,4 +26,3 @@ comix.to##.rpage-zoom:style(background: rgba(22,22,23,.8) !important; backdrop-f
 comix.to##button.rpage-bottombar__settings.rpage-iconbtn:nth-of-type(2):style(background: rgba(22,22,23,.8) !important; backdrop-filter: saturate(180%) blur(20px) !important; border-radius: 6px !important)
 comix.to##button.rpage-bottombar__settings.rpage-iconbtn:nth-of-type(3):style(background: rgba(22,22,23,.8) !important; backdrop-filter: saturate(180%) blur(20px) !important; border-radius: 6px !important)
 comix.to##.rpage-chap-ending__nav:style(padding-bottom: 4vh !important)
-comix.to##.topnav__inner > .logo > svg
