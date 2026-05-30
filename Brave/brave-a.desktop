@@ -1,11 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Name= Brave
-Exec=brave-browser --class=BraveA --profile-directory="Default" --no-remote
+Exec=brave-browser --class=BraveA --profile-directory="Default" --no-remote %U
 StartupNotify=false
 StartupWMClass=BraveA
 Terminal=false
-Icon=/home/ocean/Downloads/Misc./icon/b.svg
+Icon=/home/sohanur_joy/Downloads/Misc./icon/b.svg
 Type=Application
 Categories=Network;WebBrowser;
 MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/chromium;
@@ -14,8 +14,8 @@ Actions=new-window;new-private-window;
 
 [Desktop Action new-window]
 Name=New Window
-Exec=brave-browser --profile-directory="Default" --no-remote
+Exec=brave-browser --profile-directory="Default" --no-remote %U
 
 [Desktop Action new-private-window]
 Name=New Incognito Window
-Exec=brave-browser --profile-directory="Default" --no-remote --incognito
+Exec=brave-browser --profile-directory="Default" --no-remote --incognito %U
