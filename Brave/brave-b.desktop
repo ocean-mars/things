@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name= Binance
-Exec=brave-browser --class=Binance --profile-directory="Profile 1" --no-remote
+Exec=brave-browser --class=Binance --profile-directory="Profile 1" --no-remote %U
 StartupNotify=false
 StartupWMClass=Binance
 Terminal=false
@@ -14,8 +14,8 @@ Actions=new-window;new-private-window;
 
 [Desktop Action new-window]
 Name=New Window
-Exec=brave-browser --profile-directory="Profile 1" --no-remote
+Exec=brave-browser --profile-directory="Profile 1" --no-remote %U
 
 [Desktop Action new-private-window]
 Name=New Incognito Window
-Exec=brave-browser --profile-directory="Profile 1" --no-remote --incognito
+Exec=brave-browser --profile-directory="Profile 1" --no-remote --incognito %U
