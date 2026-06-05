@@ -1,5 +1,3 @@
-www.facebook.com##*:style(font-family: "Luminari" !important)
-www.facebook.com##*:style(font-weight: lighter !important)
 ! Router
 192.168.1.1##*:style(font-family: "Space Grotesk"; color: #a3a9af; border-color: #354057ee !important)
 192.168.1.1##header:style(background: #010409 !important)
@@ -12,7 +10,7 @@ www.facebook.com##*:style(font-weight: lighter !important)
 www.youtube.com##*:style(font-family: "Luminari" !important)
 www.youtube.com##*:style(font-weight: lighter !important)
 ! Colors ----------------------------------
-www.youtube.com##ytd-app:style(background-color: #010409 !important)
+www.youtube.com##ytd-app, .ytSearchboxComponentInputBox.ytSearchboxComponentInputBoxDark, .ytSearchboxComponentSearchButton.ytSearchboxComponentSearchButtonDark:style(background-color: #010409 !important)
 www.youtube.com##.ytd-popup-container.style-scope:style(background-color: #010409 !important)
 www.youtube.com##.ytd-app.style-scope:style(background-color: #010409 !important)
 www.youtube.com###masthead > .ytd-masthead.style-scope:style(background-color: #010409 !important)
@@ -41,7 +39,6 @@ youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important)
 youtube.com##ytd-rich-item-renderer:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2) !important)
-
 animekai.ac##.text-center.mb-5
 animekai.ac##.alert.alert-secondary
 animekai.ac###swiper-wrapper-882776b9a19838105 > .swiper-slide.swiper-slide-active
@@ -60,10 +57,6 @@ animekai.ac##.alert.alert-info
 animekai.ac##.entity-scroll
 animekai.ac###main-entity
 animekai.ac##.entity-section
-!animekai.ac##*, ::after, ::before:style(border-radius: 10px !important)
-animetsu.cc##*:style(font-family: "Luminari" !important)
-animetsu.cc##*:style(font-weight: lighter !important)
-animetsu.cc##.w-\[3rem\].h-fit.\!aspect-square.relative.\!rounded-full.\!overflow-hidden > .w-full.object-cover.h-full
 anigo.to##.text-center.mb-5
 anigo.to##.az
 anigo.to##[href*="/random"]
@@ -72,81 +65,76 @@ anigo.to##.btn.header-btn.indicator
 anigo.to##.conti > .section-header.breaking
 anigo.to##.text-center.mb-3
 anigo.to###comment
-! Mangafire
-mangafire.to##.longstrip.pages:style(background-color: #010409 !important)
-mangafire.to###progress-bar:style(background-color: #010409 !important)
-mangafire.to##li > div:style(background-color: #010409 !important)
-mangafire.to##.m-content:style(background-color: #010409 !important)
-||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
-||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
-||s.mfcdn.cc/assets/t2/s1/images/body-bg.jpg$image
-mangafire.to##.text-center.bg-secondary.alert
-mangafire.to##.container > .inner
-mangafire.to##.stars
-mangafire.to###most-viewed
-mangafire.to##.mr-1.fa-arrow-left.fa-light.ltr-icon
-mangafire.to##.ml-1.fa-arrow-right.fa-light.ltr-icon
-mangafire.to##.text-center.mt-3 > .mb-2
-mangafire.to##.fa-arrows-rotate.fa-light
-mangafire.to##.fa-earth-americas.fa-regular
-mangafire.to##.fa-sm.fa-sort.fa-solid
-mangafire.to##.tooltipz.btn-secondary1.btn.close-primary
-mangafire.to##nav:nth-of-type(2)
-mangafire.to##div.mb-2.btn-options:nth-of-type(7)
-mangafire.to##.gotop
-mangafire.to##.active.tab
-mangafire.to##.fa-folder-bookmark.fa-regular
-mangafire.to##.fa-xs.fa-play.fa-solid
-mangafire.to##.fa-xs.fa-bookmark.fa-solid
-mangafire.to###synopsis > .modal-dialog-centered.limit-w.modal-dialog > .p-4.modal-content > .modal-close > .fa-xmark.fa-solid
-! mangataro.org
-mangataro.org##*:style(font-family: "Luminari" !important)
-mangataro.org##*:style(font-weight: lighter !important)
-mangataro.org###manga-history-index > .bg-neutral-900.sm\:py-3.py-2
-mangataro.org##.overflow-x-auto.mb-2.py-2.px-2.mx-auto.relative
-mangataro.org##.text-neutral-300.px-2.text-sm.mb-2.text-center
-mangataro.org##.text-neutral-400.text-xs.mb-4.text-center
-mangataro.org##.comments-container.text-neutral-300.bg-neutral-900\/90.p-2
-mangataro.org##.overflow-hidden.relative.comments-viewport
-mangataro.org##.w-full.mb-4.py-3.px-4.relative
-mangataro.org##.mb-4.sm\:px-4.px-2.mx-auto.container
-mangataro.org###leaderboard-widget
-! tanime
-tanime.tv##.comments-section
-tanime.tv##.mb-6.text-center.sm\:text-left
-tanime.tv##.px-3.py-1\.5.bg-\[\#ff0066\].hover\:bg-\[\#ff1a75\].text-white.rounded-md.text-sm.font-medium.transition-colors.flex.items-center.gap-1\.5
-tanime.tv##.hidden.md\:flex.items-center.gap-4 > .flex.items-center.gap-3
-tanime.tv##.max-w-\[1920px\].mx-auto.px-4.py-6
-tanime.tv##.sharethis-compact.watch-share
-! asuracomic.net
-asuracomic.net##*:style(font-family: "Luminari" !important)
-asuracomic.net##*:style(font-weight: lighter !important)
-asuracomic.net##+js(set-local-storage-item, asuraPremiumTrialClosedG, {})
-asuracomic.net##.justify-center.items-center.flex-col.flex.md\:mx-0.-mx-5.py-8:style(max-width: 800px !important)
-asuracomic.net##body > div.w-full
-asuracomic.net##.bg-\[\#121212\].justify-center.items-center.flex.rounded-full
-asuracomic.net##p.text-\[\#999999\].text-sm
-asuracomic.net##.py-2.gap-1.justify-center.items-center.flex
-asuracomic.net##.text-\[\#999999\].text-sm.py-4.md\:text-center.text-center
-asuracomic.net##.w-full.items-center.justify-between.flex.dropdown-btn.p-3
-asuracomic.net##.flex-row.md\:flex.hidden > li:nth-of-type(4)
-asuracomic.net##.style_visible__uDKt5.style_scrollToTop__nenBE
-asuracomic.net##.w-full.gap-x-2.justify-center.md\:text-start.items-center.flex.py-4.px-5.bg-\[\#222222\]
-asuracomic.net##.bg-comments-background
-asuracomic.net##.lg\:py-8.py-6.px-4.w-full.z-10.relative
-asuracomic.net##.py-4.gap-1.flex-wrap.sm\:justify-start.justify-center.items-center.flex
-asuracomic.net##.px-5.py-4.border-t-\[\#A2A2A2\]\/20.border-t-\[1px\]
-asuracomic.net##.hidden.md\:flex.flex-row.w-full.gap-3\.5.items-center > div:nth-of-type(2) > .hidden.md\:flex.flex-row.items-center.gap-3\.5 > div:nth-of-type(1) > .flex.justify-between.items-center > .justify-center.whitespace-nowrap.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.focus-visible\:outline-none.focus-visible\:ring-2.focus-visible\:ring-ring.focus-visible\:ring-offset-2.disabled\:pointer-events-none.disabled\:opacity-50.h-10.py-2.bg-\[\#6F2598\].text-white.hover\:bg-\[\#5a1f78\].flex.items-center.px-2.gap-0\.5.ml-1
-www.mgeko.cc##.login-wrap-nav
-www.mgeko.cc##.top_button
-www.mgeko.cc##.recommends.content-wrap.skiptranslate
-www.mgeko.cc###chapter-mini-actions
-www.mgeko.cc##.col.links
-www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(1)
-www.mgeko.cc##.page-in.content-wrap > center:nth-of-type(1) > .chapternav.skiptranslate
-www.mgeko.cc###chapter-article > div:nth-of-type(3)
-www.mgeko.cc##.page-in.content-wrap > div:nth-of-type(2) > div:nth-of-type(1)
-www.mgeko.cc##.page-in.content-wrap > div:nth-of-type(3) > .chapternav.skiptranslate
-www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(4)
-www.mgeko.cc###chapter-article > .container > div:nth-of-type(1)
-www.mgeko.cc##center:nth-of-type(2) > div:nth-of-type(3)
+anigo.to##.abfoot
+rawkuma.net##.max-w-7xl.mx-auto.my-5.bg-secondary.border.border-white\/10.border-solid.rounded-xs.p-4.prose.prose-invert.\*\*\:\[a\]\:no-underline.\*\*\:text-sm
+rawkuma.net##.grid.grid-cols-1.gap-4.md\:grid-cols-2.lg\:grid-cols-3
+rawkuma.net###full-comments
+nicomanga.com###rd-side_icon
+www.onlinegdb.com##.ace_content:style(background-color: #000 !important)
+animepahe.si##.alert.alert-top.alert-dismissible.fade.show.ann-fakesite
+yflix.to##.text-center.mb-5
+yflix.to##.social-sharing
+grok.com##.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.cursor-pointer.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:opacity-60.disabled\:cursor-not-allowed.transition-colors.duration-100.\[\&_svg\]\:shrink-0.select-none.bg-surface-l2.text-fg-secondary.hover\:bg-surface-l4-hover.dark\:hover\:bg-surface-l3.border.border-border-l1.disabled\:hover\:bg-surface-l2.dark\:disabled\:hover\:bg-surface-l2.h-10.px-3\.5.py-1\.5.text-sm.rounded-full.font-semibold.pointer-events-auto.pe-7
+grok.com##.inline-flex.items-center.justify-center.gap-2.whitespace-nowrap.text-sm.font-medium.leading-\[normal\].cursor-pointer.focus-visible\:outline-none.focus-visible\:ring-1.focus-visible\:ring-ring.disabled\:opacity-60.disabled\:cursor-not-allowed.transition-colors.duration-100.\[\&_svg\]\:shrink-0.select-none.bg-button-filled.text-fg-invert.hover\:bg-button-filled-hover.disabled\:hover\:bg-button-filled.h-10.px-4.py-2.rounded-full
+grok.com##.flex.flex-col-reverse.items-center.justify-between.flex-1.w-full.gap-0.\@sm\:gap-3.\@sm\:flex-col.relative.p-2.\@sm\:p-0 > div.w-full.flex.justify-center:nth-of-type(2)
+grok.com##.inset-x-0.mx-auto.group.toast.bg-popover.rounded-2xl.border-0.shadow-sm.w-fit.min-w-\[200px\].left-0.right-0.sm\:mx-auto.ring-1.ring-inset.ring-input-border.p-3\.5.h-fit.gap-3
+grok.com##.size-80.bg-red-500.bg-gradient-to-r.from-sunset.via-breeze.to-cobalt.aspect-square.opacity-10.absolute.bottom-4.blur-\[32px\].rounded-full
+grok.com##.absolute.inset-0.flex.justify-center.top-0.overflow-hidden.rounded-\[23px\]
+grok.com##.text-muted-foreground
+grok.com##.absolute.inset-0.h-full.w-full.rounded-\[23px\]
+grok.com##.upsell-small.relative.sm\:fixed.sm\:bottom-2.sm\:right-2.px-5.py-4.items-center.w-\[calc\(100\%-16px\)\].bg-black.text-xs.text-white.border.cursor-pointer.border-card.min-\[384px\]\:w-max.min-\[384px\]\:min-w-52.rounded-3xl.group.text-left.flex.gap-4.dark.hover\:scale-\[1\.01\]
+chatgpt.com###thread-bottom-container > div:nth-of-type(2) > .text-base.mx-auto.\[--thread-content-margin\:--spacing\(4\)\].\@w-sm\/main\:\[--thread-content-margin\:--spacing\(6\)\].\@w-lg\/main\:\[--thread-content-margin\:--spacing\(16\)\].px-\(--thread-content-margin\) > .\[--thread-content-max-width\:40rem\].\@w-lg\/main\:\[--thread-content-max-width\:48rem\].mx-auto.max-w-\(--thread-content-max-width\).flex-1 > .hidden.sm\:block > .flex.w-full.items-start.gap-4.rounded-3xl.border.py-4.ps-5.pe-3.text-sm.\[text-wrap\:pretty\].lg\:mx-auto.dark\:border-transparent.shadow-xxs.md\:items-center.border-token-border-default.bg-token-main-surface-primary.text-token-text-primary.dark\:bg-token-main-surface-secondary.\@container\/images-promo-banner.max-w-\[768px\]
+www.youtube.com###sponsor-button
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer:nth-of-type(2) > yt-button-view-model.ytd-menu-renderer:nth-of-type(1) > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer > .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--enable-backdrop-filter-experiment > .yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--touch-response > .yt-spec-touch-feedback-shape__fill
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer:nth-of-type(2) > yt-button-view-model.ytd-menu-renderer:nth-of-type(1) > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer > .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--enable-backdrop-filter-experiment > .yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--touch-response > .yt-spec-touch-feedback-shape__stroke
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer:nth-of-type(2) > yt-button-view-model.ytd-menu-renderer:nth-of-type(1) > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer > .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--enable-backdrop-filter-experiment > .yt-spec-touch-feedback-shape.yt-spec-touch-feedback-shape--touch-response
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer:nth-of-type(2) > yt-button-view-model.ytd-menu-renderer:nth-of-type(1) > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer > .yt-spec-button-shape-next.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--enable-backdrop-filter-experiment
+quranwbw.com##.justify-between.flex-row.flex.verseButtons
+quranwbw.com##.flex.flex-row.justify-center.text-center.mx-auto.w-full.mt-8.mb-1.py-2.px-4.text-sm.rounded-full.border.border-transparent.hover\:border-\[\#000000\].bg-\[\#000000\]\/5
+www.cinezo.net##.bg-gradient-to-b.from-black.via-\[\#0f0f0f\].to-black.px-4.py-12.text-white
+readcomiconline.li###containerRoot:style(max-width: 900px !important)
+readcomiconline.li###containerRoot:style(margin-left: auto !important)
+readcomiconline.li###containerRoot:style(margin-right: auto !important)
+nepu.to###aside
+meet.google.com##.MQKmmc.SudKRc.xFmxSe
+localhost##.sqlqueryresults.ajax > .alert.alert-primary
+www.youtube.com##.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextOverlay.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment > .ytSpecTouchFeedbackShapeHost.ytSpecTouchFeedbackShapeOverlayTouchResponse > .ytSpecTouchFeedbackShapeFill
+www.youtube.com##.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextOverlay.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment > .ytSpecTouchFeedbackShapeHost.ytSpecTouchFeedbackShapeOverlayTouchResponse > .ytSpecTouchFeedbackShapeStroke
+www.youtube.com##.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextOverlay.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment > .ytSpecTouchFeedbackShapeHost.ytSpecTouchFeedbackShapeOverlayTouchResponse
+www.youtube.com###buttons > ytd-button-renderer > yt-button-shape >
+www.youtube.com##.ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextOverlay.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer > yt-button-view-model.ytd-menu-renderer > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer.you-chat-entrypoint-button > .ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment > .ytSpecTouchFeedbackShapeHost.ytSpecTouchFeedbackShapeTouchResponse > .ytSpecTouchFeedbackShapeFill
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer > yt-button-view-model.ytd-menu-renderer > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer.you-chat-entrypoint-button > .ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment > .ytSpecTouchFeedbackShapeHost.ytSpecTouchFeedbackShapeTouchResponse > .ytSpecTouchFeedbackShapeStroke
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer > yt-button-view-model.ytd-menu-renderer > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer.you-chat-entrypoint-button > .ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment > .ytSpecTouchFeedbackShapeHost.ytSpecTouchFeedbackShapeTouchResponse
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer > yt-button-view-model.ytd-menu-renderer > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer.you-chat-entrypoint-button > .ytSpecButtonShapeNextHost.ytSpecButtonShapeNextTonal.ytSpecButtonShapeNextMono.ytSpecButtonShapeNextSizeM.ytSpecButtonShapeNextIconLeading.ytSpecButtonShapeNextEnableBackdropFilterExperiment
+vidbox.dev##.fixed.inset-0.z-\[9999\].flex.items-center.justify-center.bg-black\/95.px-4.backdrop-blur-lg
+vidbox.dev##.bg-white.pb-32.text-gray-900.dark\:bg-black.dark\:text-white
+www.facebook.com##.x9f619.x1ja2u2z.xnp8db0.x112wk31.xnjgh8c.xxc7z9f.x1t2pt76.x1u2d2a2.x6ikm8r.x10wlt62.x7wzq59.xxzkxad.x1daaz14 > .x9f619.x1n2onr6.x1ja2u2z.x78zum5.xdt5ytf.xedcshv.x1t2pt76 > .xb57i2i.x1q594ok.x5lxg6s.x78zum5.xdt5ytf.x6ikm8r.x1ja2u2z.x1pq812k.x1rohswg.xfk6m8.x1yqm8si.xjx87ck.x1l7klhg.x1iyjqo2.xs83m0k.x2lwn1j.xx8ngbg.xwo3gff.x1oyok0e.x1odjw0f.x1n2onr6.xq1qtft > div.x78zum5.xdt5ytf.x1iyjqo2.x1n2onr6:nth-of-type(1)
+www.cinezo.net##.flex.items-center.justify-center.p-1.rounded-full.text-gray-300.hover\:bg-white\/10.hover\:text-white.transition-all.duration-200.ml-1
+reanime.to##.relative.flex.flex-col.items-center.gap-3.rounded-full.border.border-white\/\[0\.08\].bg-\[\#0a0a0a\]\/90.p-3.shadow-2xl.backdrop-blur-3xl.cursor-grab
+animetsu.cc##.hover\:bg-white\/10.size-9.aspect-square.flex-center.justify-center.radius-full.suave-3.hover\:backdrop-blur-xl
+animetsu.cc##.flex.relative.hover\:bg-white\/10.h-9.aspect-square.items-center.justify-center.rounded-full.suave-3.hover\:backdrop-blur-xl
+animetsu.cc##.flex-center.justify-between.bg-orange-400\/20.px-3.py-2.max-xs\:mx-2.radius-lg.text-orange-400.font-medium
+animetsu.cc##.flex-center.justify-center.disabled\:brightness-60.disabled\:pointer-events-none.bg-white\/10.gap-2.px-3.h-9.select-none.hover\:bg-white\/15.active\:bg-white\/15.max-xs\:size-9.xl\:max-2xl\:size-9.xl\:max-2xl\:px-0.max-xs\:px-0.rounded-3xl.overflow-hidden.shrink-0
+animetsu.cc##.flex-center.justify-center.text-sm.bg-white\/10.gap-2.size-9.rounded-3xl.overflow-hidden.hover\:bg-white\/15
+animetsu.cc##.flex.rounded-3xl.overflow-hidden.h-9.shrink-0.bg-white\/10 > button.flex-center.shrink-0.justify-center.disabled\:pointer-events-none.gap-2.px-3.h-9.overflow-hidden.select-none.active\:bg-white\/15.rounded-none.hover\:bg-white\/5.bg-transparent.disabled\:brightness-60
+animetsu.cc##.h-9.bg-off-white.font-semibold.text-black.suave-3.radius-3xl.tracking-tight.shrink-0.flex-center.gap-1.justify-center.text-xs.sm\:text-sm.px-3.min-w-25.hover\:brightness-75.disabled\:brightness-50
+animetsu.cc##.bg-white\/10.w-px.h-6.m-auto
+search.brave.com##li.tab-item.svelte-l0weru:nth-of-type(1) > .desktop-default-semibold.svelte-l0weru
+www.binance.com###trade-status-footer-v2
+
+pantyflix.com##.mt-auto.border-t.border-white\/\[0\.06\].bg-white\/\[0\.03\].backdrop-blur-xl.backdrop-saturate-150
+coinmarketcap.com##.sc-c1554bc0-0.iSUEMj.CollapsedInput_collapsedInput__QtTZP.CollapsedInput_darkMode__we5_Q
+coinmarketcap.com##.sc-c1554bc0-0.iSUEMj.CollapsedInput_collapsedInput__QtTZP.CollapsedInput_darkMode__we5_Q
+coinmarketcap.com##[src*="https\:\/\/s2\.coinmarketcap\.com\/static\/img\/cdp-image\/12345\.gif"]
+coinmarketcap.com##.sc-c1554bc0-0.sc-2bc55423-0.cLwDNK.kUvsET.cmc-sponsor
+coinmarketcap.com##.sc-9784cd38-0.kDGTmn.cmc-sponsor-wrapper.Highlights_highlight-cmc-sponsor-wrapper__Yf20V.Highlights_highlight-cmc-sponsor-big-mode__Lm_EH
+coinmarketcap.com##.SliderV2_scroller-viewport__edNvw.homepageAiInsights_homepageSliderWrapper__4xr0D
+coinmarketcap.com##.sc-c1554bc0-0.gNBRfQ.homepageAiInsights_wrapper__FAYok
+coinmarketcap.com##div.sc-c1554bc0-0.xMxku:nth-of-type(2) > .sc-c1554bc0-0.egfUcU
+coinmarketcap.com##.sc-c1554bc0-0.iSUEMj.BaseButton_base__34gwo.bt-base.BaseButton_t-default__8BIzz.BaseButton_size-sm__oHKNE.BaseButton_v-primary__gkWpJ.BaseButton_vd__gUkWt
+coinmarketcap.com##.UserDropdown_user-avatar-wrapper__YEFUG
+coinmarketcap.com##.sc-c1554bc0-0.iSUEMj.BaseButton_base__34gwo.bt-base.BaseButton_t-plain__r1WnM.BaseButton_size-sm__oHKNE.BaseButton_vd__gUkWt.btn-watchlist
+pantyflix.com##.brand-pantyflix.brand-pantyflix-nav
+www.binance.com##.relative.text-PrimaryText.no-underline.t-subtitle3.flex.bg-Vessel.p-2\.5.rounded-xl.border-solid.border-Line.border-\[1px\]
+app.astermail.org##.flex.items-center.justify-between.px-4.py-1\.5
