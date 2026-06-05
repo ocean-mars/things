@@ -13,15 +13,17 @@
 #tracking-protection-icon-container {
   display: none !important;
 }   /* Shield Button */
-#urlbar-zoom-button {
+/* #urlbar-zoom-button {
   display: none !important;
-}   /* URL Zoom Button *//*
+}   /* URL Zoom Button */
+/*
 #reader-mode-button {
   display: none !important;
 }   /* Reader Mode Button */
 #picture-in-picture-button {
   display: none !important;
-}   /* PIP Button *//*
+}   /* PIP Button */
+/*
 #unified-extensions-button {
   display: none !important;
 } /* Extension Button */
@@ -50,53 +52,11 @@
 #forward-button {
   list-style-image: url("chrome://browser/skin/forward.svg") !important;
 }
-/* Catpucin Theme *//*
-@media (prefers-color-scheme: dark) {
-  :root {
-    --zen-colors-primary: #24273a !important;
-    --zen-colors-secondary: #99adffaa !important;
-    --zen-colors-tertiary: #181926 !important;
-    --zen-colors-border: #363a4fba !important;
-    --zen-dialog-background: #222436 !important;
-    --zen-colors-input-bg: #252837a5 !important;
-    .tab-background[selected=''] {
-      background-color: #3b415dda !important;
-    }
-  }
-}
-#urlbar-background {
-  background-color: #272b3d !important;
-}
-  /* Container Tab Theme */
-/*
-#tabbrowser-tabs {
-  & .tabbrowser-tab {
-    &[selected] .tab-background {
-      border: 2px solid var(--identity-icon-color) !important;
-      opacity: 0.8 !important;
-    }
-  }
-}
   /* Tab Close button on hover */
 #tabbrowser-tabs .tabbrowser-tab:not([pinned]):is([visuallyselected]):not(:hover) .tab-close-button {
   display: none !important;
 }
-/* Remove border padding *//*
-#tabbrowser-tabpanels {
-  padding: 0px !important;
-}
-#tabbrowser-tabbox {
-  padding: 0px !important;
-}
-  /* Disable Rounded Corners *//*
-:root .browserSidebarContainer {
-  margin: unset!important;
-  box-shadow: unset!important;
-  clip-path: unset!important;
-  border-radius: unset!important;
-  overflow: unset!important;
-} */
-  /* Floating Status-bar */
+/* Floating Status-bar */
 #statuspanel {
   margin: 10px !important;
 }
@@ -118,7 +78,8 @@
   box-shadow: none !important;
   padding: 10px !important;
 }
-/* No window control buttons *//*
+/* No window control buttons */
+/*
 #toolbar-menubar:not([inactive="true"]) .titlebar-buttonbox-container {
   display:flex !important;
 }
@@ -134,24 +95,153 @@
 .tabbrowser-tab:is([selected],
 [visuallyselected],
 [multiselected])
-  .tab-background {
+.tab-background {
   background-color: color-mix(
-    in srgb,
-    var(--identity-tab-color, var(--tab-group-color-gray-invert)) 15%,
-    transparent
+  in srgb,
+  var(--identity-tab-color, var(--tab-group-color-gray-invert)) 15%,
+  transparent
   ) !important;
   border: 2.5px solid
-    color-mix(
-      in srgb,
-      var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
-      transparent
-    ) !important;
+  color-mix(
+  in srgb,
+  var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
+  transparent
+  ) !important;
   opacity: 0.8 !important;
   border-left: 32px solid
-    color-mix(
-      in srgb,
-      var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
-      transparent
-    ) !important;
+  color-mix(
+  in srgb,
+  var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
+  transparent
+  ) !important;
 }
-  /* End */
+/* Floating Sidebar */
+:root {
+  --floating-sidebar-transform-translateX: 110%;
+  --floating-sidebar-position-right: 1rem;
+  --floating-sidebar-position-left: auto;
+  --floating-sidebar-height: 98%;
+  --floating-sidebar-width: 23rem;
+  --floating-sidebar-transform-translateY: 1%;
+  --floating-sidebar-bg: var(--zen-main-browser-background);
+}
+
+/* Size */
+:root:has(#theme-Floating-Sidebar[theme-floating_sidebar-size="full"]) {
+  --floating-sidebar-height: 98%;
+  --floating-sidebar-width: 23rem;
+  --floating-sidebar-transform-translateY: 1%;
+}
+:root:has(#theme-Floating-Sidebar[theme-floating_sidebar-size="compact"]) {
+  --floating-sidebar-height: 80%;
+  --floating-sidebar-width: 20rem;
+  --floating-sidebar-transform-translateY: 14%;
+}
+
+/* Position */
+:root:has(#theme-Floating-Sidebar[theme-floating_sidebar-position="right"]) {
+  --floating-sidebar-transform-translateX: 110%;
+  --floating-sidebar-position-right: 1rem;
+  --floating-sidebar-position-left: auto;
+}
+:root:has(#theme-Floating-Sidebar[theme-floating_sidebar-position="left"]) {
+  --floating-sidebar-transform-translateX: -110%;
+  --floating-sidebar-position-right: auto;
+  --floating-sidebar-position-left: 1rem;
+}
+
+/* Disable splitter */
+#sidebar-box + splitter {
+  display: none !important;
+}
+
+/* Make sure content is not affected by sidebar */
+#tabbrowser-tabbox[flex="1"][tabcontainer="tabbrowser-tabs"] {
+  will-change: unset !important;
+}
+
+/* Sidebar Tab Styles */
+#sidebar-box {
+  order: none !important;
+  height: var(--floating-sidebar-height) !important;
+  width: var(--floating-sidebar-width) !important;
+  position: fixed !important;
+  right: var(--floating-sidebar-position-right);
+  left: var(--floating-sidebar-position-left);
+  background: var(--floating-sidebar-bg) !important;
+  box-shadow: var(--box-shadow-10) !important;
+  border: 1px solid var(--zen-colors-border) !important;
+  border-radius: var(--zen-border-radius) !important;
+  z-index: 1 !important;
+  transform: translate(
+  var(--floating-sidebar-transform-translateX),
+  var(--floating-sidebar-transform-translateY)
+  ) !important;
+  transition: transform 0.35s !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  &[checked="true"] {
+    display: flex !important;
+    transform: translate(
+    0%,
+    var(--floating-sidebar-transform-translateY)
+    ) !important;
+  }
+}
+#sidebar-header {
+  border-bottom: none !important;
+}
+window.sidebar-panel {
+  box-shadow: var(--box-shadow-10) !important;
+  background: var(--floating-sidebar-bg) !important;
+}
+
+/* TreeChildren Style */
+treechildren.sidebar-placesTreechildren::-moz-tree-row {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  -moz-outline: none !important;
+}
+treechildren.sidebar-placesTreechildren::-moz-tree-row(selected) {
+  background-color: color-mix(
+  in srgb,
+  currentcolor 12%,
+  transparent
+  ) !important;
+}
+treechildren.sidebar-placesTreechildren::-moz-tree-cell-text(selected),
+treechildren.sidebar-placesTreechildren::-moz-tree-image(selected),
+treechildren.sidebar-placesTreechildren::-moz-tree-image(selected,
+container),
+treechildren.sidebar-placesTreechildren::-moz-tree-twisty {
+  color: currentcolor !important;
+}
+
+/* View Button Styles */
+window.sidebar-panel hbox#sidebar-search-container button#viewButton {
+  appearance: none !important;
+  margin-inline-end: 4px !important;
+  border-radius: 6px !important;
+  border: 1px solid transparent !important;
+  padding: 2px 4px !important;
+  background: transparent !important;
+}
+window.sidebar-panel hbox#sidebar-search-container button#viewButton:hover {
+  background-color: color-mix(
+  in srgb,
+  currentcolor 10%,
+  transparent
+  ) !important;
+}
+window.sidebar-panel hbox#sidebar-search-container button#viewButton:active {
+  background-color: color-mix(
+  in srgb,
+  currentcolor 15%,
+  transparent
+  ) !important;
+}
+window.sidebar-panel hbox#sidebar-search-container {
+  margin-bottom: 1rem !important;
+}
+/* End */
