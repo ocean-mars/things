@@ -136,5 +136,4 @@ coinmarketcap.com##.sc-c1554bc0-0.iSUEMj.BaseButton_base__34gwo.bt-base.BaseButt
 coinmarketcap.com##.UserDropdown_user-avatar-wrapper__YEFUG
 coinmarketcap.com##.sc-c1554bc0-0.iSUEMj.BaseButton_base__34gwo.bt-base.BaseButton_t-plain__r1WnM.BaseButton_size-sm__oHKNE.BaseButton_vd__gUkWt.btn-watchlist
 pantyflix.com##.brand-pantyflix.brand-pantyflix-nav
-www.binance.com##.relative.text-PrimaryText.no-underline.t-subtitle3.flex.bg-Vessel.p-2\.5.rounded-xl.border-solid.border-Line.border-\[1px\]
 app.astermail.org##.flex.items-center.justify-between.px-4.py-1\.5
