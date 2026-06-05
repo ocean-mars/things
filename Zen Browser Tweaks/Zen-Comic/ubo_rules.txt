@@ -1,6 +1,7 @@
 no-cosmetic-filtering: vortexscans.org true
 no-csp-reports: * true
 no-large-media: behind-the-scene false
+no-popups: comix.to true
 no-popups: demonicscans.org true
 no-popups: discord.com true
 no-popups: drakecomic.org true
@@ -23,6 +24,11 @@ no-remote-fonts: manhuarmtl.com false
 * cloudflare.com * noop
 animepahe.si ddos-guard.net * noop
 animepahe.si owocdn.top * noop
+animetsu.cc * 3p-script noop
+animetsu.cc anilist.co * noop
+animetsu.cc jsdelivr.map.fastly.net * noop
+animetsu.cc jsdelivr.net * noop
+animetsu.cc swiftstream.top * noop
 asurascans.com asuracomic.net * noop
 behind-the-scene * * noop
 behind-the-scene * 1p-script noop
@@ -33,6 +39,7 @@ behind-the-scene * image noop
 behind-the-scene * inline-script noop
 coffeemanga.to comick.site * noop
 comick.dev comick.pictures * noop
+comix.to gravatar.com * noop
 comix.to wowpic1.store * noop
 comix.to wowpic2.store * noop
 comix.to wowpic3.store * noop
@@ -46,9 +53,11 @@ demonicscans.org readermc.org * noop
 discord.com discord.gg * noop
 discord.com discordapp.com * noop
 discord.com discordapp.net * noop
+discord.com hcaptcha.com * noop
 elftoon.com elftoon.xyz * noop
 elftoon.com wp.com * noop
 github.com * 3p noop
+kanae.to kagane.org * noop
 mangaball.net poke-black-and-white.net * noop
 mangadex.org mangadex.network * noop
 mangahub.io mghcdn.com * noop
