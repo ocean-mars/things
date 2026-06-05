@@ -3,16 +3,6 @@
     background: url("assets/wallpaper-1.png") !important;
     background-size: cover !important;
   }
-  a[href="https://comick.io/"] .tile .letter-fallback {
-    width: 58px !important;
-    height: 58px !important;
-    background-color: transparent !important;
-    background-image: url(assets/comick.png) !important;
-    background-size: 58px !important;
-    &::before {
-      display: none !important;
-    }
-  }
   a[href="https://mullvad.net/check/"] .tile .letter-fallback {
     width: 64px !important;
     height: 64px !important;
@@ -70,7 +60,7 @@
     .top-site-outer .tile {
       border-radius: 18px !important;
       background: transparent !important;
-      filter: saturate(140%) !important;
+      
       backdrop-filter: blur(33px);
     }
     .top-site-outer .default-icon {
@@ -95,7 +85,7 @@
       display: flex !important;
       margin-top: 16px !important;
       outline: none !important;
-      filter: saturate(140%) !important;
+      
       background-color: rgba(8,14,22, 0.1) !important;
       border-radius: 18px !important;
       padding: 0;
@@ -109,14 +99,14 @@
       .search-inner-wrapper:not(:focus) {
         background: var(--newtab-pinnedsites-background) !important;
         backdrop-filter: blur(33px) !important;
-        filter: saturate(140%) !important;
+        
       }
     }
     .search-inner-wrapper:not(:focus) input,
     .search-wrapper:not(:active) input:focus {
       background-color: var(--newtab-pinnedsites-background) !important;
       backdrop-filter: blur(33px) !important;
-      filter: saturate(140%) !important;
+      
       border-radius: 34px !important;
     }
     .search-handoff-button {
@@ -333,7 +323,7 @@
       background: transparent !important;
     }
     .card-outer .card {
-      filter: saturate(140%) !important;
+      
       border-radius: 18px !important;
       background-color: rgba(20, 25, 40, 0.6)  !important;
       position: relative;
@@ -403,7 +393,7 @@
       box-shadow: unset !important;
     }
     .ds-card .meta {
-      filter: saturate(140%) !important;
+      
       background-color: rgba(20, 25, 40, 0.6)  !important;
       position: relative;
       backdrop-filter: blur(33px);
@@ -513,208 +503,97 @@
     opacity: 1 !important;
   }
 }
-/*  Youtube Theme */
+
 @-moz-document domain("youtube.com") {
-  * {
-    font-family: Luminari !important;
-    font-weight: lighter !important;
-  }
-/* variables -----------------------------------------------------------*/
-  :root {
-    --ytb-bg-1: #010409; /* 0d1117 */
-    --ytb-bg-2: #010409ae;
-    --ytb-border-1: #354057;
-  }
-/*page color*/
-  html,
-  html[dark],
-  body,
-  ytd-app {
-    background-color: var(--ytb-bg-1) !important;
-  }
-/* From my Previous Theme ---------------------------------------------------------------------------------------------------------------------------------*/
-  ytd-app,
-  .ytd-popup-container.style-scope,
-  .ytd-app.style-scope,
-  #masthead > .ytd-masthead.style-scope,
-  #guide-renderer,
-  #content-wrapper,
-  #search,
-  .ytd-playlist-panel-renderer.style-scope,
-  .ytd-tabbed-page-header.style-scope {
-    background-color: var(--ytb-bg-1) !important;
-  }
-/* header*/
-  #background.ytd-masthead {
-    background: var(--ytb-bg-2) !important;
-    backdrop-filter: blur(50px);
-  }
-  #header {
-    background: transparent !important;
-    backdrop-filter: blur(50px);
-  }
-  #frosted-glass.with-chipbar.ytd-app {
-    height: 58px !important;
-  }
-  ytd-feed-filter-chip-bar-renderer {
-    --ytd-rich-grid-chips-bar-top: 0px !important;
-    top: 0 !important;
-  }
-/*search bar*/
-  .ytSearchboxComponentInputBoxDark,
-  html[dark] .sbsb_a,
-  .ytSearchboxComponentSearchButton {
-    background-color: var(--ytb-bg-1) !important;
-    border-color: var(--ytb-border-1) !important;
-    backdrop-filter: blur(17px);
-  }
-/*search results popup*/
-  .ytSearchboxComponentSuggestionsContainer {
-    background-color: #010409a4 !important;
-    backdrop-filter: blur(35px);
-  }
-}
-/* ComicK Theme */
-@-moz-document domain("comick.io") {
-  /* General */
-  * {
-    font-family: Luminari !important;
-    font-weight: lighter !important;
-  }
-  :root {
-    --bg-1: #0d1117;
-    --bg-2: #1b293be2;
-    --bg-3: #1b2a3aee;
-    --bg-4: #1d2938;
-    --border-1: #354057e2;
-    --border-2: #1e2b3bee;
-    --border-3: #373A40;
-    --radius-1: 8px;
-    --radius-2: 48px;
-    --bgg-1: linear-gradient(to left top, #1c2b3b, #182431, #141d28, #10161f, #0d1117);
-  }
-/*** Logo ***/
-  .ml-3.group-hover\:text-gray-600.dark\:group-hover\:text-gray-400.dark\:text-gray-300.text-gray-800.font-semibold.text-xl {
-    content: url(assets/comick-6.png);
-    height: 24px !important;
-    width: auto !important;
-    margin-left: -8px !important;
-  }
-  .opacity-40.hover\:opacity-100.cursor-pointer.flex.text-center.items-center.md\:h-12.md\:w-12.h-10.w-10.rounded-full {
-    content: url(assets/comick-c-2.png);
-    height: 40px !important;
-    width: auto !important;
-    margin-left: 12px !important;
-  }
-/*** Home Page ***/
-  .dark\:bg-gray-800\/95,
-  .dark\:bg-gray-800 {
-    background-color: var(--bg-1) !important;
-  }
-  .dark\:border-gray-700 {
-    border-color: var(--border-1) !important;
-  }
-  #main {
-    width: 100% !important;
-  }
-  .aa-DetachedSearchButton {
-    background-color: var(--bg-3) !important;
-  }
-  .btn,
-  .dark\:bg-gray-700 {
-    background-color: var(--bg-3) !important;
-    border: none !important;
-  }
-  .rounded {
-    border-radius: var(--radius-1) !important;
-  }
-  .dark\:hover\:bg-gray-700:hover {
-    border-radius: var(--radius-1) !important;
-  }
-/*** Preview Page ***/
-  .dark\:scrollbox-dark {
-    background-color: var(--bg-1) !important;
-    background-image: none !important;
-  }
-  .dark\:bg-gray-750 {
-    background-color: var(--bg-3)!important;
-  }
-  tr.group {
-    border-left: 0px !important;
-    border-right: 0px !important;
-    border-bottom: 0px !important;
-    border-block-end: 0px !important;
-    border-block-color: var(--border-2) !important;
-  }
-  .dark\:border-gray-600.rounded.border-gray-300.border.py-1.pr-6.pl-2.cursor-pointer,
-  .dark\:text-gray-400.text-gray-400.dark\:\!bg-gray-800.\!bg-white.max-w-\[10em\],
-  .md\:\!w-3\/5.\!w-16.mx-3.md\:my-3.my-2.py-1.pl-3 {
-    background-color: var(--bg-3) !important;
-    border: none !important;
-  }
-  .xl\:max-w-screen-xl>.grid.md\:grid-cols-3+div+div>div+div>div img {
-    border-radius: var(--radius-1) !important;
-  }
-  a.justify-center.items-center.flex.py-2.px-4.rounded-md.border.mt-2.ml-3 {
-    border-color: var(--border-1) !important;
-  }
-/*** Reading Page ***/
-  #comment-section {
-    background-color: var(--bg-1) !important;
-    background-image: none !important;
-  }
-  .border-r {
-    background-color: var(--bg-2) !important;
-  }
-  .dark\:border-gray-600 {
-    border-color: var(--border-1) !important;
-  }
-  .p-2.ml-2,
-  .select-none.mx-auto.xl\:container.w-full > .dark\:bg-gray-700.bg-gray-100.items-center.flex {
-    background-color: var(--bg-2) !important;
-    background-image: var(--bgg-1) !important;
-  }
-  .p-2 {
-    background-color: var(--bg-3) !important;
-    border-radius: var(--radius-1) !important;
-  }
-  .dark\:hover\:bg-gray-600:hover {
-    border-radius: var(--radius-1) !important;
-  }
-  #bottom-reader-settings button {
-    border-radius: var(--radius-2) !important;
-  }
-/* Likes Mod */
-  .text-xl.items-center.flex > .mx-2.w-3:after {
-    margin-left: 4px !important;
-    content: "Likes" !important;
-    font-size: large !important;
-  }
-  .text-xl.items-center.flex {
-    margin-left: -6px !important;
-  }
-/*** Search Page ***/
-  .w-40,
-  .focus\:ring-0,
-  .max-w-\[6rem\].md\:py-2.py-1.md\:mt-2.mt-1 {
-    background-color: var(--bg-2) !important;
-  }
-/*** Cosmetic Filtering ***/
-  .overflow-hidden.space-y-5.xl\:w-3\/12.w-4\/12.float-right.pr-0.lg\:pb-3.lg\:pl-4.pb-1.pl-3,
-  .text-xs.dark\:border-gray-700.rounded,
-  #zoom-btn,
-  .active\:animate-ping.active\:brightness-200.hover\:brightness-200.hover\:text-blue-500.cursor-pointer.h-12.w-12,
-  .z-10.p-1.flex.items-center.bg-opacity-60.bg-gray-500.right-1.top-1.absolute.rounded-full,
-  .dark\:fill-gray-300.fill-gray-500.h-6.w-6,
-  .space-x-1.items-center.flex.cursor-pointer > .hover\:brightness-150.h-5.w-5,
-  .text-sm.items-center.flex.relative,
-  li.items-center.flex.cursor-pointer.dark\:hover\:bg-gray-700.hover\:bg-gray-50:nth-of-type(4),
-  div.h-8.w-8:nth-of-type(2),
-  .gap-4.justify-center.items-center.flex.mt-4.ml-4,
-  .md\:h-10.md\:w-10.h-10.w-10 > span,
-  .margin-safe-top.mx-auto.xl\:container.my-3,
-  .md\:mx-0.mx-1.dark\:text-blue-300.text-blue-900.dark\:bg-blue-900.bg-blue-100.dark\:border-blue-700.border-blue-400.items-center.shadow.border-l-8.flex.p-2.rounded,
-  .py-16 {
-    display: none !important;
-  }
+  /*page color*/
+    html, html[dark], body, ytd-app {
+        background-color: rgb(0, 0, 0) !important;
+    }
+  /*ambientmode filter*/
+    #cinematics-container canvas, #shorts-cinematic-container {
+        opacity: 0.2 !important;
+        backdrop-filter: blur(5px) !important;
+         mask-image: radial-gradient(circle, rgba(20, 20, 22, 0.2) 10%, rgba(0,0,0,0) 40%);        
+    }
+  /*sidebar*/
+    #background.ytd-masthead {
+        background: rgba(12, 12, 14, 0.6) !important;
+        
+        backdrop-filter: saturate(180%) blur(16px) !important;
+    }
+    .ytdMiniplayerInfoBarHasPlaylistData.ytdMiniplayerInfoBarHost, .ytd-playlist-panel-renderer.style-scope.header, #playlist, .ytListViewModelHost, #content-wrapper {
+      background-color: rgba(12, 12, 14, 0.6) !important;
+    }
+    #contentContainer {
+        background: rgba(20, 20, 22, 0.2) !important;
+        backdrop-filter: saturate(180%) blur(16px) !important;
+    }
+    /* header*/
+    #background.ytd-masthead {
+        background: rgba(12, 12, 14, 0.6) !important;
+        backdrop-filter: saturate(180%) blur(16px) !important;
+    }
+    #header {
+        background: rgba(12, 12, 14, 0.6) !important;
+        backdrop-filter: saturate(180%) blur(16px) !important;    
+    }
+    #frosted-glass.with-chipbar.ytd-app {
+      height: 58px !important;
+    }
+    ytd-feed-filter-chip-bar-renderer {
+        --ytd-rich-grid-chips-bar-top: 0px !important;
+        top: 0 !important;
+    }
+  /*search bar*/
+    html[dark] .sbsb_a,
+    .ytSearchboxComponentInputBoxDark, .ytSearchboxComponentSearchButtonDark {
+        border-color: rgba(72,72,74, 0.5) !important;
+        background: rgba(20, 20, 22, 0.4) !important;
+        backdrop-filter: saturate(180%) blur(16px) !important;    
+    }
+  /*search results popup*/
+    .ytSearchboxComponentSuggestionsContainer {
+        background-color: rgba(0,0,0,0.5) !important;
+        backdrop-filter: saturate(180%) blur(16px) !important;
+    }
+  /*notifications popup*/
+    .ytd-multi-page-menu-renderer {
+        background-color: rgba(20, 20, 22, 0.2) !important;
+    }
+    .style-scope.ytd-popup-container {
+        background-color: rgba(0,0,0,0.2) !important;
+        @media (prefers-color-scheme: light) {background-color: transparent !important;}
+        border-radius: 10px !important;
+        backdrop-filter: saturate(180%) blur(16px) !important;
+    }
+  /*video player context menu*/
+    .ytp-popup {
+        background-color: rgba(20, 20, 22, 0.2) !important;
+    }
+    .ytp-popup.ytp-contextmenu { 
+        background-color: rgba(20, 20, 22, 0.2) !important;
+        border-radius: 10px !important;
+        backdrop-filter: saturate(180%) blur(16px) !important; 
+    }
+    .ytp-panel-menu {padding: 8px !important;}
+    .ytp-menuitem:hover {
+        border-radius: 10px !important; /* nogo for tables */
+        clip-path: xywh(0 0 100% 100% round 0.5em) !important;
+        background-color: rgba(44,44,46,0.5) !important;
+    }
+    .ytp-panel-menu, .ytp-panel-header {
+        background-color: rgba(0,0,0,0.5) !important;
+        backdrop-filter: saturate(180%) blur(16px) !important;    
+    }
+  /*thumbnails*/
+    .yt-spec-icon-badge-shape--style-overlay .yt-spec-icon-badge-shape__badge {
+        border: 0px solid rgba(0,0,0,0.8) !important;
+    }
+    .badge-style-type-live-now-alternate.ytd-badge-supported-renderer {
+        background: rgba(161, 170, 175, 0.9) !important;
+        color: var(--yt-spec-static-brand-white) !important;
+    }
+    .ytp-loading-overlay, .ytp-spinner-rotator, .ytp-spinner-container, .ytp-spinner, .ytd-notification-topbar-button-renderer.style-scope, .paper-toast-open.yt-notification-action-renderer.style-scope.toast-button, #primary-button > .ytd-feed-nudge-renderer.style-scope, #sponsor-button, .ytSearchboxComponentReportButton {
+      display: none !important;
+    }
 }
