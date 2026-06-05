@@ -26,10 +26,10 @@ user_pref("browser.shell.skipDefaultBrowserCheckOnFirstRun", true);
 // -------------------------------------
 // Set startup page
 // 0=blank, 1=home, 2=last visited page, 3=resume previous session
-user_pref("browser.startup.page", 1); // Modified
+user_pref("browser.startup.page", 0); // Modified
 // -------------------------------------
 // Set HOME+NEWWINDOW page
-user_pref("browser.startup.homepage", "about:home"); // Modified
+// user_pref("browser.startup.homepage", "about:home");
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
@@ -40,7 +40,7 @@ user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+]
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // [FF83+] Shortcuts>Sponsored shortcuts
 // -------------------------------------
 // Clear default topsites
-user_pref("browser.newtabpage.activity-stream.default.sites", "https://www.youtube.com/,https://comick.io/,https://mullvad.net/check/"); // Modified
+user_pref("browser.newtabpage.activity-stream.default.sites", "https://www.youtube.com/,https://mullvad.net/check/");
 user_pref("browser.topsites.contile.enabled", false);
 user_pref("browser.topsites.useRemoteSetting", false);
 //
@@ -63,6 +63,14 @@ user_pref("geo.provider.use_geoclue", false); // [FF102+] [LINUX]
 user_pref("browser.region.network.url", ""); // [FF78+] Defense-in-depth
 user_pref("browser.region.update.enabled", false); // [FF79+]
 //
+
+user_pref("privacy.antitracking.isolateContentScriptResources", true);
+user_pref("datareporting.policy.dataSubmissionPolicyBypassNotification", true);
+user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime","32503679999000");
+user_pref("startup.homepage_override_nimbus_disable_wnp", true);
+user_pref("termsofuse.acceptedDate", "32503679999000");
+user_pref("termsofuse.acceptedVersion", 999);
+user_pref("termsofuse.bypassNotification", true);
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // QUIETER FOX
 // >>>>>>>>>>>>>>>>>>>>>
@@ -294,8 +302,8 @@ user_pref("network.gio.supported-protocols", ""); // [HIDDEN PREF] [DEFAULT: ""]
 // user_pref("network.proxy.allow_bypass", false);
 // -------------------------------------
 // Disable DNS-over-HTTPS (DoH)[FF60+]
-// user_pref("network.trr.mode", 5);
-// user_pref("network.trr.confirmationNS", "");
+user_pref("network.trr.mode", 5);
+user_pref("network.trr.confirmationNS", "");
 // -------------------------------------
 // Disable skipping DoH when parental controls are enabled
 // user_pref("network.trr.uri", "https://dns.quad9.net/dns-query");
@@ -326,6 +334,9 @@ user_pref("browser.urlbar.fakespot.featureGate", false); // [FF130+] [DEFAULT: f
 user_pref("browser.urlbar.mdn.featureGate", false); // [FF117+] [HIDDEN PREF]
 user_pref("browser.urlbar.weather.featureGate", false); // [FF108+] [DEFAULT: false]
 user_pref("browser.urlbar.yelp.featureGate", false); // [FF124+]
+user_pref("browser.urlbar.importantDates.featureGate", false);
+user_pref("browser.urlbar.market.featureGate", false);
+user_pref("browser.urlbar.yelpRealtime.featureGate", false);
 // -------------------------------------
 // Disable urlbar clipboard suggestions [FF118+]
 user_pref("browser.urlbar.clipboard.featureGate", false);
@@ -586,6 +597,9 @@ user_pref("browser.urlbar.filter.javascript", true);
 user_pref("browser.ml.chat.enabled", false);
 user_pref("browser.ml.chat.shortcuts", false);
 user_pref("browser.ml.chat.sidebar", false);
+user_pref("browser.ml.chat.menu", false);
+user_pref("browser.ml.linkPreview.supportedLocales", "null");
+user_pref("extensions.ui.mlmodel.hidden", true);
 //
 // DOWNLOADS
 //
@@ -638,12 +652,12 @@ user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 //
 // Set/enforce clearOnShutdown items [FF128+]
 user_pref("privacy.clearOnShutdown_v2.cache", true); // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", true); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false); // [DEFAULT: true]
 // user_pref("privacy.clearOnShutdown_v2.siteSettings", false); // [DEFAULT: false]
 //
 // Set/enforce clearOnShutdown items [FF136+]
-user_pref("privacy.clearOnShutdown_v2.browsingHistoryAndDownloads", true); // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown_v2.downloads", true);
+user_pref("privacy.clearOnShutdown_v2.browsingHistoryAndDownloads", false); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown_v2.downloads", false);
 user_pref("privacy.clearOnShutdown_v2.formdata", true);
 //
 // Set Session Restore to clear on shutdown [FF34+]
@@ -659,11 +673,11 @@ user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", true);
 // Set manual "Clear Data" items [FF128+]
 user_pref("privacy.clearSiteData.cache", true);
 user_pref("privacy.clearSiteData.cookiesAndStorage", false); // keep false until it respects "allow" site exceptions
-user_pref("privacy.clearSiteData.historyFormDataAndDownloads", true);
+user_pref("privacy.clearSiteData.historyFormDataAndDownloads", false);
 // user_pref("privacy.clearSiteData.siteSettings", false);
 //
 // Set manual "Clear Data" items [FF136+]
-user_pref("privacy.clearSiteData.browsingHistoryAndDownloads", true);
+user_pref("privacy.clearSiteData.browsingHistoryAndDownloads", false);
 user_pref("privacy.clearSiteData.formdata", true);
 //
 // SANITIZE HISTORY: IGNORES "ALLOW" SITE EXCEPTIONS
@@ -671,11 +685,11 @@ user_pref("privacy.clearSiteData.formdata", true);
 // Set manual "Clear History" items, also via Ctrl-Shift-Del
 user_pref("privacy.clearHistory.cache", true); // [DEFAULT: true]
 user_pref("privacy.clearHistory.cookiesAndStorage", false);
-user_pref("privacy.clearHistory.historyFormDataAndDownloads", true); // [DEFAULT: true]
+user_pref("privacy.clearHistory.historyFormDataAndDownloads", false); // [DEFAULT: true]
 // user_pref("privacy.clearHistory.siteSettings", false); // [DEFAULT: false]
 //
 // Set manual "Clear History" items [FF136+]
-user_pref("privacy.clearHistory.browsingHistoryAndDownloads", true); // [DEFAULT: true]
+user_pref("privacy.clearHistory.browsingHistoryAndDownloads", false); // [DEFAULT: true]
 user_pref("privacy.clearHistory.formdata", true);
 //
 // SANITIZE MANUAL: TIMERANGE
@@ -704,15 +718,15 @@ user_pref("privacy.sanitize.timeSpan", 0);
 // >>>>>>>>>>>>>>>>>>>>>
 //
 // Enable RFP
-user_pref("privacy.resistFingerprinting", true); // [FF41+]
-user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]
+// user_pref("privacy.resistFingerprinting", true); // [FF41+]
+// user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]
 // -------------------------------------
 // Set RFP new window size max rounded values [FF55+]
 user_pref("privacy.window.maxInnerWidth", 1400);
 user_pref("privacy.window.maxInnerHeight", 900);
 // -------------------------------------
 // Disable mozAddonManager Web API [FF57+]
-user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
+// user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 // -------------------------------------
 // Enable letterboxing [FF67+]
 // user_pref("privacy.resistFingerprinting.letterboxing", true); // [HIDDEN PREF]
@@ -725,11 +739,11 @@ user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 // 0=prompt, 1=disabled, 2=enabled
 user_pref("privacy.spoof_english", 2);
 // -------------------------------------
-// Disable using system colors
-user_pref("browser.display.use_system_colors", false); // [DEFAULT: false NON-WINDOWS]
+// Enforce Contrast Control off
+// user_pref("browser.display.document_color_use", 1); // [DEFAULT: 1 NON-WINDOWS]
 // -------------------------------------
 // Disable using system accent colors
-user_pref("widget.non-native-theme.use-theme-accent", false); // [DEFAULT: false WINDOWS]
+// user_pref("widget.non-native-theme.use-theme-accent", false); // [DEFAULT: false WINDOWS]
 // -------------------------------------
 // Enforce links targeting new windows to open in a new tab instead
 // 1=most recent window or tab, 2=new window, 3=new tab
@@ -777,7 +791,7 @@ user_pref("dom.webgpu.enabled", false);
 // -------------------------------------
 // Disable location bar suggestion types
 user_pref("browser.urlbar.suggest.history", false);
-// user_pref("browser.urlbar.suggest.bookmark", false);
+user_pref("browser.urlbar.suggest.bookmark", false);
 user_pref("browser.urlbar.suggest.openpage", false);
 user_pref("browser.urlbar.suggest.topsites", false); // [FF78+]
 user_pref("browser.urlbar.suggest.weather", false);
@@ -848,8 +862,8 @@ user_pref("gfx.font_rendering.graphite.enabled", false);
 user_pref("javascript.options.asmjs", false);
 // -------------------------------------
 // Disable Ion and baseline JIT to harden against JS exploits [RESTART]
-// user_pref("javascript.options.ion", false);
-// user_pref("javascript.options.baselinejit", false);
+user_pref("javascript.options.ion", false);
+user_pref("javascript.options.baselinejit", false);
 user_pref("javascript.options.wasm_baselinejit", false);
 user_pref("javascript.options.jit_trustedprincipals", true); // [FF75+] [HIDDEN PREF]
 // -------------------------------------
@@ -863,11 +877,11 @@ user_pref("javascript.options.wasm", false);
 user_pref("gfx.font_rendering.opentype_svg.enabled", false);
 // -------------------------------------
 // Disable widevine CDM (Content Decryption Module)
-user_pref("media.gmp-widevinecdm.enabled", false);
+user_pref("media.gmp-widevinecdm.enabled", true);
 // -------------------------------------
 // Disable all DRM content (EME: Encryption Media Extension)
-// user_pref("media.eme.enabled", false);
-// user_pref("browser.eme.ui.enabled", false);
+user_pref("media.eme.enabled", true);
+user_pref("browser.eme.ui.enabled", false);
 // -------------------------------------
 // Disable IPv6 if using a VPN
 user_pref("network.dns.disableIPv6", true); // Modified
@@ -915,7 +929,7 @@ user_pref("services.blocklist.gfx.collection", "");
 user_pref("services.blocklist.gfx.signer", "");
 // -------------------------------------
 // Enforce no referer spoofing
-user_pref("network.http.referer.spoofSource", true); // [DEFAULT: false]
+user_pref("network.http.referer.spoofSource", false); // [DEFAULT: false COMIX DOESNT WORK WITH TRUE]
 // -------------------------------------
 // Enforce a security delay on some confirmation dialogs such as install, open/save
 user_pref("security.dialog_enable_delay", 1000); // [DEFAULT: 1000]
@@ -1033,7 +1047,7 @@ user_pref("privacy.donottrackheader.enabled", false);
 // user_pref("privacy.fingerprintingProtection", true); // [FF114+] [ETP FF119+]
 // user_pref("privacy.partition.network_state.ocsp_cache", true); // [DEFAULT: true]
 // user_pref("privacy.query_stripping.enabled", true); // [FF101+]
-user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _hsenc _openstat dclid fbclid gbraid gclid hsCtaTracking igshid mc_eid ml_subscriber ml_subscriber_hash msclkid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id rb_clickid s_cid twclid vero_conv vero_id wbraid wickedid yclid");
+user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _bhlid _branch_match_id _branch_referrer _gl _hsenc _kx _openstat at_recipient_id at_recipient_list bbeml bsft_clkid bsft_uid dclid et_rid fb_action_ids fb_comment_id fbclid gclid guce_referrer guce_referrer_sig hsCtaTracking irclickid mc_eid ml_subscriber ml_subscriber_hash msclkid mtm_cid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id pk_cid rb_clickid s_cid sc_customer sc_eh sc_uid sms_click sms_source sms_uph srsltid ss_email_id syclid ttclid twclid unicorn_click_id vero_conv vero_id vgo_ee wbraid wickedid yclid ymclid ysclid");
 // user_pref("privacy.trackingprotection.enabled", true);
 // user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 // user_pref("privacy.trackingprotection.cryptomining.enabled", true); // [DEFAULT: true]
@@ -1079,7 +1093,7 @@ user_pref("privacy.globalprivacycontrol.pbmode.enabled", true); // [DEFAULT: tru
 // user_pref("media.video_stats.enabled", false);
 // user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("ui.use_standins_for_native_colors", true);
-user_pref("browser.display.use_document_fonts", 1);
+user_pref("browser.display.use_document_fonts", 0);
 user_pref("device.sensors.enabled", false);
 user_pref("dom.gamepad.enabled", false);
 user_pref("dom.netinfo.enabled", false);
@@ -1219,8 +1233,26 @@ user_pref("browser.preferences.experimental", true);
 // Underline under characters in Linux
 user_pref("ui.key.menuAccessKey", 0);
 user_pref("ui.key.menuAccessKeyFocuses", true);
-//
+// zen
+user_pref("zen.boosts.enabled", false);
+user_pref("zen.glance.enabled", false);
+user_pref("zen.startup.smooth-scroll-in-tabs", false);
+user_pref("zen.tabs.close-on-back-with-no-history", false);
+user_pref("zen.tabs.select-recently-used-on-close", false);
+user_pref("zen.theme.accent-color", "#007AFF");
+user_pref("zen.theme.border-radius", 10);
+user_pref("zen.theme.content-element-separation", 0);
+user_pref("zen.theme.gradient.show-custom-colors", true);
+user_pref("zen.themes.disable-all", true);
+user_pref("zen.updates.show-update-notification", false);
+user_pref("zen.urlbar.behavior", "float");
+user_pref("zen.urlbar.replace-newtab", true);
+user_pref("zen.view.compact.enable-at-startup", true);
+user_pref("zen.view.compact.sidebar-keep-hover.duration", 100);
+user_pref("zen.view.enable-loading-indicator", false);
+user_pref("zen.view.experimental-no-window-controls", true);
+user_pref("zen.welcome-screen.seen", true);
 // Right Click Context Menu Theme Fix Linux
-user_pref("widget.gtk.native-context-menus", true);
+// user_pref("widget.gtk.native-context-menus", true);
 //
 // END
