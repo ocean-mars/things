@@ -1,11 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Name= Brave
-Exec=brave-browser --class=BraveA --profile-directory="Default" --no-remote %U
+Exec=env TZ=Atlantic/Reykjavik brave-browser --class=Brave-Default --profile-directory="Default" --no-remote %U
 StartupNotify=false
-StartupWMClass=BraveA
+StartupWMClass=Brave-Default
 Terminal=false
-Icon=/home/ocean/Downloads/Misc./icon/b.svg
+Icon=/home/ocean_mars/Downloads/Misc./icon/b.svg
 Type=Application
 Categories=Network;WebBrowser;
 MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/chromium;
