@@ -1,11 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Name= Binance
-Exec=brave-browser --class=Binance --profile-directory="Profile 1" --no-remote %U
+Exec=env TZ=Atlantic/Reykjavik brave-browser --class=Brave-Binance --profile-directory="Profile 1" --no-remote %U
 StartupNotify=false
-StartupWMClass=Binance
+StartupWMClass=Brave-Binance
 Terminal=false
-Icon=/home/ocean/Downloads/Misc./icon/bb.svg
+Icon=/home/ocean_mars/Downloads/Misc./icon/bb.svg
 Type=Application
 Categories=Network;WebBrowser;
 MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/chromium;
