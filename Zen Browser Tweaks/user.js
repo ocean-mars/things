@@ -718,15 +718,15 @@ user_pref("privacy.sanitize.timeSpan", 0);
 // >>>>>>>>>>>>>>>>>>>>>
 //
 // Enable RFP
-// user_pref("privacy.resistFingerprinting", true); // [FF41+]
-// user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]
+user_pref("privacy.resistFingerprinting", true); // [FF41+]
+user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]
 // -------------------------------------
 // Set RFP new window size max rounded values [FF55+]
 user_pref("privacy.window.maxInnerWidth", 1400);
 user_pref("privacy.window.maxInnerHeight", 900);
 // -------------------------------------
 // Disable mozAddonManager Web API [FF57+]
-// user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
+user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 // -------------------------------------
 // Enable letterboxing [FF67+]
 // user_pref("privacy.resistFingerprinting.letterboxing", true); // [HIDDEN PREF]
@@ -1240,7 +1240,7 @@ user_pref("zen.startup.smooth-scroll-in-tabs", false);
 user_pref("zen.tabs.close-on-back-with-no-history", false);
 user_pref("zen.tabs.select-recently-used-on-close", false);
 user_pref("zen.theme.accent-color", "#007AFF");
-user_pref("zen.theme.border-radius", 10);
+user_pref("zen.theme.border-radius", 14);
 user_pref("zen.theme.content-element-separation", 0);
 user_pref("zen.theme.gradient.show-custom-colors", true);
 user_pref("zen.themes.disable-all", true);
@@ -1252,6 +1252,8 @@ user_pref("zen.view.compact.sidebar-keep-hover.duration", 100);
 user_pref("zen.view.enable-loading-indicator", false);
 user_pref("zen.view.experimental-no-window-controls", true);
 user_pref("zen.welcome-screen.seen", true);
+// Allow Font while havig RFP on
+user_pref("font.system.whitelist", "Space Grotesk, Luminari, Apple Color Emoji, Fedra Sans Bangla");
 // Right Click Context Menu Theme Fix Linux
 // user_pref("widget.gtk.native-context-menus", true);
 //
