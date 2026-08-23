@@ -3,13 +3,13 @@
   .tab-background {
   background-color: color-mix(
     in srgb,
-    var(--identity-tab-color, var(--tab-group-color-gray-invert)) 15%,
+    var(--identity-tab-color, var(--tab-group-color-gray-invert, light-dark(rgb(190, 190, 190), rgb(120, 120, 120)))) 15%,
     transparent
   ) !important;
   border: 2.5px solid
     color-mix(
       in srgb,
-      var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
+      var(--identity-tab-color, var(--tab-group-color-gray-invert, light-dark(rgb(190, 190, 190), rgb(120, 120, 120)))) 20%,
       transparent
     ) !important;
   opacity: 0.8 !important;
@@ -20,7 +20,7 @@
   border-left: 32px solid
     color-mix(
       in srgb,
-      var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
+      var(--identity-tab-color, var(--tab-group-color-gray-invert, light-dark(rgb(190, 190, 190), rgb(120, 120, 120)))) 20%,
       transparent
     ) !important;
 }
