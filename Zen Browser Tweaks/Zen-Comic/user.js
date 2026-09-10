@@ -4,7 +4,7 @@
 // **********************************************************************************
 //
 // Author    : Narsil    : https://git.nixnet.services/Narsil
-// Modifier  : Ocean Mars : https://github.com/ocean-mars/things
+//
 // Based on  : arkenfox  : https://github.com/arkenfox/user.js
 //
 // License   : https://git.nixnet.services/Narsil/desktop_user.js/raw/branch/master/LICENSE
@@ -26,21 +26,22 @@ user_pref("browser.shell.skipDefaultBrowserCheckOnFirstRun", true);
 // -------------------------------------
 // Set startup page
 // 0=blank, 1=home, 2=last visited page, 3=resume previous session
-user_pref("browser.startup.page", 0); // Modified
+user_pref("browser.startup.page", 0);
 // -------------------------------------
 // Set HOME+NEWWINDOW page
-// user_pref("browser.startup.homepage", "about:home");
+user_pref("browser.startup.homepage", "chrome://browser/content/blanktab.html");
 // -------------------------------------
 // Set NEWTAB page
 // true=Activity Stream (default), false=blank page
-// user_pref("browser.newtabpage.enabled", false); // Modified
+user_pref("browser.newtabpage.enabled", false);
 // -------------------------------------
 // Disable sponsored content on Firefox Home (Activity Stream)
-user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+]
-user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // [FF83+] Shortcuts>Sponsored shortcuts
+user_pref("browser.newtabpage.activity-stream.showSponsored", false); // [FF58+] Sponsored stories
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // [FF83+] Sponsored shortcuts
+user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes", false); // [FF140+] Support Firefox
 // -------------------------------------
 // Clear default topsites
-user_pref("browser.newtabpage.activity-stream.default.sites", "https://www.youtube.com/,https://mullvad.net/check/");
+// user_pref("browser.newtabpage.activity-stream.default.sites", "");
 user_pref("browser.topsites.contile.enabled", false);
 user_pref("browser.topsites.useRemoteSetting", false);
 //
@@ -63,14 +64,18 @@ user_pref("geo.provider.use_geoclue", false); // [FF102+] [LINUX]
 user_pref("browser.region.network.url", ""); // [FF78+] Defense-in-depth
 user_pref("browser.region.update.enabled", false); // [FF79+]
 //
-
-user_pref("privacy.antitracking.isolateContentScriptResources", true);
-user_pref("datareporting.policy.dataSubmissionPolicyBypassNotification", true);
-user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime","32503679999000");
-user_pref("startup.homepage_override_nimbus_disable_wnp", true);
-user_pref("termsofuse.acceptedDate", "32503679999000");
-user_pref("termsofuse.acceptedVersion", 999);
-user_pref("termsofuse.bypassNotification", true);
+// Enable support for locale switching
+user_pref("intl.multilingual.enabled", true);
+//	
+// Ensure we never try to download language packs
+user_pref("app.update.langpack.enabled", false);
+user_pref("extensions.getAddons.langpacks.url", "");
+user_pref("intl.multilingual.aboutWelcome.languageMismatchEnabled", false); // Prevent about:welcome from automatically downloading a language pack for the system locale
+user_pref("intl.multilingual.downloadEnabled", false);
+//
+// Use the system locale by default (instead of just using the default build locale)
+user_pref("intl.locale.requested", "");
+//
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // QUIETER FOX
 // >>>>>>>>>>>>>>>>>>>>>
@@ -88,10 +93,17 @@ user_pref("browser.discovery.enabled", false);
 user_pref("browser.discovery.sites", "");
 user_pref("extensions.getAddons.discovery.api_url", "");
 //
-// TELEMETRY
+// ACTIVITY STREAM
 //
 // Disable new data submission [FF41+]
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
+user_pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 999);
+user_pref("datareporting.policy.dataSubmissionPolicyBypassNotification", true);
+user_pref("datareporting.policy.dataSubmissionPolicyNotifiedTime","32503679999000");
+user_pref("startup.homepage_override_nimbus_disable_wnp", true);
+user_pref("termsofuse.acceptedDate", "32503679999000");
+user_pref("termsofuse.acceptedVersion", 999);
+user_pref("termsofuse.bypassNotification", true);
 // -------------------------------------
 // Disable Health Reports
 user_pref("datareporting.healthreport.uploadEnabled", false);
@@ -134,6 +146,13 @@ user_pref("browser.contentblocking.cfr-milestone.enabled", false);
 // -------------------------------------
 // Disable Default Browser Agent
 user_pref("default-browser-agent.enabled", false); // [WINDOWS]
+user_pref("browser.startup.windowsLaunchOnLogin.defaultEnabled", false);
+//
+// Disable Messaging System
+user_pref("browser.newtabpage.activity-stream.asrouter.providers.cfr", "null");
+user_pref("browser.newtabpage.activity-stream.asrouter.providers.message-groups", "null");
+user_pref("browser.newtabpage.activity-stream.asrouter.providers.messaging-experiments", "null");
+user_pref("browser.newtabpage.activity-stream.asrouter.providers.onboarding", "null");
 //
 // STUDIES
 //
@@ -159,6 +178,13 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false); // [DEFAU
 // Disable Captive Portal detection
 user_pref("captivedetect.canonicalURL", "");
 user_pref("network.captive-portal-service.enabled", false); // [FF52+]
+// -------------------------------------
+// Disable breach alerts for the time being
+user_pref("browser.urlbar.trustPanel.breachAlerts.featureGate", false);
+user_pref("browser.urlbar.trustPanel.breachAlerts", false);
+//
+// Never inject region specific mailto handlers
+user_pref("gecko.handlerService.defaultHandlersVersion", 999);
 // -------------------------------------
 // Disable Network Connectivity checks [FF65+]
 user_pref("network.connectivity-service.enabled", false);
@@ -269,10 +295,6 @@ user_pref("network.prefetch-next", false);
 user_pref("network.dns.disablePrefetch", true);
 user_pref("network.dns.disablePrefetchFromHTTPS", true);
 // -------------------------------------
-// Disable predictor / prefetching
-user_pref("network.predictor.enabled", false);
-user_pref("network.predictor.enable-prefetch", false); // [FF48+] [DEFAULT: false]
-// -------------------------------------
 // Disable link-mouseover opening connection to linked server
 user_pref("network.http.speculative-parallel-limit", 0);
 // -------------------------------------
@@ -308,6 +330,8 @@ user_pref("network.trr.confirmationNS", "");
 // Disable skipping DoH when parental controls are enabled
 // user_pref("network.trr.uri", "https://dns.quad9.net/dns-query");
 // user_pref("network.trr.custom_uri", "https://dns.quad9.net/dns-query");
+// user_pref("doh-rollout.enabled", false);
+user_pref("network.trr.useGET", false);
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // LOCATION BAR / SEARCH BAR / SUGGESTIONS / HISTORY / FORMS
@@ -330,13 +354,16 @@ user_pref("browser.urlbar.trending.featureGate", false);
 // -------------------------------------
 // Disable urlbar suggestions
 user_pref("browser.urlbar.addons.featureGate", false); // [FF115+]
-user_pref("browser.urlbar.fakespot.featureGate", false); // [FF130+] [DEFAULT: false]
-user_pref("browser.urlbar.mdn.featureGate", false); // [FF117+] [HIDDEN PREF]
-user_pref("browser.urlbar.weather.featureGate", false); // [FF108+] [DEFAULT: false]
+user_pref("browser.urlbar.amp.featureGate", false); // [FF141+] adMarketplace
+user_pref("browser.urlbar.importantDates.featureGate", false); // [FF143+]
+user_pref("browser.urlbar.market.featureGate", false); // [FF143+] stock market
+user_pref("browser.urlbar.mdn.featureGate", false); // [FF117+]
+user_pref("browser.urlbar.weather.featureGate", false); // [FF108+]
+user_pref("browser.urlbar.wikipedia.featureGate", false); // [FF141+]
 user_pref("browser.urlbar.yelp.featureGate", false); // [FF124+]
 user_pref("browser.urlbar.importantDates.featureGate", false);
 user_pref("browser.urlbar.market.featureGate", false);
-user_pref("browser.urlbar.yelpRealtime.featureGate", false);
+user_pref("browser.urlbar.yelpRealtime.featureGate", false); // [FF144+]
 // -------------------------------------
 // Disable urlbar clipboard suggestions [FF118+]
 user_pref("browser.urlbar.clipboard.featureGate", false);
@@ -361,14 +388,14 @@ user_pref("browser.search.separatePrivateDefault.ui.enabled", true); // [FF71+]
 user_pref("browser.urlbar.merino.enabled", false);
 // -------------------------------------
 // Never trim URLs
-// user_pref("browser.urlbar.trimHttps", false); // Modified
-// user_pref("browser.urlbar.trimURLs", false); // Modified
+user_pref("browser.urlbar.trimHttps", false);
+user_pref("browser.urlbar.trimURLs", false);
 // -------------------------------------
 // Disable GNOME Integration
 user_pref("browser.gnome-search-provider.enabled", false);
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// PASSWORDS
+// PASSWORDS / PASSKEYS
 // >>>>>>>>>>>>>>>>>>>>>
 //
 // Disable saving passwords and password alerts.
@@ -401,6 +428,9 @@ user_pref("network.auth.subresource-http-auth-allow", 1);
 // -------------------------------------
 // Enforce no automatic authentication on Microsoft sites [FF131+] [MAC]
 // user_pref("network.http.microsoft-entra-sso.enabled", false); // [DEFAULT: false]
+// -------------------------------------
+// Enforce no direct attestation in passkeys [FF144+]
+user_pref("security.webauthn.always_allow_direct_attestation", false); // [DEFAULT: false]
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // DISK AVOIDANCE
@@ -432,6 +462,8 @@ user_pref("security.ssl.require_safe_negotiation", true);
 // -------------------------------------
 // Disable TLS1.3 0-RTT (round-trip time) [FF51+]
 user_pref("security.tls.enable_0rtt_data", false);
+user_pref("network.http.http3.enable_0rtt", false);
+user_pref("security.insecure_field_warning.ignore_local_ip_address", false); // Do not ignore local addresses
 //
 // OCSP (Online Certificate Status Protocol)
 //
@@ -441,6 +473,13 @@ user_pref("security.OCSP.enabled", 0); // [DEFAULT: 1]
 // -------------------------------------
 // Set OCSP fetch failures (non-stapled) to hard-fail [SETUP-WEB]
 user_pref("security.OCSP.require", false);
+//
+// Disable third-party/OS-level root certificates
+user_pref("security.certerrors.mitm.auto_enable_enterprise_roots", false);
+user_pref("security.enterprise_roots.enabled", false);
+//
+// Disable processing of Qualified Website Authentication Certificates (QWACs)
+user_pref("security.qwacs.enabled", false);
 //
 // CERTS / HPKP (HTTP Public Key Pinning)
 //
@@ -570,6 +609,8 @@ user_pref("permissions.manager.defaultsUrl", "");
 user_pref("browser.tabs.remote.separatePrivilegedMozillaWebContentProcess", false);
 user_pref("browser.tabs.remote.separatedMozillaDomains", "");
 user_pref("dom.ipc.processCount.privilegedmozilla", 0);
+user_pref("dom.webserial.enabled", false);
+user_pref("dom.webserial.gated", true);
 // -------------------------------------
 // Use Punycode in Internationalized Domain Names to eliminate possible spoofing
 user_pref("network.IDN_show_punycode", true);
@@ -586,6 +627,13 @@ user_pref("browser.tabs.searchclipboardfor.middleclick", false); // [DEFAULT: fa
 user_pref("browser.contentanalysis.enabled", false); // [FF121+] [DEFAULT: false]
 user_pref("browser.contentanalysis.default_result", 0); // [FF127+] [DEFAULT: 0]
 // -------------------------------------
+// Disable referrer and storage access for resources injected by content scripts [FF139+]
+user_pref("privacy.antitracking.isolateContentScriptResources", true);
+// -------------------------------------
+// Disable CSP Level 2 Reporting [FF140+]
+user_pref("security.csp.reporting.enabled", false);
+user_pref("network.dns.preferIPv6", true);
+// -------------------------------------
 // Disable the default checkedness for "Save card and address to Firefox" checkboxes
 user_pref("dom.payments.defaults.saveAddress", false);
 user_pref("dom.payments.defaults.saveCreditCard", false);
@@ -600,6 +648,10 @@ user_pref("browser.ml.chat.sidebar", false);
 user_pref("browser.ml.chat.menu", false);
 user_pref("browser.ml.linkPreview.supportedLocales", "null");
 user_pref("extensions.ui.mlmodel.hidden", true);
+// -------------------------------------
+// Removes the AI pane
+user_pref("browser.preferences.aiControls", false);
+user_pref("browser.ai.control.default", "blocked");
 //
 // DOWNLOADS
 //
@@ -636,10 +688,17 @@ user_pref("extensions.recommendations.themeRecommendationUrl", "");
 // >>>>>>>>>>>>>>>>>>>>>
 //
 // Enable ETP Strict Mode [FF86+]
-// user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF] // Modified
+// user_pref("browser.contentblocking.category", "strict"); // [HIDDEN PREF]
+user_pref("network.cookie.cookieBehavior.optInPartitioning", true);
+user_pref("network.cookie.cookieBehavior.optInPartitioning.pbmode", true);
 // -------------------------------------
-// Disable ETP web compat features [FF93+]
+// Disable ETP web compat features (about:compat) [FF93+]
 // user_pref("privacy.antitracking.enableWebcompat", false);
+// -------------------------------------
+// Set ETP Strict/Custom exception lists (FF141+)
+user_pref("privacy.trackingprotection.allow_list.baseline.enabled", true); // [DEFAULT: true]
+user_pref("privacy.trackingprotection.allow_list.convenience.enabled", true); // [DEFAULT: true]
+user_pref("privacy.trackingprotection.allow_list.hasMigratedCategoryPrefs", true);
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // SHUTDOWN & SANITIZING
@@ -657,7 +716,7 @@ user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false); // [
 //
 // Set/enforce clearOnShutdown items [FF136+]
 user_pref("privacy.clearOnShutdown_v2.browsingHistoryAndDownloads", false); // [DEFAULT: true]
-user_pref("privacy.clearOnShutdown_v2.downloads", false);
+user_pref("privacy.clearOnShutdown_v2.downloads", false); // [HIDDEN]
 user_pref("privacy.clearOnShutdown_v2.formdata", true);
 //
 // Set Session Restore to clear on shutdown [FF34+]
@@ -666,12 +725,12 @@ user_pref("privacy.clearOnShutdown_v2.formdata", true);
 // SANITIZE ON SHUTDOWN: RESPECTS "ALLOW" SITE EXCEPTIONS
 //
 // Set "Cookies" and "Site Data" to clear on shutdown [FF128+]
-user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", false);
+// user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", true);
 //
 // SANITIZE SITE DATA: IGNORES "ALLOW" SITE EXCEPTIONS
 //
 // Set manual "Clear Data" items [FF128+]
-user_pref("privacy.clearSiteData.cache", true);
+user_pref("privacy.clearSiteData.cache", true); // [DEFAULT: true]
 user_pref("privacy.clearSiteData.cookiesAndStorage", false); // keep false until it respects "allow" site exceptions
 user_pref("privacy.clearSiteData.historyFormDataAndDownloads", false);
 // user_pref("privacy.clearSiteData.siteSettings", false);
@@ -739,6 +798,9 @@ user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 // 0=prompt, 1=disabled, 2=enabled
 user_pref("privacy.spoof_english", 2);
 // -------------------------------------
+// Skip browser.startup.blankWindow if RFP is used [FF136+]
+// user_pref("privacy.resistFingerprinting.skipEarlyBlankFirstPaint", true); // [DEFAULT: true]
+// -------------------------------------
 // Enforce Contrast Control off
 // user_pref("browser.display.document_color_use", 1); // [DEFAULT: 1 NON-WINDOWS]
 // -------------------------------------
@@ -755,6 +817,7 @@ user_pref("browser.link.open_newwindow.restriction", 0);
 // Disable WebGL (Web Graphics Library)
 user_pref("webgl.disabled", true);
 user_pref("dom.webgpu.enabled", false);
+user_pref("pdfjs.enableWebGPU", false);
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // OPTIONAL OPSEC
@@ -778,7 +841,7 @@ user_pref("dom.webgpu.enabled", false);
 // user_pref("security.nocertdb", true); //
 // -------------------------------------
 // Disable favicons in history and bookmarks
-// user_pref("browser.chrome.site_icons", false); // Modified
+// user_pref("browser.chrome.site_icons", false);
 // -------------------------------------
 // Exclude "Undo Closed Tabs" in Session Restore
 // user_pref("browser.sessionstore.max_tabs_undo", 0);
@@ -829,9 +892,6 @@ user_pref("extensions.formautofill.creditCards.enabled", false); // [FF56+]
 // Disable Windows native notifications and use app notications instead [FF111+] [WINDOWS]
 // user_pref("alerts.useSystemBackend.windows.notificationserver.enabled", false);
 // -------------------------------------
-// Disable location bar using search
-// user_pref("keyword.enabled", false);
-// -------------------------------------
 // Force GPU sandboxing (Linux, default on Windows)
 user_pref("security.sandbox.gpu.level", 1);
 // -------------------------------------
@@ -864,27 +924,27 @@ user_pref("javascript.options.asmjs", false);
 // Disable Ion and baseline JIT to harden against JS exploits [RESTART]
 user_pref("javascript.options.ion", false);
 user_pref("javascript.options.baselinejit", false);
-user_pref("javascript.options.wasm_baselinejit", false);
+user_pref("javascript.options.wasm_baselinejit", true);
 user_pref("javascript.options.jit_trustedprincipals", true); // [FF75+] [HIDDEN PREF]
 // -------------------------------------
 // Do not disable spectre mitigations for isolated content
 user_pref("javascript.options.spectre.disable_for_isolated_content", false);
 // -------------------------------------
 // Disable WebAssembly [FF52+]
-user_pref("javascript.options.wasm", false);
+user_pref("javascript.options.wasm", true);
 // -------------------------------------
 // Disable rendering of SVG OpenType fonts
 user_pref("gfx.font_rendering.opentype_svg.enabled", false);
 // -------------------------------------
 // Disable widevine CDM (Content Decryption Module)
-user_pref("media.gmp-widevinecdm.enabled", true);
+user_pref("media.gmp-widevinecdm.enabled", false);
 // -------------------------------------
-// Disable all DRM content (EME: Encryption Media Extension)
-user_pref("media.eme.enabled", true);
+// Disable all DRM (Digital Rights Management) content (EME: Encryption Media Extension)
+user_pref("media.eme.enabled", false);
 user_pref("browser.eme.ui.enabled", false);
 // -------------------------------------
 // Disable IPv6 if using a VPN
-user_pref("network.dns.disableIPv6", true); // Modified
+user_pref("network.dns.disableIPv6", true);
 // -------------------------------------
 // Control when to send a cross-origin referer
 // * 0=always (default), 1=only if base domains match, 2=only if hosts match
@@ -929,7 +989,7 @@ user_pref("services.blocklist.gfx.collection", "");
 user_pref("services.blocklist.gfx.signer", "");
 // -------------------------------------
 // Enforce no referer spoofing
-user_pref("network.http.referer.spoofSource", false); // [DEFAULT: false COMIX DOESNT WORK WITH TRUE]
+user_pref("network.http.referer.spoofSource", false); // [DEFAULT: false]
 // -------------------------------------
 // Enforce a security delay on some confirmation dialogs such as install, open/save
 user_pref("security.dialog_enable_delay", 1000); // [DEFAULT: 1000]
@@ -949,20 +1009,9 @@ user_pref("extensions.webcompat-reporter.enabled", false); // [DEFAULT: false]
 // Disable Quarantined Domains [FF115+]
 user_pref("extensions.quarantinedDomains.enabled", false); // [DEFAULT: true]
 // -------------------------------------
-// prefsCleaner: reset previously active items removed from arkenfox FF128+
-// user_pref("privacy.clearOnShutdown.cache", "");
-// user_pref("privacy.clearOnShutdown.cookies", "");
-// user_pref("privacy.clearOnShutdown.downloads", "");
-// user_pref("privacy.clearOnShutdown.formdata", "");
-// user_pref("privacy.clearOnShutdown.history", "");
-// user_pref("privacy.clearOnShutdown.offlineApps", "");
-// user_pref("privacy.clearOnShutdown.sessions", "");
-// user_pref("privacy.cpd.cache", "");
-// user_pref("privacy.cpd.cookies", "");
-// user_pref("privacy.cpd.formdata", "");
-// user_pref("privacy.cpd.history", "");
-// user_pref("privacy.cpd.offlineApps", "");
-// user_pref("privacy.cpd.sessions", "");
+// prefsCleaner: reset previously active items removed from arkenfox FF140+
+// user_pref("browser.display.use_system_colors", "");
+// user_pref("browser.urlbar.fakespot.featureGate", "");
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // DON'T BOTHER
@@ -1047,7 +1096,7 @@ user_pref("privacy.donottrackheader.enabled", false);
 // user_pref("privacy.fingerprintingProtection", true); // [FF114+] [ETP FF119+]
 // user_pref("privacy.partition.network_state.ocsp_cache", true); // [DEFAULT: true]
 // user_pref("privacy.query_stripping.enabled", true); // [FF101+]
-user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _bhlid _branch_match_id _branch_referrer _gl _hsenc _kx _openstat at_recipient_id at_recipient_list bbeml bsft_clkid bsft_uid dclid et_rid fb_action_ids fb_comment_id fbclid gclid guce_referrer guce_referrer_sig hsCtaTracking irclickid mc_eid ml_subscriber ml_subscriber_hash msclkid mtm_cid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id pk_cid rb_clickid s_cid sc_customer sc_eh sc_uid sms_click sms_source sms_uph srsltid ss_email_id syclid ttclid twclid unicorn_click_id vero_conv vero_id vgo_ee wbraid wickedid yclid ymclid ysclid");
+user_pref("privacy.query_stripping.strip_list", "__hsfp __hssc __hstc __s _bhlid _branch_match_id _branch_referrer _gl _hsenc _openstat at_recipient_id at_recipient_list bbeml bsft_clkid bsft_uid dclid et_rid fb_action_ids fb_comment_id gbraid fbclid gclid guce_referrer guce_referrer_sig hsCtaTracking irclickid mc_eid ml_subscriber ml_subscriber_hash msclkid mtm_cid oft_c oft_ck oft_d oft_id oft_ids oft_k oft_lk oft_sk oly_anon_id oly_enc_id pk_cid rb_clickid s_cid sc_customer sc_eh sc_uid sfmc_activityid sfmc_id sms_click sms_source sms_uph srsltid ss_email_id syclid ttclid twclid unicorn_click_id vero_conv vero_id vgo_ee wbraid wickedid yclid ymclid ysclid");
 // user_pref("privacy.trackingprotection.enabled", true);
 // user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 // user_pref("privacy.trackingprotection.cryptomining.enabled", true); // [DEFAULT: true]
@@ -1072,6 +1121,11 @@ user_pref("media.peerconnection.enabled", false);
 user_pref("privacy.globalprivacycontrol.enabled", true);
 user_pref("privacy.globalprivacycontrol.functionality.enabled", true);
 user_pref("privacy.globalprivacycontrol.pbmode.enabled", true); // [DEFAULT: true]
+// -------------------------------------
+// bFPP (baselineFingerprintingProtection) [FF139+]
+user_pref("privacy.baselineFingerprintingProtection", true);
+user_pref("privacy.baselineFingerprintingProtection.granularOverrides", "");
+user_pref("privacy.baselineFingerprintingProtection.overrides", "");
 //
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // DON'T BOTHER: FINGERPRINTING
@@ -1089,7 +1143,6 @@ user_pref("privacy.globalprivacycontrol.pbmode.enabled", true); // [DEFAULT: tru
 // user_pref("general.oscpu.override", ""); // [HIDDEN PREF]
 // user_pref("general.platform.override", ""); // [HIDDEN PREF]
 // user_pref("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; rv:128.0) Gecko/20100101 Firefox/128.0"); // [HIDDEN PREF]
-// user_pref("media.ondevicechange.enabled", false);
 // user_pref("media.video_stats.enabled", false);
 // user_pref("webgl.enable-debug-renderer-info", false);
 user_pref("ui.use_standins_for_native_colors", true);
@@ -1153,13 +1206,14 @@ user_pref("browser.search.update", false);
 user_pref("accessibility.typeaheadfind", false); // enable "Find As You Type"
 user_pref("clipboard.autocopy", false); // disable autocopy default [LINUX]
 user_pref("layout.spellcheckDefault", 0); // 0=none, 1-multi-line, 2=multi-line & single-line
+user_pref("browser.shareqrcode.embed_logo", false); // Don't embed logo in QR codes
 //
 // FIREFOX HOME CONTENT
 //
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false); // Recommended by Pocket
 user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket", false);
-//user_pref("browser.newtabpage.activity-stream.feeds.topsites", false); // Modified
-// user_pref("browser.newtabpage.activity-stream.showSearch", false); // Modified
+// user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+// user_pref("browser.newtabpage.activity-stream.showSearch", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeBookmarks", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeDownloads", false);
 user_pref("browser.newtabpage.activity-stream.section.highlights.includeVisited", false);
@@ -1199,40 +1253,14 @@ user_pref("webgl.enable-webgl2", false);
 // DEPRECATED / RENAMED
 // >>>>>>>>>>>>>>>>>>>>>
 //
-// ESR128.x still uses all the following prefs
+// ESR140.x still uses all the following prefs
 //
-// FF132
+// FF148
 //
-// Remove webchannel whitelist
-// user_pref("webchannel.allowObject.urlWhitelist", "");
+// Disable predictor / prefetching
+user_pref("network.predictor.enabled", false); // [DEFAULT: false FF144+]
+user_pref("network.predictor.enable-prefetch", false); // [FF48+] [DEFAULT: false]
 //
-//
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// PERSONAL PREFERENCES
-// >>>>>>>>>>>>>>>>>>>>>
-//
-// Firefox don't close the window when you close the last tab
-user_pref("browser.tabs.closeWindowWithLastTab", false);
-//
-// userChrome & userContent support
-user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-//
-// Fix Scrolling
- user_pref("general.smoothScroll.currentVelocityWeighting", 0);
-user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 250);
-user_pref("general.smoothScroll.stopDecelerationWeighting", 0.82);
-user_pref("mousewheel.min_line_scroll_amount", 32);
-user_pref("general.smoothScroll.msdPhysics.enabled", false);
-//
-// Mozilla VPN
-user_pref("browser.privatebrowsing.vpnpromourl", "");
-//
-// Firefox Labs
-user_pref("browser.preferences.experimental", true);
-//
-// Underline under characters in Linux
-user_pref("ui.key.menuAccessKey", 0);
-user_pref("ui.key.menuAccessKeyFocuses", true);
 // zen
 user_pref("zen.boosts.enabled", false);
 user_pref("zen.glance.enabled", false);
@@ -1256,5 +1284,3 @@ user_pref("zen.welcome-screen.seen", true);
 user_pref("font.system.whitelist", "Space Grotesk, Apple Color Emoji, Luminari, Noto Sans CJK JP, Noto Sans CJK KR, Noto Sans Mono CJK TC");
 // Right Click Context Menu Theme Fix Linux
 // user_pref("widget.gtk.native-context-menus", true);
-//
-// END
