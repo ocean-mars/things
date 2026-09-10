@@ -666,7 +666,7 @@ user_pref("privacy.clearOnShutdown_v2.formdata", true);
 // SANITIZE ON SHUTDOWN: RESPECTS "ALLOW" SITE EXCEPTIONS
 //
 // Set "Cookies" and "Site Data" to clear on shutdown [FF128+]
-user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", true);
+user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", false);
 //
 // SANITIZE SITE DATA: IGNORES "ALLOW" SITE EXCEPTIONS
 //
