@@ -36,12 +36,9 @@
     --radius-lg: 20px !important;
   }
 
-  .topnav__inner>.logo::before {
-    content: "COMIX" !important;
-    font-size: 25px !important;
-    color: #ececec !important;
-    text-align: center !important;
-    vertical-align: text-bottom !important;
+  .topnav__inner>.logo>svg {
+    clip-path: inset(0 0 0 30%) !important;
+    margin-left: -30% !important;
   }
 
   .usermenu__pop,
@@ -136,7 +133,6 @@
   .toast-viewport,
   #toast-root,
   .toast__text,
-  .topnav__inner>.logo>svg,
   section.section:nth-of-type(6) {
     display: none !important;
   }
