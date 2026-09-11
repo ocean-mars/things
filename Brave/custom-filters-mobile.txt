@@ -1,0 +1,51 @@
+! CSS Variables
+comix.to##:root:style(--bg: rgb(0,0,0) !important; --bg-rgb: rgb(0,0,0) !important; --bg-2: rgb(22,22,23) !important; --bg-2-rgb: rgb(22,22,23) !important; --surface: rgb(32,32,33) !important; --surface-rgb: rgb(32,32,33) !important; --surface-2: rgb(42,42,43) !important; --surface-2-rgb: rgb(42,42,43) !important; --surface-3: rgb(44,44,46) !important; --surface-3-rgb: rgb(44,44,46) !important; --reader-bg: rgb(0,0,0) !important; --text-emphasis: rgb(237,235,232) !important; --text-emphasis-rgb: rgb(237,235,232) !important; --text: rgb(220,218,215) !important; --text-rgb: rgb(220,218,215) !important; --text-2: rgb(151,149,147) !important; --text-2-rgb: rgb(150,150,150) !important; --text-3: rgb(104,104,104) !important; --text-3-rgb: rgb(104,104,104) !important; --text-4: rgb(68,68,68) !important; --text-4-rgb: rgb(68,68,68) !important; --accent: rgb(178,178,181) !important; --accent-rgb: rgb(178,178,181) !important; --accent-2: rgb(198,198,201) !important; --accent-2-rgb: rgb(198,198,201) !important; --accent-ink: rgb(18,18,20) !important; --radius-sm: 8px !important; --radius: 10px !important; --radius-md: 14px !important; --radius-lg: 20px !important)
+
+! Logo
+comix.to##.topnav__inner > .logo > svg:style(clip-path: inset(0 0 0 30%) !important; margin-left: -30% !important)
+
+! Glassmorphism panels
+comix.to##.usermenu__pop, .settings-dialog__panel, .browse-pop, .search-pop, .topnav::before:style(background: rgba(22,22,23,.7) !important; backdrop-filter: saturate(180%) blur(8px) !important)
+
+! Filter group
+comix.to##.filter-group, .card__action.is-on:style(background: rgba(32,32,33,.5) !important; backdrop-filter: saturate(180%) blur(10px) !important)
+
+! Dark bg elements
+comix.to##.usermenu__head, .usermenu__item--signout.usermenu__item, .search-pop__more, .search__form, .browse-pop__all, .nav-btns > button.nav-btn, .nav-btn--kebab.nav-btn, .uform, .is-active.umenu__item, .uempty, .filter-search, .is-on.filter-adv-toggle.btn--soft.btn, .fdrop__btn, .fdrop__range > input.fdrop__num, button.filter-action.btn--soft.btn, .mpage__recs-add-btn.view-more:style(background: rgba(32,32,33,.7) !important)
+
+! Black bg reader
+comix.to##.rpage-main__inner, .swiper-slide-active.rpage-slide.swiper-slide > .rpage-view--solo.rpage-view--pages.rpage-view, #app-root, .rpage-main:style(background-color: #000 !important)
+
+! Layout widths
+comix.to##.layout--top.layout:style(width: 1920px !important)
+comix.to##.main-col:style(width: 1337px !important; margin-left: auto !important; margin-right: auto !important)
+
+! Chapter rows
+comix.to##.mchap-row, .mchap-bookmark, .mchap-search, div.mpage__group.fdrop, .mchap-toolbar__sort.useg:style(background: rgba(22,22,23) !important)
+
+! Profile
+comix.to##.uprofile__body:style(background: rgba(32,32,33,.7) !important; border-radius: 8px !important)
+
+! Card menu popup
+comix.to##.card__menu-pop.fdrop__pop--menu.fdrop__pop, .fdrop__pop--menu.fdrop__pop:style(background: rgba(22,22,23,.9) !important; backdrop-filter: saturate(180%) blur(8px) !important)
+
+! Scrollbar + search
+comix.to##*:style(scrollbar-width: unset !important)
+comix.to##.search__browse:style(background: #48484a60 !important)
+
+! Hidden elements
+comix.to##.rpage-hint
+comix.to##.mpage__rate-stack
+comix.to##button.mpage__action-link:nth-of-type(1)
+comix.to##button.mpage__action-link:nth-of-type(2)
+comix.to##.announce--accent.announce
+comix.to##.notifbell > .icon-btn
+comix.to##.side-col
+comix.to##.mpage__sec.cm-widget
+comix.to##.footer__baseline
+comix.to##.footer
+comix.to##.toast--info.toast
+comix.to##.toast-viewport
+comix.to###toast-root
+comix.to##.toast__text
+comix.to##section.section:nth-of-type(6)
