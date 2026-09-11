@@ -119,6 +119,17 @@
     background: #48484a60 !important;
   }
 
+  .mpage__details-shell {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: var(--mpage-side-col) !important;
+  }
+
+  .mpage__head {
+    position: relative !important;
+  }
+  
   .rpage-hint,
   .mpage__rate-stack,
   button.mpage__action-link:nth-of-type(1),
@@ -136,10 +147,12 @@
   section.section:nth-of-type(6),
   .rpage-floatctl__col > button.rpage-floatctl__btn:nth-of-type(1),
   .rpage-floatctl__btn--fs.rpage-floatctl__btn,
-  button.rpage-floatctl__btn:nth-of-type(5) {
+  button.rpage-floatctl__btn:nth-of-type(5),
+  .mpage__load-comments,
+  .rpage-load-comments,
+  .mpage__recs.mpage__sec {
     display: none !important;
   }
-
   /* B&W Poster */
   /*
 .poster--md.poster {
