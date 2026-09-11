@@ -1281,6 +1281,6 @@ user_pref("zen.view.enable-loading-indicator", false);
 user_pref("zen.view.experimental-no-window-controls", true);
 user_pref("zen.welcome-screen.seen", true);
 // Allow Font while havig RFP on
-user_pref("font.system.whitelist", "Space Grotesk, Apple Color Emoji, Luminari, Noto Sans CJK JP, Noto Sans CJK KR, Noto Sans Mono CJK TC");
+user_pref("font.system.whitelist", "Space Grotesk, Apple Color Emoji, Luminari, Noto Sans CJK JP, Noto Sans CJK KR, Noto Sans Mono CJK TC, Fedra Sans Bangla");
 // Right Click Context Menu Theme Fix Linux
 // user_pref("widget.gtk.native-context-menus", true);
