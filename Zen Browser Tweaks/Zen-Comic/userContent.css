@@ -36,8 +36,8 @@
     --radius-lg: 20px !important;
   }
 
-  .topnav__inner>.logo>svg {
-    clip-path: inset(0 0 0 30%) !important;
+  .topnav__inner > .logo > svg {
+    clip-path: inset(0 0 0 30%) !important; 
     margin-left: -30% !important;
   }
 
@@ -133,7 +133,10 @@
   .toast-viewport,
   #toast-root,
   .toast__text,
-  section.section:nth-of-type(6) {
+  section.section:nth-of-type(6),
+  .rpage-floatctl__col > button.rpage-floatctl__btn:nth-of-type(1),
+  .rpage-floatctl__btn--fs.rpage-floatctl__btn,
+  button.rpage-floatctl__btn:nth-of-type(5) {
     display: none !important;
   }
 
