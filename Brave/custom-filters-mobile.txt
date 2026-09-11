@@ -1,3 +1,40 @@
+Joy, [11.09.2026 06:57]
+mangadot.net##.container.mx-auto.flex.items-start.justify-between.gap-3.px-4.py-2
+comix.to##.announce.announce--accent
+duck.ai##.k2ZTfk4miKct0AB3567z
+mangadot.net###bookmark-updates-heading:style(max-width: 155px !important)
+mangadot.net##.flex.items-center.gap-1.md\:gap-1\.5.ml-auto > .flex.items-center.justify-center.rounded-md.p-2.text-\[var\(--muted-foreground\)\].hover\:text-\[var\(--foreground\)\].hover\:bg-white\/\[0\.06\].transition-colors
+mangadot.net##.relative.flex.items-center.justify-center.w-9.h-9.rounded-xl.text-\[var\(--muted-foreground\)\].hover\:text-\[var\(--foreground\)\].hover\:bg-white\/5.transition-colors
+mangadot.net##.w-full.flex-1.min-w-0.pt-1.text-center.sm\:text-left.space-y-3.break-words > div.flex.justify-center.sm\:justify-start.gap-3.flex-wrap.items-center:nth-of-type(1) > .flex.items-center.gap-1
+mangadot.net##.inline-flex.items-center.justify-center.whitespace-nowrap.disabled\:pointer-events-none.disabled\:opacity-50.\[\&_svg\]\:pointer-events-none.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.shrink-0.\[\&_svg\]\:shrink-0.outline-none.focus-visible\:border-ring.focus-visible\:ring-ring\/50.focus-visible\:ring-\[3px\].aria-invalid\:ring-destructive\/20.dark\:aria-invalid\:ring-destructive\/40.aria-invalid\:border-destructive.py-2.has-\[\>svg\]\:px-3.h-9.gap-2.rounded-full.font-bold.text-\[13px\].px-4.bg-white\/5.border.border-white\/10.text-white\/60.hover\:border-\[var\(--primary\)\]\/30.hover\:text-\[var\(--primary\)\].hover\:bg-\[var\(--primary\)\]\/10.transition-all.duration-300
+mangadot.net##.inline-flex.items-center.justify-center.whitespace-nowrap.disabled\:pointer-events-none.disabled\:opacity-50.\[\&_svg\]\:pointer-events-none.\[\&_svg\:not\(\[class\*\=\'size-\'\]\)\]\:size-4.shrink-0.\[\&_svg\]\:shrink-0.outline-none.focus-visible\:border-ring.focus-visible\:ring-ring\/50.focus-visible\:ring-\[3px\].aria-invalid\:ring-destructive\/20.dark\:aria-invalid\:ring-destructive\/40.aria-invalid\:border-destructive.py-2.has-\[\>svg\]\:px-3.h-9.gap-2.rounded-full.font-bold.text-\[13px\].px-4.bg-white\/5.border.border-white\/10.text-white\/60.hover\:border-red-400\/30.hover\:text-red-400.hover\:bg-red-400\/10.transition-all.duration-300
+mangadot.net##.mt-2.pt-5.border-t.border-white\/\[0\.06\]
+mangadot.net##.font-mono.text-\[10px\].tracking-\[0\.1em\].uppercase.text-red-400\/70.hover\:text-red-400.transition-colors
+mangadot.net##.font-mono.text-\[10px\].tracking-\[0\.1em\].uppercase.text-\[var\(--muted-foreground\)\].hover\:text-\[var\(--primary\)\].transition-colors
+mangadot.net##.mb-4.flex.items-end.justify-between.gap-3 > div:nth-of-type(1) > .text-xs.text-neutral-400
+mangadot.net##.grid.h-7.w-7.place-items-center.rounded.transition-colors.text-neutral-400.hover\:text-white
+mangadot.net##.border-t.border-white\/\[0\.06\].mt-16.pb-safe > .container.mx-auto.px-4.py-8
+mangadot.net###comments-section
+mangadot.net##.group\/tabs.flex.gap-2.data-\[orientation\=horizontal\]\:flex-col.mt-8
+asurascans.com##.fixed.right-4.sm\:right-6.bottom-6.z-\[51\].p-3.bg-\[\#913FE2\].hover\:bg-\[\#7c35c2\].text-white.rounded-full.shadow-lg.cursor-pointer
+asurascans.com###comments-section
+asurascans.com##.bg-zinc-900\/50.p-4.md\:p-6
+asurascans.com##.bg-zinc-800\/40.px-4.sm\:px-6.py-6.rounded-t-xl
+asurascans.com##.container.mx-auto.px-4.py-6.sm\:py-4.relative.z-10
+asurascans.com##.relative.z-10.py-4.md\:py-4
+asurascans.com##.flex.items-center.justify-center.gap-1\.5.h-12.px-4.rounded-md.text-sm.font-semibold.bg-\[\#6F2598\].text-white.hover\:bg-\[\#5a1f78\].transition-colors
+asurascans.com###scroll-top-btn
+asurascans.com##.absolute.inset-0.flex.flex-col.justify-end.p-4
+asurascans.com##.bg-\[\#1D1B22\].md\:rounded-md.py-4.md\:py-6
+asurascans.com##.container.mx-auto.px-3.lg\:px-0
+asurascans.com##.relative.py-3.rounded-md.bg-gradient-to-r.from-\[\#fbbf24\].to-\[\#f59e0b\].hover\:from-\[\#fcd34d\].hover\:to-\[\#fbbf24\].text-black.flex.items-center.justify-center.gap-1\.5.shadow-\[0px_4px_16px_0px_rgba\(251\,191\,36\,0\.25\)\].transition-colors.cursor-pointer.min-w-0
+
+Joy, [11.09.2026 06:57]
+asurascans.com##.mt-3.lg\:hidden > .mb-2 > astro-island > .flex.h-full.w-full.items-center.justify-center.gap-2.rounded-md.px-4.py-3.text-sm.font-medium.transition-all.duration-200.bg-gradient-to-r.from-\[\#913FE2\].to-\[\#7c35c2\].text-white.shadow-lg.shadow-\[\#913FE2\]\/20.hover\:shadow-\[\#913FE2\]\/40.hover\:scale-\[1\.02\].cursor-pointer
+asurascans.com##div.mx-auto.w-full.md\:w-\[95\%\].max-w-\[1285px\].px-3.lg\:px-0:nth-of-type(2)
+asurascans.com##.mt-auto.pt-8
+asurascans.com##.flex.items-center.gap-4.h-full > .group
+
 ! CSS Variables
 comix.to##:root:style(--bg: rgb(0,0,0) !important; --bg-rgb: rgb(0,0,0) !important; --bg-2: rgb(22,22,23) !important; --bg-2-rgb: rgb(22,22,23) !important; --surface: rgb(32,32,33) !important; --surface-rgb: rgb(32,32,33) !important; --surface-2: rgb(42,42,43) !important; --surface-2-rgb: rgb(42,42,43) !important; --surface-3: rgb(44,44,46) !important; --surface-3-rgb: rgb(44,44,46) !important; --reader-bg: rgb(0,0,0) !important; --text-emphasis: rgb(237,235,232) !important; --text-emphasis-rgb: rgb(237,235,232) !important; --text: rgb(220,218,215) !important; --text-rgb: rgb(220,218,215) !important; --text-2: rgb(151,149,147) !important; --text-2-rgb: rgb(150,150,150) !important; --text-3: rgb(104,104,104) !important; --text-3-rgb: rgb(104,104,104) !important; --text-4: rgb(68,68,68) !important; --text-4-rgb: rgb(68,68,68) !important; --accent: rgb(178,178,181) !important; --accent-rgb: rgb(178,178,181) !important; --accent-2: rgb(198,198,201) !important; --accent-2-rgb: rgb(198,198,201) !important; --accent-ink: rgb(18,18,20) !important; --radius-sm: 8px !important; --radius: 10px !important; --radius-md: 14px !important; --radius-lg: 20px !important)
 
@@ -5,32 +42,32 @@ comix.to##:root:style(--bg: rgb(0,0,0) !important; --bg-rgb: rgb(0,0,0) !importa
 comix.to##.topnav__inner > .logo > svg:style(clip-path: inset(0 0 0 30%) !important; margin-left: -30% !important)
 
 ! Glassmorphism panels
-comix.to##.usermenu__pop, .settings-dialog__panel, .browse-pop, .search-pop, .topnav::before:style(background: rgba(22,22,23,.7) !important; backdrop-filter: saturate(180%) blur(8px) !important)
+comix.to##.usermenupop, .settings-dialogpanel, .browse-pop, .search-pop, .topnav::before:style(background: rgba(22,22,23,.7) !important; backdrop-filter: saturate(180%) blur(8px) !important)
 
 ! Filter group
 comix.to##.filter-group, .card__action.is-on:style(background: rgba(32,32,33,.5) !important; backdrop-filter: saturate(180%) blur(10px) !important)
 
 ! Dark bg elements
-comix.to##.usermenu__head, .usermenu__item--signout.usermenu__item, .search-pop__more, .search__form, .browse-pop__all, .nav-btns > button.nav-btn, .nav-btn--kebab.nav-btn, .uform, .is-active.umenu__item, .uempty, .filter-search, .is-on.filter-adv-toggle.btn--soft.btn, .fdrop__btn, .fdrop__range > input.fdrop__num, button.filter-action.btn--soft.btn, .mpage__recs-add-btn.view-more:style(background: rgba(32,32,33,.7) !important)
+comix.to##.usermenuhead, .usermenuitem--signout.usermenuitem, .search-popmore, .searchform, .browse-popall, .nav-btns > button.nav-btn, .nav-btn--kebab.nav-btn, .uform, .is-active.umenuitem, .uempty, .filter-search, .is-on.filter-adv-toggle.btn--soft.btn, .fdropbtn, .fdroprange > input.fdropnum, button.filter-action.btn--soft.btn, .mpage__recs-add-btn.view-more:style(background: rgba(32,32,33,.7) !important)
 
 ! Black bg reader
 comix.to##.rpage-main__inner, .swiper-slide-active.rpage-slide.swiper-slide > .rpage-view--solo.rpage-view--pages.rpage-view, #app-root, .rpage-main:style(background-color: #000 !important)
 
 ! Chapter rows
-comix.to##.mchap-row, .mchap-bookmark, .mchap-search, div.mpage__group.fdrop, .mchap-toolbar__sort.useg:style(background: rgba(22,22,23) !important)
+comix.to##.mchap-row, .mchap-bookmark, .mchap-search, div.mpagegroup.fdrop, .mchap-toolbarsort.useg:style(background: rgba(22,22,23) !important)
 
 ! Profile
 comix.to##.uprofile__body:style(background: rgba(32,32,33,.7) !important; border-radius: 8px !important)
 
-! title fix
-comix.to##section.section:nth-of-type(1) > .sectionheader > .sectiontitle-wrap > .section__title:style(max-width: 200px !important)
-
 ! Card menu popup
-comix.to##.card__menu-pop.fdrop__pop--menu.fdrop__pop, .fdrop__pop--menu.fdrop__pop:style(background: rgba(22,22,23,.9) !important; backdrop-filter: saturate(180%) blur(8px) !important)
+comix.to##.cardmenu-pop.fdroppop--menu.fdroppop, .fdroppop--menu.fdrop__pop:style(background: rgba(22,22,23,.9) !important; backdrop-filter: saturate(180%) blur(8px) !important)
 
 ! Scrollbar + search
 comix.to##*:style(scrollbar-width: unset !important)
 comix.to##.search__browse:style(background: #48484a60 !important)
+
+! title fix
+comix.to##section.section:nth-of-type(1) > .sectionheader > .sectiontitle-wrap > .section__title:style(max-width: 200px !important)
 
 ! Hidden elements
 comix.to##.rpage-hint
