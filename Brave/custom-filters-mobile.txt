@@ -16,10 +16,6 @@ comix.to##.usermenu__head, .usermenu__item--signout.usermenu__item, .search-pop_
 ! Black bg reader
 comix.to##.rpage-main__inner, .swiper-slide-active.rpage-slide.swiper-slide > .rpage-view--solo.rpage-view--pages.rpage-view, #app-root, .rpage-main:style(background-color: #000 !important)
 
-! Layout widths
-comix.to##.layout--top.layout:style(width: 1920px !important)
-comix.to##.main-col:style(width: 1337px !important; margin-left: auto !important; margin-right: auto !important)
-
 ! Chapter rows
 comix.to##.mchap-row, .mchap-bookmark, .mchap-search, div.mpage__group.fdrop, .mchap-toolbar__sort.useg:style(background: rgba(22,22,23) !important)
 
