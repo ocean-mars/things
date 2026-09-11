@@ -65,6 +65,10 @@ comix.to##.search__browse:style(background: #48484a60 !important)
 ! title fix
 comix.to##section.section:nth-of-type(1) > .section__header > .section__title-wrap > .section__title:style(max-width: 220px !important)
 
+! floating
+comix.to##button.rpage-floatctl__btn:nth-of-type(5)
+comix.to##.rpage-floatctlcol > button.rpage-floatctlbtn:nth-of-type(1)
+
 ! Hidden elements
 comix.to##.rpage-hint
 comix.to##.mpage__rate-stack
