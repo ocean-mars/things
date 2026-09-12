@@ -117,6 +117,12 @@
 
   .search__browse {
     background: #48484a60 !important;
+    margin-right: -10px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+    padding: 8px 8px !important;
   }
 
   .mpage__details-shell {
@@ -161,4 +167,100 @@
 .poster--md.poster:hover {
   filter: none !important;
 } */
+}
+
+/* Converted from uBlock Origin/AdGuard cosmetic filters for webtoons.com */
+/* Place in chrome/userContent.css and enable via toolkit.legacyUserProfileCustomizations.stylesheets */
+
+@-moz-document domain("www.webtoons.com") {
+
+    /* ---- :style() rules ---- */
+
+    #container {
+        background-color: #000 !important;
+    }
+
+    #content > .episode_area,
+    #toolbar {
+        background-color: #0d1117 !important;
+    }
+
+    .section_title {
+        color: #f5f5f5 !important;
+    }
+
+    .title,
+    .author,
+    ._sort_by_a.sort_by,
+    .series_count,
+    .number,
+    .cnt,
+    .day_info,
+    .summary,
+    .tx,
+    .paginate a,
+    .paginate strong,
+    .paginate.v2 [class^="pg_"],
+    .detail_body .detail_lst .subj span,
+    .link,
+    ._snb_tab_a.snb_tab {
+        color: #f5f5f5 !important;
+    }
+
+    a:hover {
+        background-color: #0d1117 !important;
+    }
+
+    .detail_body .detail_lst li {
+        border-bottom: 2px solid #0d1117 !important;
+        border-top: 2px solid #0d1117 !important;
+    }
+
+    .detail_lst,
+    .detail.aside,
+    .banner.detail_body,
+    #header,
+    #genre_wrap,
+    ._snbNext.btn_snb_next {
+        background-color: #0d1117 !important;
+    }
+
+    .detail.aside {
+        border-left: #0d1117 !important;
+    }
+
+    .detail_body .detail_lst {
+        border-right: #0d1117 !important;
+    }
+
+    #header,
+    .snb_wrap {
+        border-bottom: #0d1117 !important;
+    }
+
+    /* ---- element-hiding rules (##selector with no :style) ---- */
+
+    .disney_banner_area,
+    ._btnRecentBarFold.menu,
+    .detail_install_app,
+    .spi_wrap,
+    .detail_other,
+    .foot_cont,
+    .notice_area,
+    #footer,
+    #_toolBarRightArea > .spi_area,
+    .viewer_info_area,
+    #_bottomDisplay,
+    .link_publish,
+    a.link_menu:nth-of-type(2),
+    #webshopLink,
+    .type_hover.lnb > li:nth-of-type(4) > .link,
+    ._snbNext.btn_snb_next,
+    ._snbPrev.btn_snb_prev,
+    ._bookmark.ly_bookmark,
+    #_challengeRoundUp,
+    #btnLogin {
+        display: none !important;
+    }
+
 }
