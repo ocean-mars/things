@@ -1,26 +1,46 @@
-/* Selected-Tabs Theme */
-.tabbrowser-tab:is([selected], [visuallyselected], [multiselected])
-  .tab-background {
-  background-color: color-mix(
-    in srgb,
-    var(--identity-tab-color, var(--tab-group-color-gray-invert, light-dark(rgb(190, 190, 190), rgb(120, 120, 120)))) 15%,
-    transparent
-  ) !important;
-  border: 2.5px solid
-    color-mix(
-      in srgb,
-      var(--identity-tab-color, var(--tab-group-color-gray-invert, light-dark(rgb(190, 190, 190), rgb(120, 120, 120)))) 20%,
-      transparent
-    ) !important;
-  opacity: 0.8 !important;
+/* Selected-Tabs Theme
+   ==========================================================================
+   v2.1.0 - the active tab is readable again.
+
+   Up to v2.0.x this file replaced `.tab-background`'s `background-color` with
+   a 15%-alpha `color-mix()`. Because that declaration is `!important`, it also
+   overwrote Zen's own selected-tab background (`--tab-selected-bgcolor`),
+   which is the highlight that actually tells you which tab you are on. All
+   that was left was a barely visible tint, so the active tab looked just like
+   an inactive one and only its label stayed highlighted (#24, #27).
+
+   Instead of replacing the background, the container colour is now painted ON
+   TOP of it - `background-image` is composited above `background-color` - so
+   Zen's highlight survives and the tab is still colour-coded. `opacity: 0.8`
+   was dropped for the same reason, and the outline is now opaque enough to
+   read as an indicator (the old 20%-alpha border and the 32px translucent
+   left bar were effectively invisible).
+
+   Only tabs that really are in a container are colour-coded. Every other tab
+   keeps Zen's default styling, so its active state stays obvious.
+   ========================================================================== */
+
+/* Colour source: container colour -> tab group colour -> neutral text colour. */
+.tabbrowser-tab[usercontextid] .tab-background {
+  --ct-color: var(
+    --identity-tab-color,
+    var(--tab-group-color, var(--tab-group-color-gray-invert, currentColor))
+  );
 }
 
-.tabbrowser-tab:not([zen-essential]):is([selected], [visuallyselected], [multiselected])
+/* Selected container tab: tint layered ON TOP of Zen's own highlight. */
+.tabbrowser-tab[usercontextid]:is([selected], [visuallyselected], [multiselected])
   .tab-background {
-  border-left: 32px solid
-    color-mix(
-      in srgb,
-      var(--identity-tab-color, var(--tab-group-color-gray-invert, light-dark(rgb(190, 190, 190), rgb(120, 120, 120)))) 20%,
-      transparent
-    ) !important;
+  background-image: linear-gradient(
+    color-mix(in srgb, var(--ct-color) 20%, transparent),
+    color-mix(in srgb, var(--ct-color) 20%, transparent)
+  ) !important;
+}
+
+/* Container-coloured outline. Kept off Essentials, which style their own
+   border (#22). */
+.tabbrowser-tab[usercontextid]:not([zen-essential]):is([selected], [visuallyselected], [multiselected])
+  .tab-background {
+  border: 2.5px solid
+    color-mix(in srgb, var(--ct-color) 85%, transparent) !important;
 }
